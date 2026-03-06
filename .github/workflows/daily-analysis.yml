@@ -1,0 +1,51 @@
+name: Daily LinkedIn Ad Analysis
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Run agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LI_ACCESS_TOKEN:   ${{ secrets.LI_ACCESS_TOKEN }}
+          LI_CLIENT_ID:      ${{ secrets.LI_CLIENT_ID }}
+          LI_CLIENT_SECRET:  ${{ secrets.LI_CLIENT_SECRET }}
+          LI_ACCOUNT_ID:     ${{ secrets.LI_ACCOUNT_ID }}
+          LI_REFRESH_TOKEN:  ${{ secrets.LI_REFRESH_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: npm run agent
+
+      - name: Commit data back to repo
+        run: |
+          git config user.name  "Spectatr Ad Agent"
+          git config user.email "agent@spectatr.ai"
+          git add dashboard/data/ reports/ || true
+          git diff --staged --quiet || \
+            git commit -m "chore: daily analysis · $(date -u +'%Y-%m-%d %H:%M UTC')" && git push
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: report-${{ github.run_id }}
+          path: reports/
+          retention-days: 90
