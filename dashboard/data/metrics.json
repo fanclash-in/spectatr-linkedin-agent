@@ -1,1 +1,104 @@
-{}
+{
+  "date": "2026-03-06",
+  "kpis": {
+    "totalSpend": 0,
+    "avgCtr": 0,
+    "totalLeads": 0,
+    "avgCpl": 0,
+    "impressions": 0,
+    "spendDelta": 0,
+    "ctrDelta": 0,
+    "leadsDelta": 0,
+    "cplDelta": 0,
+    "imprDelta": 0
+  },
+  "campaigns": [
+    {
+      "name": "DATA UNAVAILABLE — LinkedIn 403",
+      "st": "w",
+      "spend": 0,
+      "ctr": 0,
+      "ctrD": 0,
+      "cpl": 0,
+      "cplD": 0,
+      "leads": 0,
+      "freq": 0
+    }
+  ],
+  "alerts": [
+    {
+      "t": "r",
+      "title": "🔴 CRITICAL: LinkedIn API — ACCESS_DENIED (403)",
+      "meta": "Scopes r_ads, r_ads_reporting, r_organization_social are missing from the connected OAuth token. Campaigns, analytics, and creatives are all returning 403. No performance data can be read or written until this is resolved. Action: Re-authorise the LinkedIn integration in Settings → Integrations → LinkedIn Ads and ensure all three scopes are granted by an account Admin."
+    },
+    {
+      "t": "r",
+      "title": "🔴 CRITICAL: 30-Day History Store is Empty",
+      "meta": "read_history(30) returned []. This is Day 1 — no baseline exists for delta calculations (CTR drops, CPL spikes, frequency alerts). All threshold comparisons will begin accumulating from today's run. Deltas will be meaningful from Day 2 onward."
+    },
+    {
+      "t": "a",
+      "title": "⚠️ WARNING: No Campaign Data — Budget Delivery Unknown",
+      "meta": "Because the 403 blocks all campaign reads, budget pacing, impression delivery, and frequency cannot be assessed. If campaigns are live, spend may be running unmonitored. Resolve API access immediately."
+    },
+    {
+      "t": "a",
+      "title": "⚠️ WARNING: No Creative Performance Data",
+      "meta": "linkedin_get_creatives returned 403. CTR by ad variant, frequency fatigue, and copy performance scoring are all blocked. Copy rotation decisions cannot be data-driven until access is restored."
+    }
+  ],
+  "opportunities": [
+    {
+      "t": "g",
+      "title": "🟢 OPPORTUNITY: Seed HockeyOne / NSL Case Study Creatives",
+      "meta": "Once API access is restored, launch proof-led ads citing HockeyOne's 9x fan engagement growth and NSL's 51.8M video views. These are the highest-credibility assets in the Spectatr library and will anchor CPL benchmarks for future optimisation."
+    },
+    {
+      "t": "g",
+      "title": "🟢 OPPORTUNITY: Establish 30-Day Baseline — Perfect Timing",
+      "meta": "Day 1 run means all historical benchmarks start clean. Set up UTM parameters and LinkedIn Insight Tag conversion events now so that by Day 7, the system has statistically meaningful trend data for automated alerts."
+    },
+    {
+      "t": "a",
+      "title": "🟡 OPPORTUNITY: Pre-build Audience Segments Before Go-Live",
+      "meta": "Three untested LinkedIn audience segments (Broadcast Tech Buyers, Sports Federation Digital Officers, Tier-2 League Commercial Directors) have been drafted and saved today. Upload these to LinkedIn Campaign Manager now so they are ready to activate the moment API access is restored."
+    }
+  ],
+  "spendByCampaign": {
+    "labels": [
+      "No Data — API 403"
+    ],
+    "values": [
+      0
+    ]
+  },
+  "trendData": {
+    "labels": [
+      "2026-02-05",
+      "2026-02-06",
+      "2026-02-07",
+      "2026-02-08",
+      "2026-02-09",
+      "2026-02-10",
+      "2026-02-11"
+    ],
+    "ctrValues": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cplValues": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

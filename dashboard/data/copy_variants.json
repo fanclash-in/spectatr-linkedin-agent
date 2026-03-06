@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "date": "2026-03-06",
+    "adName": "PULSE — Leagues & Associations — Proof-Led Launch",
+    "campaign": "PULSE | Leagues & Associations",
+    "product": "PULSE",
+    "diagnosis": "Day 1 baseline — no live creative data available due to API 403. These variants are pre-built using Spectatr copy rules and NSL/HockeyOne case study proof points. Activate immediately once API access is restored.",
+    "format": "Single Image Ad + Sponsored Content",
+    "cta": "Request a Demo",
+    "headlines": [
+      {
+        "label": "H1 — Pain Hook (Delay)",
+        "text": "Your match ends. Your highlights take hours. Meanwhile, your fans are already on the next thing."
+      },
+      {
+        "label": "H2 — Proof Hook (NSL Result)",
+        "text": "51.8M video views. 37,000+ moments. One AI. See how NSL did it."
+      },
+      {
+        "label": "H3 — Outcome Hook (Speed)",
+        "text": "Published in seconds, not hours. AI highlights for every match, every moment, every platform."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "B1 — Urgency + Proof (NSL)",
+        "text": "NSL generated 37,000+ match moments across 80 games — automated, real-time, published to social in seconds.\n\nNo edit queue. No overnight turnaround. Fans got clips before they left the stadium.\n\nResult: 51.8M video views. 2x Instagram follower growth in a single season.\n\nIf your league is still manually cutting highlights, you're losing audience every matchday.\n\n→ See PULSE in action. Request a demo today."
+      },
+      {
+        "label": "B2 — Fear of Missing Out (HockeyOne)",
+        "text": "HockeyOne 2025: 9x growth in fan engagement in 7 weeks.\n\n9,500+ AI clips published within seconds of the action. 10.6M video views. 264% Facebook reach increase. 500% surge in video views.\n\nTheir previous season? Manual highlights, standard results.\n\nThe difference was one decision.\n\nLeagues running PULSE don't wait for the edit suite. They publish while the crowd is still cheering.\n\n→ Request a Demo and see your matchday transformed."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "adName": "AXIS — Broadcasters & OTT — Post-Production Pain",
+    "campaign": "AXIS | Broadcasters & OTT",
+    "product": "AXIS",
+    "diagnosis": "Day 1 baseline — pre-built from Table Tennis England case study and B2B broadcast persona research. Target: Head of Content, Broadcast Production Manager, Archive Manager.",
+    "format": "Document Ad (Stats Carousel) + Single Image Ad",
+    "cta": "See How It Works",
+    "headlines": [
+      {
+        "label": "H1 — Time Pain Hook",
+        "text": "Your team spent 250+ hours last quarter tagging footage. AXIS does it in seconds."
+      },
+      {
+        "label": "H2 — Output Proof Hook",
+        "text": "3× more content. 105% more views. 0 extra headcount. The Table Tennis England story."
+      },
+      {
+        "label": "H3 — Accuracy Hook",
+        "text": "100% AI tagging accuracy. Every asset, every sport, instantly searchable."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "B1 — Post-Production Cost Pain",
+        "text": "Table Tennis England's production team was uploading 5 videos a week.\n\nAfter AXIS: 15 videos a week. +105% in total views. 250+ hours of post-production time saved in 3 months.\n\nSame team. Same budget. Dramatically more output.\n\nAXIS tags every clip automatically — athletes, actions, events, sponsors — with 100% accuracy. No manual logging. No lost assets. No bottlenecks.\n\nYour archive is a revenue asset. AXIS unlocks it.\n\n→ See how it works. Book a 20-minute walkthrough."
+      },
+      {
+        "label": "B2 — Archive ROI Angle",
+        "text": "Broadcasters sit on thousands of hours of footage that never gets reused.\n\nNot because it isn't valuable — because finding it takes too long.\n\nAXIS uses AI to tag 100% of your media library: sport, player, moment, sponsor brand, sentiment. Search in plain language. Find in seconds.\n\nResult: More content repurposed. More sponsor inventory activated. More revenue from footage you already own.\n\n→ See AXIS in action today."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "adName": "BRAND GAUGE — Sponsorship ROI — Proof of Value",
+    "campaign": "BRAND GAUGE | Sponsors & Rights Holders",
+    "product": "BRAND GAUGE",
+    "diagnosis": "Day 1 baseline — no live creative data. Built for VP-Sponsorship and Partnership Director personas. Addresses the #1 sponsor pain: inability to prove media value ROI to internal stakeholders.",
+    "format": "Sponsored Content + Lead Gen Form",
+    "cta": "Get Your Free ROI Report",
+    "headlines": [
+      {
+        "label": "H1 — Accountability Hook",
+        "text": "Your CFO wants ROI proof on $500K of sports sponsorship. What do you show them?"
+      },
+      {
+        "label": "H2 — Measurement Pain Hook",
+        "text": "Sponsorship budgets are rising. Measurement is still spreadsheets and guesswork."
+      },
+      {
+        "label": "H3 — Outcome Hook",
+        "text": "Real-time sponsor analytics. Media value, measured automatically, every match."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "B1 — CFO Pressure Angle",
+        "text": "Sports sponsorship spending hit a record high in 2025.\n\nBut when the CFO asks 'what did we get for it?' — most Partnership Directors are still pulling together clips and estimated reach figures from rights holders.\n\nBRAND GAUGE measures your actual media value in real-time: logo exposure, broadcast airtime, social impressions, equivalent advertising value — all automated, all auditable.\n\nStop estimating. Start proving.\n\n→ Get your free sponsorship ROI report."
+      },
+      {
+        "label": "B2 — Rights Holder Angle",
+        "text": "Sponsors are asking harder questions.\n\n'How many seconds did our logo appear on-screen?' 'What was the equivalent broadcast value?' 'Show us the data.'\n\nBRAND GAUGE gives rights holders the answers — automatically.\n\nReal-time sponsor analytics across broadcast, OTT, and social. Media value calculated per brand, per placement, per event. Delivered to sponsors before they ask.\n\nRetain sponsors. Upsell confidently. Prove value at renewal.\n\n→ Book a 15-minute demo."
+      }
+    ]
+  }
+]

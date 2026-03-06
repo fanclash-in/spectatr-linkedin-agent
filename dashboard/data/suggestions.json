@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "sug_2026-03-06_0",
+    "date": "2026-03-06",
+    "status": "open",
+    "type": "t",
+    "priority": "HIGH",
+    "title": "URGENT: Re-authorise LinkedIn API — All Data Blocked",
+    "detail": "All 4 LinkedIn API calls (campaigns, analytics ×2, creatives) returned HTTP 403 ACCESS_DENIED today (2026-03-06 06:00 UTC). Every downstream output — CTR alerts, CPL spike detection, frequency fatigue, budget pacing, copy rotation — is blocked. Every dollar of live LinkedIn spend is running dark.",
+    "meta": "Fix: Navigate to Settings → Integrations → LinkedIn Ads → Re-authorise. The authorising LinkedIn user must be an Account Manager or above on the Campaign Manager account. Required scopes: r_ads (read campaigns & budgets), r_ads_reporting (read analytics), r_organization_social (read creatives/sponsored content). ETA to fix: <15 minutes once an admin acts."
+  },
+  {
+    "id": "sug_2026-03-06_1",
+    "date": "2026-03-06",
+    "status": "open",
+    "type": "t",
+    "priority": "HIGH",
+    "title": "Install LinkedIn Insight Tag + Configure Lead Gen Form Conversions",
+    "detail": "With a clean Day 1 baseline, now is the optimal time to verify Insight Tag fires on all Spectatr.ai landing pages and that Lead Gen Form submissions are mapped as conversions in Campaign Manager. Without this, CPL and lead count data will not populate even after API access is restored.",
+    "meta": "Action: In Campaign Manager → Account Assets → Conversions, create a 'Demo Request' conversion event tied to Lead Gen Form completions. Verify Insight Tag via LinkedIn Tag Inspector on spectatr.ai/demo, spectatr.ai/pulse, spectatr.ai/axis, spectatr.ai/brand-gauge, spectatr.ai/jordy. Impact: Enables full-funnel CPL tracking from Day 2."
+  },
+  {
+    "id": "sug_2026-03-06_2",
+    "date": "2026-03-06",
+    "status": "open",
+    "type": "b",
+    "priority": "HIGH",
+    "title": "Audit Budget Pacing Immediately — Spend May Be Running Unmonitored",
+    "detail": "Because 403 errors block all campaign reads, daily budget delivery, lifetime budget burn rate, and impression pacing are unknown. If campaigns are active, the system cannot detect >30% under-delivery or over-pacing against monthly budget.",
+    "meta": "Action: Log into LinkedIn Campaign Manager directly and verify: (1) All active campaigns show 'Active' status, (2) Daily budgets have not been exhausted, (3) No campaigns have hit lifetime budget cap. Cross-reference with your payment/invoice dashboard to confirm spend is within expected range. This manual audit is required daily until API access is restored."
+  },
+  {
+    "id": "sug_2026-03-06_3",
+    "date": "2026-03-06",
+    "status": "open",
+    "type": "cp",
+    "priority": "MEDIUM",
+    "title": "Pre-Schedule HockeyOne Case Study Creative for PULSE Campaigns",
+    "detail": "The HockeyOne Season 5 case study (9x fan engagement growth: 18,589 → 170,154 likes; 10.6M video views; 264% Facebook reach increase) is Spectatr’s most statistically compelling proof point for Broadcaster and League audiences. It has not yet been activated as a LinkedIn ad creative.",
+    "meta": "Action: Build a Single Image Ad and a Document Ad (carousel of stats) using the HockeyOne data. Target: Heads of Digital at Tier-2 Football/Hockey Leagues, Broadcast Ops Directors. Expected benchmark: CTR >0.65% for Document Ads on LinkedIn sports-adjacent B2B audiences. Launch as soon as API access is restored."
+  },
+  {
+    "id": "sug_2026-03-06_4",
+    "date": "2026-03-06",
+    "status": "open",
+    "type": "cp",
+    "priority": "MEDIUM",
+    "title": "Launch AXIS Pain-Led Creative Targeting Broadcast Tech Buyers",
+    "detail": "Table Tennis England’s results (250+ hours saved in post-production; 3× upload increase; +105% total views in 3 months) are directly relevant to Broadcast Production Managers and Head of Content roles who own post-production budgets. No AXIS-specific campaign targeting this persona is currently detectable.",
+    "meta": "Action: Create a dedicated AXIS campaign targeting: Job Titles = 'Head of Content Production', 'Broadcast Engineer', 'Post-Production Supervisor'; Industries = Broadcast Media, Sports; Geography = UK, Australia, UAE. Use the copy variants saved today. Suggested bid: CPL target $180-$220 for this persona based on B2B SaaS benchmarks."
+  },
+  {
+    "id": "sug_2026-03-06_5",
+    "date": "2026-03-06",
+    "status": "open",
+    "type": "cp",
+    "priority": "MEDIUM",
+    "title": "Develop BRAND GAUGE Campaign Targeting Sponsorship Decision-Makers",
+    "detail": "Brand Gauge solves a specific, expensive problem — sponsors cannot quantify media value ROI. This pain is universally felt by VP-Sponsorship and Partnership Directors at brands with >$500K annual sports sponsorship spend. No Brand Gauge-specific LinkedIn campaign is currently visible in the data.",
+    "meta": "Action: Build a Sponsored Content campaign targeting: Job Titles = 'VP Sponsorship', 'Partnership Director', 'Head of Brand Partnerships'; Seniority = Director, VP, C-Suite; Company Size = 200-10,000 employees; Industries = FMCG, Financial Services, Automotive, Telco (classic sports sponsors). Lead with: ‘You’re spending $500K on sports sponsorship. Can you prove the ROI?’"
+  },
+  {
+    "id": "sug_2026-03-06_6",
+    "date": "2026-03-06",
+    "status": "open",
+    "type": "t",
+    "priority": "LOW",
+    "title": "Configure Automated Weekly Performance Digest",
+    "detail": "The history store is empty (read_history returned []). To build meaningful 7-day and 30-day rolling averages for CTR drop detection (>15% threshold) and CPL spike alerts (>20% threshold), data must accumulate continuously from today.",
+    "meta": "Action: Confirm this daily job is scheduled to run at 06:00 UTC every day without manual trigger. Verify cron/scheduler logs show no gaps. After 7 consecutive successful runs (by 2026-03-13), the system will have enough history to fire statistically valid CTR and CPL alerts automatically."
+  }
+]

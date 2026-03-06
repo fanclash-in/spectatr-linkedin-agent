@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "date": "2026-03-06",
+    "kpis": {
+      "totalSpend": 0,
+      "avgCtr": 0,
+      "totalLeads": 0,
+      "avgCpl": 0,
+      "impressions": 0,
+      "spendDelta": 0,
+      "ctrDelta": 0,
+      "leadsDelta": 0,
+      "cplDelta": 0,
+      "imprDelta": 0
+    }
+  }
+]
