@@ -1,5 +1,85 @@
 [
   {
+    "id": "sug_2026-03-07_0",
+    "date": "2026-03-07",
+    "status": "open",
+    "type": "c",
+    "priority": "HIGH",
+    "title": "Pause or hard-rotate PULSE — Leagues creatives immediately",
+    "detail": "CTR has fallen 21.3% WoW (0.62% → 0.49%) and CPL has spiked 31.2% ($124.96 → $164.00). Frequency is 3.9 — well above the 3.5 fatigue threshold. Every additional dollar spent on this creative set is buying diminishing returns. Swap in the new copy variants generated today and expand the audience to include Director-level titles in National Federations and multi-sport event organisers.",
+    "meta": "CTR: 0.49% (−21.3% WoW) | CPL: $164.00 (+31.2% WoW) | Freq: 3.9"
+  },
+  {
+    "id": "sug_2026-03-07_1",
+    "date": "2026-03-07",
+    "status": "open",
+    "type": "b",
+    "priority": "HIGH",
+    "title": "Reduce PULSE — Leagues daily budget 25% until new creatives ramp",
+    "detail": "With CPL at $164.00 (+31.2%) and CTR in freefall, continuing at current spend burns budget inefficiently. Cut daily budget by 25% (~$58/day saving) and reallocate to JORDY AI — Sports Teams, which has CPL of $90.38 — 28% below account average. Re-evaluate after 3 days of new creative data.",
+    "meta": "Current CPL $164.00 vs account avg $126.10. JORDY AI CPL $90.38 (−28% vs avg)"
+  },
+  {
+    "id": "sug_2026-03-07_2",
+    "date": "2026-03-07",
+    "status": "open",
+    "type": "c",
+    "priority": "HIGH",
+    "title": "Rotate BRAND GAUGE — Leagues creatives; add audience exclusions",
+    "detail": "CTR dropped 17.8% WoW (0.50% → 0.41%) and CPL spiked 22.5% ($111.84 → $137.00) with frequency at 3.7. The Leagues audience is simultaneously exposed to the PULSE campaign — likely inflating perceived frequency beyond LinkedIn's single-campaign measurement. Add exclusion lists to remove anyone who has already engaged with the PULSE — Leagues campaign in the last 30 days.",
+    "meta": "CTR: 0.41% (−17.8% WoW) | CPL: $137.00 (+22.5% WoW) | Freq: 3.7"
+  },
+  {
+    "id": "sug_2026-03-07_3",
+    "date": "2026-03-07",
+    "status": "open",
+    "type": "b",
+    "priority": "HIGH",
+    "title": "Scale JORDY AI — Sports Teams budget +25% ($180/day → $225/day)",
+    "detail": "JORDY AI is the standout performer: CTR 0.81% (+11.2% WoW), CPL $90.38 (−14.6% WoW), frequency only 1.8 — substantial headroom to reach more of the Sports Teams audience before saturation. A 25% budget increase at current efficiency would yield an estimated +2 leads/day at ~$90 CPL, adding ~$14 incremental CPL efficiency vs account average.",
+    "meta": "CTR: 0.81% (+11.2% WoW) | CPL: $90.38 (−14.6% WoW) | Freq: 1.8"
+  },
+  {
+    "id": "sug_2026-03-07_4",
+    "date": "2026-03-07",
+    "status": "open",
+    "type": "t",
+    "priority": "HIGH",
+    "title": "A/B test proof-point-led headlines on PULSE — Leagues (NSL/HockeyOne case study angles)",
+    "detail": "Current creatives are not converting the Leagues audience. Lead with specific proof points from NSL (51.8M video views, 37K+ moments) and HockeyOne (264% Facebook reach increase, 9x fan engagement growth) instead of feature-led copy. These numbers speak directly to the KPIs Leagues & Associations Directors care about — reach, engagement, and operational scale. Set up a 2-variant test with a 50/50 split and $200 test budget over 5 days.",
+    "meta": "PULSE — Leagues CTR: 0.49% (−21.3% WoW). NSL: 51.8M views. HockeyOne: 9x engagement."
+  },
+  {
+    "id": "sug_2026-03-07_5",
+    "date": "2026-03-07",
+    "status": "open",
+    "type": "c",
+    "priority": "MEDIUM",
+    "title": "Scale AXIS — Broadcasters budget +15% to capture positive momentum",
+    "detail": "CTR is trending up +4.1% WoW (0.71% → 0.74%) and CPL is improving −8.3% WoW ($120.26 → $110.25). Frequency is healthy at 2.1 with clear audience headroom. A conservative 15% budget increase (~$24/day) should compound this trend. Monitor frequency closely — if it crosses 2.8 in 7 days, pause and expand audience.",
+    "meta": "CTR: 0.74% (+4.1% WoW) | CPL: $110.25 (−8.3% WoW) | Freq: 2.1"
+  },
+  {
+    "id": "sug_2026-03-07_6",
+    "date": "2026-03-07",
+    "status": "open",
+    "type": "t",
+    "priority": "MEDIUM",
+    "title": "Test BRAND GAUGE with a sponsor ROI angle vs current copy",
+    "detail": "Current BRAND GAUGE creative is showing fatigue (CTR 0.41%). Pivot the copy angle to sponsor revenue and measurable media value — e.g., 'Your sponsors want proof of ROI. Here it is.' This angles toward the commercial/partnership Directors within Leagues who control sponsorship budgets, a distinct sub-segment of the broader Leagues audience currently being served.",
+    "meta": "BRAND GAUGE CTR: 0.41% (−17.8% WoW) | CPL: $137.00 (+22.5% WoW)"
+  },
+  {
+    "id": "sug_2026-03-07_7",
+    "date": "2026-03-07",
+    "status": "open",
+    "type": "c",
+    "priority": "MEDIUM",
+    "title": "Implement audience segmentation split for Leagues campaigns",
+    "detail": "Both PULSE and BRAND GAUGE are targeting the Leagues & Associations segment simultaneously, artificially inflating frequency beyond what LinkedIn reports per campaign. Create separate audience definitions: PULSE targets Head of Digital/Content/Media roles; BRAND GAUGE targets Head of Commercial/Partnerships/Sponsorship. This reduces overlap, lowers effective frequency, and allows each product message to reach the most relevant buyer persona.",
+    "meta": "PULSE freq: 3.9 | BRAND GAUGE freq: 3.7 | Estimated audience overlap: 40-60%"
+  },
+  {
     "id": "sug_2026-03-06_0",
     "date": "2026-03-06",
     "status": "open",

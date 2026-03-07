@@ -1,5 +1,85 @@
 [
   {
+    "date": "2026-03-07",
+    "name": "Multi-Sport Event Directors — Major Games Organising Committees",
+    "angle": "Operational scale: generating highlights and content for 50+ sports simultaneously is an unsolved problem. ISG case study (512 daily highlights, 50K+ clips) is the proof point.",
+    "why": "Islamic Solidarity Games case study (57 NOC committees, 512 daily highlights, 7.5M+ views) is a perfect match for organising committees running multi-sport events. This audience is completely untested and sits outside the current Leagues/Teams/Broadcaster targeting. Job titles include Chief Digital Officer, Director of Broadcasting, Head of Content — all active on LinkedIn. Budget cycles are event-driven, making them high-intent when event is 12-18 months out.",
+    "product": "PULSE + AXIS",
+    "titles": [
+      "Chief Digital Officer",
+      "Director of Broadcasting",
+      "Head of Content",
+      "Digital Media Director",
+      "Head of Production",
+      "Director of Communications"
+    ],
+    "industries": [
+      "Sports",
+      "Events Services",
+      "Government Administration",
+      "Non-profit Organizations"
+    ],
+    "size": "8,000–15,000",
+    "geo": "Global (priority: Middle East, Europe, Asia-Pacific)",
+    "headline": "512 highlights a day. 57 countries. One AI system.",
+    "body": "At the Islamic Solidarity Games Riyadh 2025, Spectatr published 512 daily highlights across 57 NOC committees — 50,000+ real-time clips over 15 days, 7.5M+ video views.\n\nIf you're organising a multi-sport event, you already know the content problem. Dozens of venues, thousands of moments, zero time to edit.\n\nWe solve it automatically.\n\n→ Talk to us about your next Games.",
+    "cta": "Talk to Us",
+    "reason": "Zero current spend against this persona. ISG case study provides direct, undeniable social proof. Event planning timelines mean high purchase intent. PULSE + AXIS bundle creates higher ACV opportunity vs single-product campaigns."
+  },
+  {
+    "date": "2026-03-07",
+    "name": "Head of Production & Post-Production — Tier 2/3 Sports Broadcasters",
+    "angle": "Production cost and team efficiency: Table Tennis England saved 250+ hours in 3 months with a 5-person team. Regional broadcasters face the same constraint at larger scale.",
+    "why": "Current AXIS campaign targets Broadcasters & OTT broadly. This sub-segment focuses specifically on the production operations buyer — the person who owns the post-production workflow, headcount, and turnaround SLAs. They are distinct from the digital/content buyer and respond to efficiency and cost metrics rather than engagement metrics. Table Tennis England case study (250+ hours saved, 3× upload increase, +105% total views) resonates strongly with this persona.",
+    "product": "AXIS",
+    "titles": [
+      "Head of Production",
+      "Post-Production Supervisor",
+      "Director of Operations",
+      "Broadcast Operations Manager",
+      "Head of Technical Operations",
+      "VP Production"
+    ],
+    "industries": [
+      "Broadcast Media Production",
+      "Online Audio and Video Media",
+      "Sports",
+      "Entertainment Providers"
+    ],
+    "size": "12,000–22,000",
+    "geo": "UK, Australia, Germany, France, Netherlands, USA",
+    "headline": "250+ hours saved in 3 months. Same team. More content.",
+    "body": "Table Tennis England had a 5-person team producing 5 videos a week. After AXIS AI tagging, they publish 15 — and they reclaimed 250+ hours in 3 months.\n\nTotal views jumped 105%. Views per video grew 65%.\n\nIf your production team is the bottleneck, the problem isn't people. It's the workflow.\n\n→ See how AXIS fits into your pipeline.",
+    "cta": "See How It Works",
+    "reason": "Distinct buyer persona from current broad Broadcaster targeting. Efficiency/cost angle differentiates from engagement-focused PULSE messaging. Table Tennis England case study provides direct, relatable proof. Estimated CPL improvement vs current AXIS campaign based on tighter persona-message fit."
+  },
+  {
+    "date": "2026-03-07",
+    "name": "VP Fan Engagement & Digital Experience — Professional Sports Teams (Top 5 Leagues)",
+    "angle": "Fan retention and time-spent: JORDY AI's 30% M1 retention boost and 140% time-spent increase are metrics this persona is directly accountable for. Current JORDY AI campaign targets Sports Teams broadly — this narrows to the VP/Director-level digital buyer at clubs in top-tier leagues.",
+    "why": "JORDY AI campaign is already the best performer (CTR 0.81%, CPL $90.38) but targets Sports Teams broadly. Narrowing to the VP Digital/Fan Experience persona at clubs in top-5 global leagues (Premier League, NBA, NFL, LaLiga, Bundesliga tier) should improve CPL further by increasing message-persona fit. This buyer owns app engagement, second-screen experience, and fan retention metrics — exactly what JORDY AI moves. The 140% time-spent and 30% M1 retention numbers are board-level KPIs for these clubs.",
+    "product": "JORDY AI",
+    "titles": [
+      "VP Digital",
+      "Director of Fan Engagement",
+      "Head of Digital Experience",
+      "Chief Digital Officer",
+      "Director of Digital Platforms",
+      "Head of Mobile & App"
+    ],
+    "industries": [
+      "Spectator Sports",
+      "Entertainment Providers",
+      "Sports"
+    ],
+    "size": "6,000–11,000",
+    "geo": "UK, USA, Spain, Germany, Australia",
+    "headline": "Fans open the app. Then leave. Here's the fix.",
+    "body": "The average sports fan spends 4 minutes in a club app before churning.\n\nClubs using Jordy AI — Spectatr's fan engagement agent — see 30% better first-month retention and 140% more time spent per session.\n\nJordy serves personalised highlights, real-time moments, and interactive content — automatically, for every fan, at scale.\n\n60% of users discover content they'd never have found manually.\n\n→ See Jordy in action.",
+    "cta": "See It in Action",
+    "reason": "Builds on JORDY AI's strongest-performing campaign (CTR 0.81%, CPL $90.38) with tighter persona targeting. Narrower audience + stronger message-fit = expected CPL reduction below $90. High ACV accounts (top-tier clubs) justify premium CPL even if it rises. Untested at this segmentation level."
+  },
+  {
     "date": "2026-03-06",
     "name": "Multi-Sport Federation Digital Directors — Global",
     "angle": "Scale proof — ISG/NSL case studies",

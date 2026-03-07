@@ -1,5 +1,71 @@
 [
   {
+    "date": "2026-03-07",
+    "adName": "PULSE — Leagues Primary Creative",
+    "campaign": "PULSE — Leagues & Associations",
+    "product": "PULSE",
+    "diagnosis": "CTR collapsed 21.3% WoW (0.62% → 0.49%). CPL spiked 31.2% ($124.96 → $164.00). Frequency 3.9 — audience has seen current creative ~4× in 7 days. Creative fatigue confirmed. New copy must lead with specific proof points, not product features.",
+    "format": "Single Image Ad",
+    "cta": "Download the Case Study",
+    "headlines": [
+      {
+        "label": "H1 — NSL Scale Proof",
+        "text": "37,000 match moments. 51.8M views. One AI platform."
+      },
+      {
+        "label": "H2 — HockeyOne Engagement Hook",
+        "text": "9× more fan engagement. Same matches. Different technology."
+      },
+      {
+        "label": "H3 — Pain-led / Speed",
+        "text": "Your highlights are still going out hours late. Fix that today."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "B1 — NSL Case Study Lead",
+        "text": "NSL ran 80 matches over 7 months. Spectatr's PULSE AI generated 37,000+ real-time clips — published in seconds, not hours.\n\nResult: 51.8M video views. 2× Instagram follower growth in a single season.\n\nIf you're still editing highlights manually, you're leaving reach — and revenue — on the table.\n\n→ See the full NSL breakdown."
+      },
+      {
+        "label": "B2 — Speed + Scale Pain Point",
+        "text": "Every minute your highlights are delayed, fans move on.\n\nHockeyOne switched to AI-powered clips with Spectatr. In one 7-week season: 10.6M video views, 264% Facebook reach increase, 9× growth in fan engagement.\n\nSame matches. Dramatically different results.\n\n→ Request a 15-minute demo."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-07",
+    "adName": "BRAND GAUGE — Leagues Primary Creative",
+    "campaign": "BRAND GAUGE — Leagues & Associations",
+    "product": "BRAND GAUGE",
+    "diagnosis": "CTR down 17.8% WoW (0.50% → 0.41%). CPL spiked 22.5% ($111.84 → $137.00). Frequency 3.7 — above fatigue threshold. Current creative likely feature-led rather than outcome-led. New copy must speak to sponsor revenue pressure and measurable ROI that commercial Directors are accountable for.",
+    "format": "Single Image Ad",
+    "cta": "Get the Free Assessment",
+    "headlines": [
+      {
+        "label": "H1 — Sponsor ROI Proof",
+        "text": "Your sponsors are asking for ROI data. Do you have it?"
+      },
+      {
+        "label": "H2 — Media Value Hook",
+        "text": "Turn every broadcast second into a sponsorship dollar. Automatically."
+      },
+      {
+        "label": "H3 — Loss Aversion / Renewal Risk",
+        "text": "Sponsors don't renew contracts. They renew results."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "B1 — Sponsor Accountability Angle",
+        "text": "When your title sponsor asks 'what did we get for that?', what do you show them?\n\nSpectatr BRAND GAUGE automatically tracks every logo appearance, calculates real media value, and delivers a report your sponsors can actually act on.\n\nLeagues using BRAND GAUGE report faster renewal conversations and higher sponsorship retention.\n\n→ Get a free media value assessment for your next match day."
+      },
+      {
+        "label": "B2 — Commercial Director Pain Point",
+        "text": "Sponsorship revenue is under pressure. Renewals are harder. Brands want proof, not promises.\n\nBRAND GAUGE gives you broadcast-grade sponsor analytics — AI-tracked logo exposure, media value per second, multi-platform measurement — without a 6-person analytics team.\n\nKnow what your inventory is worth before your next negotiation.\n\n→ Book a 20-minute walkthrough."
+      }
+    ]
+  },
+  {
     "date": "2026-03-06",
     "adName": "PULSE — Leagues & Associations — HockeyOne Proof",
     "campaign": "PULSE — Leagues & Associations",
