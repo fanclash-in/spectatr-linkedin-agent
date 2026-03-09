@@ -82,18 +82,19 @@ export class LinkedInClient {
     );
   }
 
-  async getAnalytics(range: DateRange, granularity = "DAILY"): Promise<unknown> {
+  async getAnalytics(range: DateRange): Promise<unknown> {
     const [sy, sm, sd] = range.start.split("-").map(Number);
     const [ey, em, ed] = range.end.split("-").map(Number);
-    const a = encodeURIComponent(this.accountId);
 
     // Build URL as a plain string to preserve bracket-notation for REST.li 1.0.
-    // NOTE: accounts[0] filter conflicts with the granularity parameter in REST.li 1.0
-    // and causes LinkedIn to return 403 on every analytics call. Cross-account
-    // contamination is prevented client-side: the agent only uses analytics rows
-    // whose pivot campaign ID matches a known campaign ID from getCampaigns().
+    // NOTE: granularity parameter causes 403 ACCESS_DENIED ("Unpermitted fields present
+    // in PARAMETER: Data Processing Exception while processing fields [/granularity]")
+    // with our token scopes. Omit it — LinkedIn defaults to one row per campaign per day.
+    // NOTE: accounts[0] filter conflicts with granularity in REST.li 1.0 (same 403).
+    // Cross-account contamination is prevented client-side: the agent only uses analytics
+    // rows whose pivot campaign ID matches a known campaign ID from getCampaigns().
     const base =
-      `/adAnalyticsV2?q=analytics&pivot=CAMPAIGN&granularity=${granularity}` +
+      `/adAnalyticsV2?q=analytics&pivot=CAMPAIGN` +
       `&dateRange.start.year=${sy}&dateRange.start.month=${sm}&dateRange.start.day=${sd}` +
       `&dateRange.end.year=${ey}&dateRange.end.month=${em}&dateRange.end.day=${ed}`;
 

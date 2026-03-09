@@ -29,24 +29,24 @@ async function run(): Promise<void> {
 Run the full daily LinkedIn ad analysis for Spectatr.ai.
 
 STEP 1 — call linkedin_get_campaigns FIRST and wait for the result.
-  Note the numeric id of every returned campaign — used to match analytics rows to campaign names.
+  Collect the numeric id of every returned campaign — used to match analytics rows to names.
 
-STEP 2 — call these three in parallel (analytics is account-scoped server-side via accounts[0]):
-  a. linkedin_get_analytics(startDate=${week_ago}, endDate=${today}, granularity=DAILY)
-     → current 7-day window; one row per campaign per day
-  b. linkedin_get_analytics(startDate=${prev_week}, endDate=${week_ago}, granularity=ALL)
-     → prior 7-day window; one aggregated row per campaign — use for WoW delta
+STEP 2 — call all three in parallel after STEP 1 completes:
+  a. linkedin_get_analytics(startDate=${week_ago}, endDate=${today})
+     → current 7-day window; returns multiple rows per campaign (one per day)
+  b. linkedin_get_analytics(startDate=${prev_week}, endDate=${week_ago})
+     → prior 7-day window; used for WoW delta comparison
   c. linkedin_get_creatives
 
-STEP 3 — call read_history(30)
+STEP 3 — call read_history(30) to get historical daily snapshots.
 
 DATA PROCESSING RULES (strictly follow):
 
 CAMPAIGN SCOPE (critical — prevents cross-account data):
-- From STEP 1, collect the numeric id of every campaign returned (e.g. 12345678).
+- From STEP 1, collect the numeric id of every campaign (e.g. 12345678).
 - For every analytics row, extract the numeric ID from pivotValues[0]:
-  "urn:li:sponsoredCampaign:12345678" = 12345678
-- ONLY process analytics rows whose numeric ID is in the STEP 1 campaign ID list.
+  "urn:li:sponsoredCampaign:12345678" → 12345678
+- ONLY process rows whose numeric ID is in the STEP 1 campaign ID list.
   Silently discard any row with an unrecognised ID — it belongs to another account.
 
 CAMPAIGN NAMES (strict — no exceptions):
@@ -55,20 +55,27 @@ CAMPAIGN NAMES (strict — no exceptions):
 - NEVER rename, abbreviate, clean up, or remap to product names (PULSE, AXIS, etc.).
 - NEVER invent a campaign name. Use only names that appear in the STEP 1 response.
 
-METRICS AGGREGATION:
-- Impressions: SUM impressions across all daily rows per campaign ID. Do NOT use a single row.
-- Clicks: SUM across daily rows per campaign ID.
-- Spend: SUM costInLocalCurrency across daily rows per campaign ID. Currency is INR ₹.
-- CTR %: (total clicks ÷ total impressions) × 100. clickThroughRate is absent — always compute from counts.
-- Leads: use oneClickLeads if present and > 0; otherwise use externalWebsiteConversions. SUM across daily rows.
-- CPL: total spend ÷ total leads per campaign.
-- Frequency: total impressions ÷ total approximateUniqueImpressions per campaign.
-- WoW delta %: ((current − prior) ÷ prior) × 100. Use STEP 2b as prior baseline. Never estimate.
-- Trend arrays: 7 data points ordered by date ascending, account-level avgCtr and avgCpl per day.
+METRICS AGGREGATION (SUM all rows per campaign ID — never use a single row):
+- Impressions: SUM impressions across all rows for the campaign in the date window.
+- Clicks: SUM clicks across all rows.
+- Spend: SUM costInLocalCurrency. Currency is INR (Rs).
+- CTR %: (total clicks / total impressions) x 100. Always compute from counts.
+- Leads: SUM oneClickLeads if present and > 0; otherwise SUM externalWebsiteConversions.
+- CPL: total spend / total leads per campaign (null if leads = 0).
+- Frequency: total impressions / total approximateUniqueImpressions per campaign.
+- WoW delta %: ((current - prior) / prior) x 100. Use STEP 2b data as prior. Never estimate.
+- Trend arrays: Build from history.json daily snapshots (read_history result), ordered date ascending.
+  Use account-level avgCtr and avgCpl values from each day's history entry.
+
+IF ANALYTICS RETURNS AN ERROR:
+- Record the error in alerts with type 'r' (red).
+- Set all per-campaign spend/ctr/cpl/leads/freq to null.
+- Set kpis from history.json most-recent entry only — do NOT fabricate or estimate metrics.
+- Never use old history values as if they are current.
 
 STEP 4 — save_metrics, save_suggestions, save_copy_variants, save_new_audiences, save_report
 
-All 5 save_ calls are required. Use exact API numbers (e.g. ₹12,090.57 not rounded). Never carry over or estimate metrics.`,
+All 5 save_ calls are required. Use exact API numbers. Never round or estimate metrics.`,
     },
   ];
 

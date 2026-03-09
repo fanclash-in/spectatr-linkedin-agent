@@ -12,17 +12,12 @@ export const TOOLS: Anthropic.Tool[] = [
   },
   {
     name: "linkedin_get_analytics",
-    description: "Fetch campaign analytics scoped to the Spectatr ad account. Returns one row per campaign per day (DAILY) or one aggregated row per campaign (ALL). The accounts[0] filter is applied server-side; match pivotValues to campaign IDs from linkedin_get_campaigns client-side.",
+    description: "Fetch campaign analytics for the given date range. Returns multiple rows per campaign (one per day in the range). SUM all rows per campaign ID to get period totals. Match pivotValues[0] campaign IDs against linkedin_get_campaigns results to scope to this account only.",
     input_schema: {
       type: "object" as const,
       properties: {
-        startDate: { type: "string", description: "YYYY-MM-DD" },
-        endDate: { type: "string", description: "YYYY-MM-DD" },
-        granularity: {
-          type: "string",
-          enum: ["DAILY", "ALL"],
-          description: "DAILY = one row per campaign per day (use for trend arrays; SUM each field across days per campaign for totals). ALL = one aggregated row per campaign for the date range.",
-        },
+        startDate: { type: "string", description: "YYYY-MM-DD (inclusive)" },
+        endDate: { type: "string", description: "YYYY-MM-DD (inclusive)" },
       },
       required: ["startDate", "endDate"],
     },
