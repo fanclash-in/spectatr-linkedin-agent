@@ -85,15 +85,16 @@ export class LinkedInClient {
   async getAnalytics(range: DateRange, granularity = "DAILY"): Promise<unknown> {
     const [sy, sm, sd] = range.start.split("-").map(Number);
     const [ey, em, ed] = range.end.split("-").map(Number);
+    const a = encodeURIComponent(this.accountId);
 
     // Build URL as a plain string to preserve bracket-notation for REST.li 1.0.
     // NOTE: The correct LinkedIn REST.li 1.0 parameter name is "timeGranularity" (not
-    // "granularity"). Using the wrong name caused 403; omitting it caused 400.
-    // NOTE: accounts[0] filter is omitted — client-side campaign ID filtering used instead.
-    // Cross-account contamination is prevented by only processing analytics rows whose
-    // pivot campaign ID matches a known campaign ID from getCampaigns().
+    // "granularity"). Using the wrong name caused 403 ACCESS_DENIED; omitting it caused
+    // 400 "timeGranularity is required"; omitting accounts[0] caused 400 "Missing facet".
+    // accounts[0] + timeGranularity work together correctly in REST.li 1.0.
     const base =
       `/adAnalyticsV2?q=analytics&pivot=CAMPAIGN&timeGranularity=${granularity}` +
+      `&accounts[0]=${a}` +
       `&dateRange.start.year=${sy}&dateRange.start.month=${sm}&dateRange.start.day=${sd}` +
       `&dateRange.end.year=${ey}&dateRange.end.month=${em}&dateRange.end.day=${ed}`;
 
