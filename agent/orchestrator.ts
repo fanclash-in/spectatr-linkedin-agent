@@ -41,11 +41,25 @@ STEP 2 — call these three in parallel (analytics is account-scoped server-side
 STEP 3 — call read_history(30)
 
 DATA PROCESSING RULES (strictly follow):
-- Campaign matching: each analytics row has pivotValues like ["urn:li:sponsoredCampaign:ID"]. Extract the numeric ID, match to the campaign name from STEP 1.
+
+CAMPAIGN SCOPE (critical — prevents cross-account data):
+- From STEP 1, collect the numeric id of every campaign returned (e.g. 12345678).
+- For every analytics row, extract the numeric ID from pivotValues[0]:
+  "urn:li:sponsoredCampaign:12345678" = 12345678
+- ONLY process analytics rows whose numeric ID is in the STEP 1 campaign ID list.
+  Silently discard any row with an unrecognised ID — it belongs to another account.
+
+CAMPAIGN NAMES (strict — no exceptions):
+- The name field in every save_metrics campaigns[] entry MUST be the exact string
+  from the getCampaigns API name field. Copy it character-for-character.
+- NEVER rename, abbreviate, clean up, or remap to product names (PULSE, AXIS, etc.).
+- NEVER invent a campaign name. Use only names that appear in the STEP 1 response.
+
+METRICS AGGREGATION:
 - Impressions: SUM impressions across all daily rows per campaign ID. Do NOT use a single row.
 - Clicks: SUM across daily rows per campaign ID.
 - Spend: SUM costInLocalCurrency across daily rows per campaign ID. Currency is INR ₹.
-- CTR %: (total clicks ÷ total impressions) × 100. clickThroughRate field is absent — always compute from counts.
+- CTR %: (total clicks ÷ total impressions) × 100. clickThroughRate is absent — always compute from counts.
 - Leads: use oneClickLeads if present and > 0; otherwise use externalWebsiteConversions. SUM across daily rows.
 - CPL: total spend ÷ total leads per campaign.
 - Frequency: total impressions ÷ total approximateUniqueImpressions per campaign.

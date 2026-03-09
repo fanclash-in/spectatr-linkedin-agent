@@ -51,6 +51,13 @@ Results within three months:
 - 140% increase in average time spent
 - +60% new content exposure
 
+## Campaign Data Integrity (STRICT — no exceptions)
+* Campaign names in `save_metrics` MUST be the **exact string** from the `linkedin_get_campaigns` API `name` field. Copy character-for-character.
+* **NEVER** rename, abbreviate, clean up, or map campaign names to product names (PULSE, AXIS, BRAND GAUGE, JORDY AI).
+* **NEVER** invent a campaign name. Only use names that appear in the `linkedin_get_campaigns` response.
+* Product names (PULSE, AXIS, BRAND GAUGE, JORDY AI) are used ONLY in copy variants, suggestions, and audience briefs — never as campaign identifiers.
+* If a campaign has no analytics data, save its exact name with zero/null metrics. Do not omit it.
+
 ## Copy Rules
 * Lead with pain OR specific result — never with product name
 * Always include a numbered proof point

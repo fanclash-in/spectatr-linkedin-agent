@@ -88,14 +88,14 @@ export class LinkedInClient {
     const a = encodeURIComponent(this.accountId);
 
     // Build URL as a plain string to preserve bracket-notation for REST.li 1.0.
-    // URLSearchParams encodes [ and ] in *keys*, breaking LinkedIn's query parser.
-    // NOTE: campaigns[N] filters cannot coexist with granularity in REST.li 1.0 —
-    // scoping is done via accounts[0] only; campaign→name mapping is done client-side.
+    // NOTE: accounts[0] filter conflicts with the granularity parameter in REST.li 1.0
+    // and causes LinkedIn to return 403 on every analytics call. Cross-account
+    // contamination is prevented client-side: the agent only uses analytics rows
+    // whose pivot campaign ID matches a known campaign ID from getCampaigns().
     const base =
       `/adAnalyticsV2?q=analytics&pivot=CAMPAIGN&granularity=${granularity}` +
       `&dateRange.start.year=${sy}&dateRange.start.month=${sm}&dateRange.start.day=${sd}` +
-      `&dateRange.end.year=${ey}&dateRange.end.month=${em}&dateRange.end.day=${ed}` +
-      `&accounts[0]=${a}`;
+      `&dateRange.end.year=${ey}&dateRange.end.month=${em}&dateRange.end.day=${ed}`;
 
     // clickThroughRate blocked (403) — agent derives CTR = clicks/impressions × 100.
     // Try with oneClickLeads (Lead Gen Form submissions); fall back on 403.
