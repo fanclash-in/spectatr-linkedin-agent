@@ -32,16 +32,16 @@
   {
     "date": "2026-03-09",
     "kpis": {
-      "totalSpend": 4287.5,
-      "avgCtr": 0.58,
-      "totalLeads": 34,
-      "avgCpl": 126.1,
-      "impressions": 142300,
-      "spendDelta": 6.2,
-      "ctrDelta": -18.4,
-      "leadsDelta": -11.8,
-      "cplDelta": 24.7,
-      "imprDelta": 9.1
+      "totalSpend": 14316.9,
+      "avgCtr": 0.3725,
+      "totalLeads": 0,
+      "avgCpl": null,
+      "impressions": 1074,
+      "spendDelta": -10.65,
+      "ctrDelta": -21.84,
+      "leadsDelta": null,
+      "cplDelta": null,
+      "imprDelta": -10.27
     }
   }
 ]

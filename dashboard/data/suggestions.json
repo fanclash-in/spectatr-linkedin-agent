@@ -3,41 +3,41 @@
     "id": "sug_2026-03-09_0",
     "date": "2026-03-09",
     "status": "open",
-    "type": "b",
+    "type": "c",
     "priority": "HIGH",
-    "title": "Investigate & Fix LinkedIn Analytics API — Missing Facet Error",
-    "detail": "Both the current-week (2026-03-02→2026-03-09) and prior-week (2026-02-23→2026-03-02) analytics API calls failed with LinkedIn 400 serviceErrorCode 3 ('Missing facet'). This blocks all data-driven decisions today. Immediately check the campaign facet configuration in the API request, confirm the account/access-token permissions, and rerun the analytics pull. Until resolved, no per-campaign CTR, CPL, spend, frequency, or lead data is available.",
-    "meta": "Error: LinkedIn 400 serviceErrorCode 3 — affects 100% of campaign analytics for both date windows."
+    "title": "Refresh all creatives on broadcasters & OTT - US - ABM immediately",
+    "detail": "CTR dropped 21.84% WoW (0.5594% → 0.4372%) on the account's highest-spend campaign (Rs 13,335.80 / 7d). Creative fatigue is the most likely driver given low frequency (1.37) eliminating audience exhaustion as the cause. Replace current hooks with outcome-led headlines citing measurable proof: '500% Facebook video views in 7 weeks' (HockeyOne) or '51.8M views from 37K clips' (NSL). Rotate 3 new image/video variants this week.",
+    "meta": "CTR: 0.4372% current vs 0.5594% prior | WoW delta: -21.84% | Threshold: -15% HIGH | Spend at risk: Rs 13,335.80"
   },
   {
     "id": "sug_2026-03-09_1",
     "date": "2026-03-09",
     "status": "open",
-    "type": "c",
+    "type": "b",
     "priority": "HIGH",
-    "title": "Address CTR Decline: -18.4% vs Prior Period",
-    "detail": "History records avgCtr at 0.58% with a -18.4% week-on-week delta — well above the 15% alert threshold. Once analytics API is restored, identify which campaigns are dragging CTR. Leading candidates: rotate creative on Image Ads (Website visits campaign — oldest creative format) and test video-led ads for leagues and broadcaster segments, which typically outperform static on LinkedIn by 2-3× on CTR.",
-    "meta": "avgCtr: 0.58% | ctrDelta: -18.4% | Threshold: >15% drop."
+    "title": "Investigate and restore broadcasters & OTT - EU - ABM delivery",
+    "detail": "Spend collapsed 98.9% WoW from Rs 1,390.78 to Rs 15.92 — this is effectively a dead campaign. Check for: (1) budget exhaustion, (2) accidental pause, (3) LinkedIn disapproval of creatives, (4) bid too low for EU auction. EU broadcaster audience had 158 unique users in prior period — a warm, addressable pool being wasted. Restore daily budget and confirm CPM bid is competitive for EU market.",
+    "meta": "Current 7d spend: Rs 15.92 | Prior 7d: Rs 1,390.78 | Delta: -98.9% | Unique users primed: 158"
   },
   {
     "id": "sug_2026-03-09_2",
     "date": "2026-03-09",
     "status": "open",
-    "type": "b",
+    "type": "c",
     "priority": "HIGH",
-    "title": "Arrest CPL Spike: +24.7% — Audit Bid Strategy",
-    "detail": "avgCpl has risen to Rs 126.1 (+24.7% vs prior), breaching the 20% spike threshold. Once per-campaign data is available, shift daily budget toward lowest-CPL campaigns. Also review CPM bid caps — if LinkedIn is auto-scaling CPMs due to audience saturation, frequency capping or audience expansion may reduce cost. Consider shifting 'Website visits - Image Ads' (CPM/WEBSITE_VISIT objective) budget to LEAD_GENERATION campaigns where CPL is trackable.",
-    "meta": "avgCpl: Rs 126.1 | cplDelta: +24.7% | Threshold: >20% spike."
+    "title": "Audit lead form and conversion tracking — zero leads on Rs 14,317 spend",
+    "detail": "Not a single lead was generated across all 6 campaigns in the current 7-day window despite Rs 14,316.90 in spend. This is a critical funnel failure. Actions: (1) Submit a test lead on each live LinkedIn Lead Gen form to confirm they work end-to-end. (2) Check CRM/webhook integration for silent failures. (3) Verify externalWebsiteConversions pixel is firing on landing pages. (4) Review form fields — more than 3 fields dramatically reduces completion rate on LinkedIn.",
+    "meta": "Total leads: 0 | Total spend: Rs 14,316.90 | Campaigns with >Rs 50 spend: 2 | Alert threshold: any zero-lead campaign with >Rs 50 spend"
   },
   {
     "id": "sug_2026-03-09_3",
     "date": "2026-03-09",
     "status": "open",
-    "type": "c",
-    "priority": "HIGH",
-    "title": "Lead Volume Down -11.8% — Refresh Lead Gen Forms or Landing Experience",
-    "detail": "34 leads this period vs. ~38.5 implied prior period (-11.8% delta). With CPL rising simultaneously, this is a dual signal: either audience fatigue (frequency likely high) or creative/form friction. Audit LinkedIn Lead Gen form completion rates on all LEAD_GENERATION campaigns. Simplify to 3 fields max (Name, Email, Company). Test a new form headline anchored to proof points (e.g., '9,500 AI clips in 7 weeks — see how Hockey One did it').",
-    "meta": "totalLeads: 34 | leadsDelta: -11.8%."
+    "type": "b",
+    "priority": "MEDIUM",
+    "title": "Increase budget on Leagues - pulse - EU — audience headroom confirmed",
+    "detail": "Frequency is only 1.622 (well below the 3.5 fatigue threshold) yet impressions dropped 45.5% WoW (268 → 146) and spend fell 60.4% (Rs 2,425 → Rs 961). The audience is not saturated — delivery is being constrained by budget or bid. Raise the daily budget by 40-50% and set a CPM bid floor. This campaign is the main EU league touchpoint with no conversion data to justify scaling back.",
+    "meta": "Freq: 1.622 | Impr delta: -45.5% | Spend delta: -60.4% | Audience unique impr: 90 (current 7d)"
   },
   {
     "id": "sug_2026-03-09_4",
@@ -45,29 +45,19 @@
     "status": "open",
     "type": "t",
     "priority": "MEDIUM",
-    "title": "Broadcaster & OTT ABM Campaigns — Test Case-Study-Led Creative",
-    "detail": "The HockeyOne case study (10.6M video views, 9× fan engagement growth) is a high-credibility proof point for broadcaster and OTT buyers. Both 'broadcasters & OTT - US - ABM' and 'broadcasters & OTT - EU - ABM' should test a creative variant leading with this result. ABM audiences respond to specificity and ROI — quantified outcomes outperform feature-led copy in this segment.",
-    "meta": "2 active ABM campaigns; HockeyOne metrics: 10.6M views, 264% Facebook reach increase."
+    "title": "Test outcome-led vs pain-led copy split on US broadcaster campaign",
+    "detail": "Current creatives are producing a 0.44% CTR — below the LinkedIn B2B benchmark of ~0.5-0.6%. Run an A/B split: Variant A leads with a specific outcome ('51.8M views. Automated. One platform.'), Variant B leads with a pain point ('Your highlights editor is costing you hours you don't have.'). Give each variant Rs 1,500 budget over 5 days. Winning variant scales into full budget. This directly addresses the 21.84% CTR decline with evidence-based creative strategy.",
+    "meta": "Current CTR: 0.4372% | Prior CTR: 0.5594% | WoW drop: -21.84% | Test budget recommended: Rs 3,000 (Rs 1,500 per variant)"
   },
   {
     "id": "sug_2026-03-09_5",
     "date": "2026-03-09",
     "status": "open",
-    "type": "t",
-    "priority": "MEDIUM",
-    "title": "Leagues Campaigns — Lead with Islamic Solidarity Games Scale Proof Point",
-    "detail": "'leagues - US - pulse' and 'Leagues - pulse - EU' target leagues and associations. The ISG Riyadh 2025 case study (50,000+ clips, 7.5M+ video views, 57 NOC committees served) is a directly relevant proof point for large-scale multi-sport leagues. Current creative likely features generic messaging — test a variant opening with '512 daily highlights across 57 nations' to signal operational scale immediately.",
-    "meta": "2 active leagues campaigns; ISG: 50K+ clips, 7.5M+ views."
-  },
-  {
-    "id": "sug_2026-03-09_6",
-    "date": "2026-03-09",
-    "status": "open",
-    "type": "c",
+    "type": "b",
     "priority": "LOW",
-    "title": "Consolidate or Refresh 'Website visits - Image Ads' — Misaligned Objective",
-    "detail": "This campaign uses a WEBSITE_VISIT objective with CPM billing and Image Ad format, while all other active campaigns are LEAD_GENERATION. Website visit campaigns do not directly generate measurable leads, making CPL comparison impossible. Consider either (a) converting this campaign to a Lead Gen objective with a LinkedIn native form, or (b) repositioning it as a pure top-of-funnel retargeting pool and capping daily budget at Rs 500 to control spend.",
-    "meta": "Campaign: Website visits - Image Ads | Objective: WEBSITE_VISIT | All peers: LEAD_GENERATION."
+    "title": "Reactivate Website visits - Image Ads and PULSE Lead generation campaigns",
+    "detail": "Both campaigns returned zero analytics rows in the current 7-day window, meaning zero delivery. Website visits - Image Ads (ID 436342446) has a Rs 3,000 daily budget allocated (CPM) but no recorded spend. PULSE Lead generation - Jan 20, 2026 - US 2 (ID 511404566) is similarly dark. Investigate whether these are paused at ad level, have exhausted approved creatives, or face audience overlap issues with the ABM campaigns. Reactivating these could meaningfully expand top-of-funnel reach.",
+    "meta": "Campaigns with zero spend: 2 | Combined daily budget available: Rs 3,000+ | Risk: continued budget waste if root cause is not diagnosed"
   },
   {
     "id": "sug_2026-03-07_0",

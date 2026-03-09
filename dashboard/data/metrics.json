@@ -1,132 +1,148 @@
 {
   "date": "2026-03-09",
   "kpis": {
-    "totalSpend": 4287.5,
-    "avgCtr": 0.58,
-    "totalLeads": 34,
-    "avgCpl": 126.1,
-    "impressions": 142300,
-    "spendDelta": 6.2,
-    "ctrDelta": -18.4,
-    "leadsDelta": -11.8,
-    "cplDelta": 24.7,
-    "imprDelta": 9.1
+    "totalSpend": 14316.9,
+    "avgCtr": 0.3725,
+    "totalLeads": 0,
+    "avgCpl": null,
+    "impressions": 1074,
+    "spendDelta": -10.65,
+    "ctrDelta": -21.84,
+    "leadsDelta": null,
+    "cplDelta": null,
+    "imprDelta": -10.27
   },
   "campaigns": [
     {
-      "name": "Website visits - Image Ads",
+      "name": "broadcasters & OTT - US - ABM",
       "st": "a",
-      "spend": null,
-      "ctr": null,
-      "cplD": null,
-      "cpl": null,
-      "leads": null,
-      "freq": null
-    },
-    {
-      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
-      "st": "a",
-      "spend": null,
-      "ctr": null,
-      "ctrD": null,
+      "spend": 13335.8,
+      "ctr": 0.4372,
+      "ctrD": -21.84,
       "cpl": null,
       "cplD": null,
-      "leads": null,
-      "freq": null
-    },
-    {
-      "name": "leagues - US - pulse",
-      "st": "a",
-      "spend": null,
-      "ctr": null,
-      "ctrD": null,
-      "cpl": null,
-      "cplD": null,
-      "leads": null,
-      "freq": null
+      "leads": 0,
+      "freq": 1.37
     },
     {
       "name": "Leagues - pulse - EU",
-      "st": "a",
-      "spend": null,
-      "ctr": null,
+      "st": "w",
+      "spend": 961.51,
+      "ctr": 0,
       "ctrD": null,
       "cpl": null,
       "cplD": null,
-      "leads": null,
-      "freq": null
+      "leads": 0,
+      "freq": 1.622
     },
     {
-      "name": "broadcasters & OTT - US - ABM",
-      "st": "a",
-      "spend": null,
-      "ctr": null,
+      "name": "leagues - US - pulse",
+      "st": "w",
+      "spend": 3.67,
+      "ctr": 0,
       "ctrD": null,
       "cpl": null,
       "cplD": null,
-      "leads": null,
+      "leads": 0,
       "freq": null
     },
     {
       "name": "broadcasters & OTT - EU - ABM",
-      "st": "a",
-      "spend": null,
+      "st": "w",
+      "spend": 15.92,
+      "ctr": 0,
+      "ctrD": null,
+      "cpl": null,
+      "cplD": null,
+      "leads": 0,
+      "freq": 1.375
+    },
+    {
+      "name": "Website visits - Image Ads",
+      "st": "p",
+      "spend": 0,
       "ctr": null,
       "ctrD": null,
       "cpl": null,
       "cplD": null,
-      "leads": null,
+      "leads": 0,
+      "freq": null
+    },
+    {
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "st": "p",
+      "spend": 0,
+      "ctr": null,
+      "ctrD": null,
+      "cpl": null,
+      "cplD": null,
+      "leads": 0,
       "freq": null
     }
   ],
   "alerts": [
     {
       "t": "r",
-      "title": "LinkedIn Analytics API Error — Both Windows Failed",
-      "meta": "LinkedIn 400: Missing facet (serviceErrorCode: 3). Current 7-day (2026-03-02 → 2026-03-09) and prior 7-day (2026-02-23 → 2026-03-02) analytics calls both returned errors. All per-campaign metrics are unavailable. KPIs sourced from most recent history snapshot (2026-03-09)."
+      "title": "CTR collapsed -21.84% WoW — broadcasters & OTT - US - ABM",
+      "meta": "CTR fell from 0.5594% (prior 7d) to 0.4372% (current 7d), exceeding the -15% HIGH threshold. Largest campaign by spend (Rs 13,335.80). Immediate creative review required."
     },
     {
       "t": "r",
-      "title": "CTR Drop: -18.4% vs Prior Period (History)",
-      "meta": "avgCtr at 0.58% with a recorded -18.4% delta. Exceeds the >15% drop threshold. Per-campaign CTR breakdown unavailable until API is restored."
+      "title": "Zero leads on Rs 14,317 spend — all active campaigns",
+      "meta": "No oneClickLeads or externalWebsiteConversions recorded across any campaign in the current 7-day window despite Rs 14,316.90 total spend. Funnel integrity check needed urgently."
     },
     {
       "t": "r",
-      "title": "CPL Spike: +24.7% vs Prior Period (History)",
-      "meta": "avgCpl at Rs 126.1 with a recorded +24.7% delta. Exceeds the >20% spike threshold. Per-campaign CPL breakdown unavailable until API is restored."
+      "title": "Severe under-delivery — broadcasters & OTT - EU - ABM (−98.9% vs prior)",
+      "meta": "Spend dropped from Rs 1,390.78 (prior 7d) to Rs 15.92 (current 7d), a 98.9% collapse. Campaign may be paused, budget exhausted, or have a delivery issue."
     },
     {
-      "t": "r",
-      "title": "Lead Volume Down: -11.8% vs Prior Period (History)",
-      "meta": "totalLeads at 34 with a -11.8% delta. Conversion rate decline warrants monitoring once API data is restored."
+      "t": "a",
+      "title": "Significant under-delivery — Leagues - pulse - EU (−60.4% vs prior)",
+      "meta": "Spend dropped from Rs 2,425.58 to Rs 961.51 WoW. Impressions fell from 268 to 146. Check budget caps, audience size, and bid competitiveness."
+    },
+    {
+      "t": "a",
+      "title": "2 active campaigns recorded zero spend this week",
+      "meta": "Website visits - Image Ads (ID 436342446) and PULSE Lead generation - Jan 20, 2026 - US 2 (ID 511404566) have no analytics rows in the current 7-day window. Verify active status and delivery settings."
     }
   ],
   "opportunities": [
     {
-      "t": "a",
-      "title": "Restore Analytics Access — Unlock Full Optimisation",
-      "meta": "Both analytics API calls failed with a Missing Facet error (serviceErrorCode 3). Resolving this immediately will re-enable per-campaign CTR, CPL, frequency, and lead data, unblocking all bid, budget, and creative optimisations."
+      "t": "g",
+      "title": "Re-activate EU broadcaster spend — 158 unique users already warmed",
+      "meta": "broadcasters & OTT - EU - ABM had 158 unique impressions in the prior 7d with a Rs 6.62 CPM. The audience is primed but delivery collapsed. Restoring budget could re-engage at low cost."
     },
     {
       "t": "g",
-      "title": "History Shows 34 Leads at Rs 126.1 CPL — Strong Baseline to Build From",
-      "meta": "Despite the API outage, history confirms consistent lead volume. Once analytics are restored, focus budget on highest-converting campaigns to drive CPL back toward prior lows."
+      "title": "Leagues - pulse - EU audience under-saturated (freq 1.62) — scale budget",
+      "meta": "Frequency of 1.622 is well below the 3.5 warning threshold, indicating headroom to increase impressions. Prior 7d delivered 268 impressions; current 7d only 146. Raise daily budget to recapture reach."
+    },
+    {
+      "t": "a",
+      "title": "All lead-gen campaigns at zero conversions — audit lead form UX immediately",
+      "meta": "With Rs 14,317 spent and 0 leads across all campaigns, the issue may be a broken lead form, misaligned landing page, or audience-offer mismatch. A/B test a simpler lead form with a case-study hook."
+    },
+    {
+      "t": "a",
+      "title": "US broadcaster segment spending Rs 13,336 with declining CTR — refresh creatives now",
+      "meta": "CTR on broadcasters & OTT - US - ABM dropped 21.84% WoW. With 915 impressions and 4 clicks, creative fatigue or poor message-market fit is limiting performance. New hooks referencing HockeyOne (500% video view surge) recommended."
     }
   ],
   "spendByCampaign": {
     "labels": [
-      "Website visits - Image Ads",
-      "PULSE Lead generation - Jan 20, 2026 - US 2",
-      "leagues - US - pulse",
-      "Leagues - pulse - EU",
       "broadcasters & OTT - US - ABM",
-      "broadcasters & OTT - EU - ABM"
+      "Leagues - pulse - EU",
+      "broadcasters & OTT - EU - ABM",
+      "leagues - US - pulse",
+      "Website visits - Image Ads",
+      "PULSE Lead generation - Jan 20, 2026 - US 2"
     ],
     "values": [
-      0,
-      0,
-      0,
-      0,
+      13335.8,
+      961.51,
+      15.92,
+      3.67,
       0,
       0
     ]

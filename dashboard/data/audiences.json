@@ -1,83 +1,78 @@
 [
   {
     "date": "2026-03-09",
-    "name": "Multi-Sport Event Directors — Europe & Middle East",
-    "angle": "Operational scale for complex, multi-sport events",
-    "why": "Current campaigns target league-level buyers. Event directors at major Games (European Championships, Mediterranean Games, multi-sport festivals) have an acute content production problem at scale — exactly what PULSE solved at ISG Riyadh 2025. This is an untested segment with high intent and budget authority.",
+    "name": "Digital & Social Media Directors — European Football Federations",
+    "angle": "Pain-led: league federations struggling with manual content production at scale across multi-country competitions",
+    "why": "Current EU campaigns target broad 'leagues' but miss the specific decision-maker: Digital/Social Directors at national football, basketball, and volleyball federations. These individuals control content budgets and feel the daily pain of covering 100+ matches with small teams. Not currently being tested in any active campaign.",
     "product": "PULSE",
     "titles": [
-      "Director of Digital",
-      "Head of Communications",
-      "Head of Content",
-      "Chief Marketing Officer",
-      "Director of Broadcasting",
-      "Head of Media Operations"
+      "Director of Digital Media",
+      "Head of Social Media",
+      "Digital Content Director",
+      "Head of Media & Communications",
+      "Digital Marketing Director"
     ],
     "industries": [
-      "Sporting Goods & Recreation",
+      "Sports",
       "Broadcast Media",
-      "Events Services",
-      "Government Administration"
+      "Entertainment"
     ],
-    "size": "Estimated 8,000–15,000 (Europe + Middle East geo-layered)",
-    "geo": "United Kingdom, Germany, France, Italy, Spain, UAE, Saudi Arabia, Qatar",
-    "headline": "512 daily highlights. 57 nations. Zero production bottlenecks.",
-    "body": "At the Islamic Solidarity Games Riyadh 2025, Spectatr AI generated 50,000+ real-time clips for all 57 NOC committees over 15 days — delivering to national channels within seconds of every moment. 7.5M video views. 250,000+ likes. If you're planning a multi-sport event, let's talk about what automated coverage looks like at your scale.",
-    "cta": "Request Demo",
-    "reason": "ISG Riyadh 2025 is direct, verifiable proof that PULSE operates at multi-nation, multi-sport Games scale. This audience hasn't been served with that message yet, and the proof point is uniquely compelling vs. any competitor claim."
+    "size": "Estimated 50,000–120,000 on LinkedIn (European geo)",
+    "geo": "United Kingdom, Germany, France, Spain, Italy, Netherlands",
+    "headline": "Your Highlights Editor Costs Hours. AI Costs Seconds.",
+    "body": "NSL automated 37,000 match clips across 80 games — 51.8M views, 2× Instagram growth, zero extra headcount. PULSE AI publishes your league's highlights within seconds of the final whistle, fully formatted for every social platform. Built for federations who compete for fan attention 365 days a year.",
+    "cta": "Get a Demo",
+    "reason": "High-intent segment untested in current campaigns. EU Leagues campaign (Leagues - pulse - EU) is under-delivering severely (-60.4% WoW) and targeting appears too broad. Narrowing to Digital Directors at federations should improve CTR and lead quality."
   },
   {
     "date": "2026-03-09",
-    "name": "Sports Rights & Content Monetisation Executives — North America",
-    "angle": "Unlock untapped clip inventory to grow digital revenue",
-    "why": "Broadcasters and OTT platforms in the US are under pressure to grow digital engagement metrics and prove ROI on rights deals. Hockey One's 10.6M views and 9× fan engagement growth is a directly transferable proof point. This segment is adjacent to the current broadcaster ABM campaign but targets the monetisation/revenue angle rather than production efficiency.",
+    "name": "VP / SVP of Content & Programming — US Regional Sports Networks",
+    "angle": "Outcome-led: RSN executives under pressure to produce more content with shrinking editorial budgets",
+    "why": "The US broadcaster campaign (broadcasters & OTT - US - ABM) is spending Rs 13,336/week with 0 leads and a declining CTR. The ABM approach needs a complementary persona-based layer targeting content decision-makers at regional sports networks who are actively seeking cost reduction and audience growth solutions post cord-cutting disruption.",
     "product": "PULSE",
     "titles": [
-      "VP of Digital",
-      "Director of Content Strategy",
-      "Head of Digital Distribution",
-      "SVP of Broadcast Operations",
-      "Director of Rights Management",
-      "Chief Revenue Officer"
+      "VP of Content",
+      "SVP of Programming",
+      "Head of Digital Content",
+      "Director of Sports Programming",
+      "Chief Content Officer"
     ],
     "industries": [
       "Broadcast Media",
       "Online Audio and Video Media",
-      "Entertainment",
-      "Sporting Goods & Recreation"
+      "Sports"
     ],
-    "size": "Estimated 12,000–20,000 (US + Canada)",
-    "geo": "United States, Canada",
-    "headline": "9× fan engagement growth. Same rights. More clips, more reach.",
-    "body": "Hockey One added zero production staff and generated 10.6 million video views in a single season — 9× growth in fan engagement vs. the year before. Spectatr PULSE turns every game into a real-time highlight library, automatically. If you hold sports rights and aren't monetising every moment, you're leaving revenue on the table. See the full case study.",
-    "cta": "See Case Study",
-    "reason": "North American broadcaster ABM campaigns are live but likely targeting production/ops buyers. This new segment targets revenue and rights executives — a higher authority buyer who can greenlight larger contracts — with a monetisation-first message not yet in rotation."
+    "size": "Estimated 30,000–80,000 on LinkedIn (US geo)",
+    "geo": "United States",
+    "headline": "500% More Video Views. Same Production Budget.",
+    "body": "HockeyOne's broadcast team delivered 10.6M video views across 7 weeks — 500% Facebook video view surge, 308% YouTube growth — all automated by PULSE AI. No added editors. No overnight cuts. Just real-time highlights published the moment they happen. See what PULSE can do for your network in a 20-minute live demo.",
+    "cta": "Request Demo",
+    "reason": "Distinct from current ABM campaign which targets accounts, not personas. Adding a persona-based layer to the US broadcaster strategy creates a two-pronged approach: ABM for warm accounts, persona targeting for net-new decision-makers. Addresses the zero-lead crisis with a fresh, untested segment."
   },
   {
     "date": "2026-03-09",
-    "name": "National Governing Bodies (NGBs) & Sports Federations — UK & Australia",
-    "angle": "Production efficiency and membership engagement at domestic level",
-    "why": "Table Tennis England's results (250+ hours saved, 3× upload frequency, +105% total views) speak directly to resource-constrained NGBs and federations that run small content teams. UK and Australia have dense NGB ecosystems (UK Sport, Sport Australia affiliate bodies) and are untested geos in the current campaign mix, which focuses on US and EU.",
-    "product": "PULSE",
+    "name": "Chief Revenue Officer / Sponsorship Directors — Sports Properties",
+    "angle": "ROI-led: sponsorship and revenue teams unable to prove media value to sponsors, risking renewal",
+    "why": "BRAND GAUGE is completely absent from all active campaigns. Zero budget is being spent on sponsorship analytics despite it being a core product. CROs and Sponsorship Directors at leagues, teams, and events are a high-value segment with a clear pain point: proving ROI to sponsors at contract renewal time. This is a net-new revenue opportunity for Spectatr.ai.",
+    "product": "BRAND GAUGE",
     "titles": [
-      "Head of Digital",
-      "Communications Manager",
-      "Marketing Manager",
-      "Chief Executive",
-      "Head of Broadcast & Media",
-      "Content Manager"
+      "Chief Revenue Officer",
+      "Head of Sponsorship",
+      "Commercial Director",
+      "Director of Partnership Sales",
+      "VP of Business Development"
     ],
     "industries": [
-      "Sporting Goods & Recreation",
-      "Non-profit Organizations",
+      "Sports",
+      "Spectator Sports",
       "Events Services"
     ],
-    "size": "Estimated 6,000–10,000 (UK + Australia combined)",
-    "geo": "United Kingdom, Australia",
-    "headline": "250+ hours saved. 3× more videos. 105% more views.",
-    "body": "Table Tennis England's content team saved 250+ hours of post-production time in three months using Spectatr — tripling their upload frequency and growing total views by 105%. If your federation is producing 5 videos a week and wishing it could be 15, we should talk. No extra headcount. No overnight edits. Just AI that covers every moment automatically.",
-    "cta": "Book a Call",
-    "reason": "Table Tennis England case study maps perfectly to resource-constrained NGBs. UK and Australia are high-English-proficiency, high-LinkedIn-engagement markets not currently targeted by any active campaign. Fresh geos mean low CPM competition and zero audience overlap with existing campaigns."
+    "size": "Estimated 80,000–200,000 on LinkedIn (US + EU)",
+    "geo": "United States, United Kingdom, Germany, Australia",
+    "headline": "Prove Your Sponsors' ROI Before They Ask.",
+    "body": "Sponsorship deals are won and renewed on data — but most rights holders are still manually clipping footage and guessing at media value. BRAND GAUGE gives you AI-powered sponsor analytics and real-time media value measurement across every platform. Show your sponsors exactly what they got. Keep the deal. Grow the contract.",
+    "cta": "See How It Works",
+    "reason": "BRAND GAUGE has zero campaign presence in current active campaigns — a complete gap in the go-to-market. CROs and Sponsorship Directors represent a high-LTV segment with budget authority and urgent renewal-driven pain. This audience tests an entirely new product line and buyer persona."
   },
   {
     "date": "2026-03-07",
