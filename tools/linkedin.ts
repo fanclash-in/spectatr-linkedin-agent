@@ -31,10 +31,11 @@ export class LinkedInClient {
     this.clientSecret = clientSecret;
     this.refreshToken = refreshToken;
     this.accessToken = token;
+    // NOTE: X-Restli-Protocol-Version: 2.0.0 breaks bracket-notation query params
+    // on LinkedIn's v2 Marketing API — omit it to use REST.li 1.0 defaults.
     this.headers = {
       Authorization: `Bearer ${token}`,
       "Content-Type": "application/json",
-      "X-Restli-Protocol-Version": "2.0.0",
     };
   }
 
@@ -94,9 +95,12 @@ export class LinkedInClient {
       "dateRange.end.year": String(ey),
       "dateRange.end.month": String(em),
       "dateRange.end.day": String(ed),
+      // Fields confirmed accessible with r_ads + r_ads_reporting scopes.
+      // leads/costPerLead/costPerClick require additional LinkedIn product access;
+      // agent derives CPL from costInLocalCurrency / externalWebsiteConversions.
       fields:
-        "dateRange,pivotValues,impressions,clicks,costInLocalCurrency,leads,oneClickLeads," +
-        "approximateUniqueImpressions,externalWebsiteConversions,clickThroughRate,costPerClick,costPerLead",
+        "dateRange,pivotValues,impressions,clicks,costInLocalCurrency," +
+        "approximateUniqueImpressions,externalWebsiteConversions,clickThroughRate",
     });
     return this.get(`/adAnalyticsV2?${p}`);
   }
