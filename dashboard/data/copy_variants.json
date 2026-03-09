@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-03-09",
+    "adName": "PULSE Lead Gen - US 2 - Refresh A",
+    "campaign": "PULSE Lead generation - Jan 20, 2026 - US 2",
+    "product": "PULSE",
+    "diagnosis": "CTR down -18.4% WoW (0.58% vs ~0.71%). Oldest active campaign — highest creative fatigue risk. Running since Jan 20, 2026.",
+    "format": "Single Image Lead Gen Ad",
+    "cta": "Download Now",
+    "headlines": [
+      {
+        "label": "H1 — Pain Lead",
+        "text": "Your best match moments are buried in raw footage. Not anymore."
+      },
+      {
+        "label": "H2 — Proof-First",
+        "text": "51.8M video views. 37K+ clips. One AI. Zero editors."
+      },
+      {
+        "label": "H3 — Urgency + Outcome",
+        "text": "Publish match highlights in seconds — before the crowd leaves the stadium."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "B1 — Result-Led",
+        "text": "NSL generated 37,000+ match moments across 80 games in a single season — automated, published in real-time, no production team required.\n\nPULSE by Spectatr.ai turns live footage into social-ready highlights in seconds.\n\n✅ 15+ sports supported\n✅ Published within seconds of the moment\n✅ 2× follower growth on Instagram (NSL Season 1)\n\nSee how leagues are winning the second-screen battle."
+      },
+      {
+        "label": "B2 — Pain-to-Outcome",
+        "text": "By the time your highlights team finishes editing, the conversation has moved on.\n\nHockeyOne published 9,500+ AI clips in 7 weeks — 10.6M video views, 9× growth in fan engagement.\n\nPULSE delivers the same pipeline for your league. No extra headcount. No post-production bottleneck.\n\nDownload the playbook →"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "adName": "Leagues US Pulse - Refresh A",
+    "campaign": "leagues - US - pulse",
+    "product": "PULSE",
+    "diagnosis": "CTR declining account-wide (-18.4% WoW). US Leagues campaign competes in same auction as PULSE Lead Gen US 2 — audience overlap likely. Fresh creative needed to differentiate.",
+    "format": "Single Image Lead Gen Ad",
+    "cta": "Get the Guide",
+    "headlines": [
+      {
+        "label": "H1 — Specificity Hook",
+        "text": "9,500 AI clips. 7 weeks. 10.6M views. This is what your season could look like."
+      },
+      {
+        "label": "H2 — Competitive Angle",
+        "text": "Every league without AI highlights is leaving fans to find the moment elsewhere."
+      },
+      {
+        "label": "H3 — Direct Challenge",
+        "text": "How many match moments did your league miss publishing last weekend?"
+      }
+    ],
+    "bodies": [
+      {
+        "label": "B1 — Case Study Lead",
+        "text": "HockeyOne Season 5 ran 7 weeks. In that window, PULSE generated 9,500+ AI clips — delivering a 264% Facebook reach increase and 9× growth in fan engagement.\n\nNo highlights editor. No 4-hour turnaround. Just real-time clips, seconds after the moment.\n\nIf your league is still relying on manual production, you're already behind.\n\nGet the playbook for AI-powered league content →"
+      },
+      {
+        "label": "B2 — Volume + Velocity",
+        "text": "The Islamic Solidarity Games published 512 daily highlights for 57 national committees over 15 days — 50,000+ clips, 7.5M views.\n\nScale like a major games organiser, regardless of your production budget.\n\nPULSE by Spectatr.ai. Built for leagues that can't afford to miss the moment.\n\nSee how it works →"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "adName": "Leagues EU Pulse - Refresh A",
+    "campaign": "Leagues - pulse - EU",
+    "product": "PULSE",
+    "diagnosis": "EU campaign active but likely running US-market creatives. CTR declining account-wide -18.4% WoW. EU audiences require localised proof points — Table Tennis England and ISG 2025 more resonant than NSL/HockeyOne.",
+    "format": "Single Image Lead Gen Ad",
+    "cta": "Request a Demo",
+    "headlines": [
+      {
+        "label": "H1 — EU Proof Lead",
+        "text": "Table Tennis England cut 250+ hours of post-production. Their views went up 105%."
+      },
+      {
+        "label": "H2 — Local Stakes",
+        "text": "European leagues are publishing AI highlights in seconds. Is yours?"
+      },
+      {
+        "label": "H3 — Outcome Frame",
+        "text": "From 5 videos a week to 15 — with no extra production budget."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "B1 — EU Case Study",
+        "text": "Table Tennis England was spending hundreds of hours in post-production. Within 3 months of switching to PULSE:\n\n✅ 250+ production hours saved\n✅ 3× more content published weekly\n✅ +105% surge in total video views\n\nYour federation, association, or league can do the same — without hiring a single extra editor.\n\nRequest a demo and see PULSE live with your footage →"
+      },
+      {
+        "label": "B2 — Scale Angle",
+        "text": "At the Islamic Solidarity Games Riyadh 2025, PULSE generated 50,000+ real-time clips for 57 national committees in 15 days.\n\nIf it scales to a multi-sport Games, it scales to your league's full season.\n\nNo long contracts. No integration complexity. Real results, first season.\n\nBook a 20-minute demo →"
+      }
+    ]
+  },
+  {
     "date": "2026-03-07",
     "adName": "PULSE — Leagues Primary Creative",
     "campaign": "PULSE — Leagues & Associations",
