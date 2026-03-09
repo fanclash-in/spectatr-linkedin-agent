@@ -366,7 +366,21 @@ function applyFilter(f){
   document.querySelectorAll('.filt').forEach(b=>b.classList.toggle('on',b.dataset.f===f));
   const lbl={'7d':'Last 7 Days','30d':'Last 30 Days','month':'This Month'}[f]||'';
   document.getElementById('tsub').textContent=`CTR % · CPL $ — ${lbl}`;
+  renderKPIs();
+  renderCamps();
   renderCharts();
+}
+
+function getKpis(){
+  if(FILTER==='30d' && M?.kpis30d) return M.kpis30d;
+  if(FILTER==='month' && M?.kpisMtd) return M.kpisMtd;
+  return M?.kpis;
+}
+
+function getCamps(){
+  if(FILTER==='30d' && M?.camps30d?.length) return M.camps30d;
+  if(FILTER==='month' && M?.campsMtd?.length) return M.campsMtd;
+  return M?.campaigns||[];
 }
 
 function getHistSlice(){
@@ -393,7 +407,7 @@ function renderMeta(m){
 }
 
 function renderKPIs(){
-  const k=M?.kpis;
+  const k=getKpis();
   if(!k){document.getElementById('krow').innerHTML='<div class="empty"><div class="ei">📊</div><p>No metrics yet — run the agent first.</p></div>';return;}
   const kpis=[
     {l:'Total Spend',v:k.totalSpend,d:k.spendDelta,ac:Number(k.spendDelta)<0?'kr':'kg'},
@@ -448,7 +462,7 @@ function renderAlerts(){
 }
 
 function renderCamps(){
-  const rows=M?.campaigns||[];
+  const rows=getCamps();
   if(!rows.length){document.getElementById('cb2').innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--mu);padding:28px">No data yet</td></tr>';return;}
   document.getElementById('cb2').innerHTML=rows.map(c=>`<tr>
     <td style="font-weight:700">${c.name}</td>

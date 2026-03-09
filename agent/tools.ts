@@ -79,6 +79,22 @@ export const TOOLS: Anthropic.Tool[] = [
           type: "array",
           description: "[{ t:'g'|'a', title, meta }]",
         },
+        kpis30d: {
+          type: "object",
+          description: "KPIs for last 30 days (same shape as kpis, delta fields = null)",
+        },
+        camps30d: {
+          type: "array",
+          description: "Per-campaign metrics for last 30 days (same shape as campaigns, delta fields = null)",
+        },
+        kpisMtd: {
+          type: "object",
+          description: "KPIs for current month-to-date (same shape as kpis, delta fields = null)",
+        },
+        campsMtd: {
+          type: "array",
+          description: "Per-campaign metrics for current month-to-date (same shape as campaigns, delta fields = null)",
+        },
       },
       required: ["kpis", "campaigns", "alerts", "opportunities"],
     },
