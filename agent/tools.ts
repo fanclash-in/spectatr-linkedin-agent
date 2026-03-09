@@ -12,7 +12,7 @@ export const TOOLS: Anthropic.Tool[] = [
   },
   {
     name: "linkedin_get_analytics",
-    description: "Fetch campaign analytics scoped to exact campaign URNs. Always pass campaignUrns from linkedin_get_campaigns to guarantee data comes only from those campaigns. granularity=ALL returns one aggregated row per campaign (use for totals/deltas). granularity=DAILY returns one row per campaign per day (use for 7-day trend arrays — SUM each field across all daily rows per campaign to get totals).",
+    description: "Fetch campaign analytics scoped to the Spectatr ad account. Returns one row per campaign per day (DAILY) or one aggregated row per campaign (ALL). The accounts[0] filter is applied server-side; match pivotValues to campaign IDs from linkedin_get_campaigns client-side.",
     input_schema: {
       type: "object" as const,
       properties: {
@@ -20,16 +20,11 @@ export const TOOLS: Anthropic.Tool[] = [
         endDate: { type: "string", description: "YYYY-MM-DD" },
         granularity: {
           type: "string",
-          enum: ["ALL", "DAILY"],
-          description: "ALL = one aggregated row per campaign (default). DAILY = one row per campaign per day.",
-        },
-        campaignUrns: {
-          type: "array",
-          items: { type: "string" },
-          description: "Array of campaign URNs from linkedin_get_campaigns (e.g. ['urn:li:sponsoredCampaign:123','urn:li:sponsoredCampaign:456']). REQUIRED for accuracy — filters analytics to exactly these campaigns.",
+          enum: ["DAILY", "ALL"],
+          description: "DAILY = one row per campaign per day (use for trend arrays; SUM each field across days per campaign for totals). ALL = one aggregated row per campaign for the date range.",
         },
       },
-      required: ["startDate", "endDate", "campaignUrns"],
+      required: ["startDate", "endDate"],
     },
   },
   {

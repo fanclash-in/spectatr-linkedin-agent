@@ -29,32 +29,32 @@ async function run(): Promise<void> {
 Run the full daily LinkedIn ad analysis for Spectatr.ai.
 
 STEP 1 — call linkedin_get_campaigns FIRST and wait for the result.
+  Note the numeric id of every returned campaign — used to match analytics rows to campaign names.
 
-STEP 2 — from the campaigns response, extract every campaign URN in the format urn:li:sponsoredCampaign:ID (the id field, or embedded in the element URN). Build an array of these URNs — you will pass it to EVERY analytics call.
-
-STEP 3 — call these three in parallel, passing the campaignUrns array from step 2 to each:
-  a. linkedin_get_analytics(startDate=${week_ago}, endDate=${today}, granularity=DAILY, campaignUrns=[...])
-     → current 7-day window; daily rows for trend arrays + per-campaign totals (SUM each field across all 7 rows per campaign)
-  b. linkedin_get_analytics(startDate=${prev_week}, endDate=${week_ago}, granularity=ALL, campaignUrns=[...])
-     → prior 7-day window; already aggregated — use for WoW delta calculation
+STEP 2 — call these three in parallel (analytics is account-scoped server-side via accounts[0]):
+  a. linkedin_get_analytics(startDate=${week_ago}, endDate=${today}, granularity=DAILY)
+     → current 7-day window; one row per campaign per day
+  b. linkedin_get_analytics(startDate=${prev_week}, endDate=${week_ago}, granularity=ALL)
+     → prior 7-day window; one aggregated row per campaign — use for WoW delta
   c. linkedin_get_creatives
 
-STEP 4 — call read_history(30)
+STEP 3 — call read_history(30)
 
 DATA PROCESSING RULES (strictly follow):
-- Impressions: SUM the impressions field across all daily rows for each campaign (granularity=DAILY returns one row per campaign per day — you must add them up)
-- Clicks: same — SUM across daily rows per campaign
-- Spend: SUM costInLocalCurrency across daily rows per campaign (currency is INR ₹)
-- CTR: total clicks / total impressions × 100 (always compute from raw counts — clickThroughRate is not in the response)
+- Campaign matching: each analytics row has pivotValues like ["urn:li:sponsoredCampaign:ID"]. Extract the numeric ID, match to the campaign name from STEP 1.
+- Impressions: SUM impressions across all daily rows per campaign ID. Do NOT use a single row.
+- Clicks: SUM across daily rows per campaign ID.
+- Spend: SUM costInLocalCurrency across daily rows per campaign ID. Currency is INR ₹.
+- CTR %: (total clicks ÷ total impressions) × 100. clickThroughRate field is absent — always compute from counts.
 - Leads: use oneClickLeads if present and > 0; otherwise use externalWebsiteConversions. SUM across daily rows.
-- CPL: total spend / total leads per campaign
-- Frequency: total impressions / total approximateUniqueImpressions per campaign
-- WoW delta: ((current value − prior value) / prior value) × 100 — use step 3b as prior week baseline
-- Trend arrays: 7 data points from step 3a, one per date, ordered ascending — use account-level CTR and CPL averages
+- CPL: total spend ÷ total leads per campaign.
+- Frequency: total impressions ÷ total approximateUniqueImpressions per campaign.
+- WoW delta %: ((current − prior) ÷ prior) × 100. Use STEP 2b as prior baseline. Never estimate.
+- Trend arrays: 7 data points ordered by date ascending, account-level avgCtr and avgCpl per day.
 
-STEP 5 — save_metrics, save_suggestions, save_copy_variants, save_new_audiences, save_report
+STEP 4 — save_metrics, save_suggestions, save_copy_variants, save_new_audiences, save_report
 
-All 5 save_ calls are required. Cite exact numbers (e.g. ₹12,090.57 not rounded). Do not estimate any metric.`,
+All 5 save_ calls are required. Use exact API numbers (e.g. ₹12,090.57 not rounded). Never carry over or estimate metrics.`,
     },
   ];
 

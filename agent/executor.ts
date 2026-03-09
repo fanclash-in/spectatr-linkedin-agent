@@ -21,8 +21,7 @@ export async function executeTool(
         return JSON.stringify(
           await linkedin.getAnalytics(
             { start: input.startDate as string, end: input.endDate as string },
-            (input.granularity as string | undefined) ?? "ALL",
-            input.campaignUrns as string[] | undefined
+            (input.granularity as string | undefined) ?? "DAILY"
           )
         );
 

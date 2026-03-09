@@ -82,35 +82,23 @@ export class LinkedInClient {
     );
   }
 
-  async getAnalytics(
-    range: DateRange,
-    granularity = "ALL",
-    campaignUrns?: string[]
-  ): Promise<unknown> {
+  async getAnalytics(range: DateRange, granularity = "DAILY"): Promise<unknown> {
     const [sy, sm, sd] = range.start.split("-").map(Number);
     const [ey, em, ed] = range.end.split("-").map(Number);
     const a = encodeURIComponent(this.accountId);
 
     // Build URL as a plain string to preserve bracket-notation for REST.li 1.0.
     // URLSearchParams encodes [ and ] in *keys*, breaking LinkedIn's query parser.
-    let base =
+    // NOTE: campaigns[N] filters cannot coexist with granularity in REST.li 1.0 —
+    // scoping is done via accounts[0] only; campaign→name mapping is done client-side.
+    const base =
       `/adAnalyticsV2?q=analytics&pivot=CAMPAIGN&granularity=${granularity}` +
       `&dateRange.start.year=${sy}&dateRange.start.month=${sm}&dateRange.start.day=${sd}` +
       `&dateRange.end.year=${ey}&dateRange.end.month=${em}&dateRange.end.day=${ed}` +
       `&accounts[0]=${a}`;
 
-    // Pin to exact campaign URNs from getCampaigns — prevents pulling in
-    // data from any other account or campaign the token can see.
-    if (campaignUrns && campaignUrns.length > 0) {
-      base += campaignUrns
-        .map((urn, i) => `&campaigns[${i}]=${encodeURIComponent(urn)}`)
-        .join("");
-    }
-
-    // clickThroughRate is NOT requested — it requires additional scope and
-    // the agent derives CTR = (clicks / impressions) × 100 from the raw counts.
-    // Try with oneClickLeads (Lead Gen Form submissions).
-    // Falls back to externalWebsiteConversions if the field is access-denied.
+    // clickThroughRate blocked (403) — agent derives CTR = clicks/impressions × 100.
+    // Try with oneClickLeads (Lead Gen Form submissions); fall back on 403.
     const withLeads =
       "dateRange,pivotValues,impressions,clicks,costInLocalCurrency," +
       "approximateUniqueImpressions,externalWebsiteConversions,oneClickLeads";
@@ -133,7 +121,7 @@ export class LinkedInClient {
   async getCreatives(): Promise<unknown> {
     const a = encodeURIComponent(this.accountId);
     return this.get(
-      `/adCreativesV2?q=search&search.account.values[0]=${a}&fields=id,status,type,content`
+      `/adCreativesV2?q=search&search.account.values[0]=${a}&fields=id,status,type`
     );
   }
 }
