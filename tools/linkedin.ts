@@ -107,14 +107,16 @@ export class LinkedInClient {
         .join("");
     }
 
+    // clickThroughRate is NOT requested — it requires additional scope and
+    // the agent derives CTR = (clicks / impressions) × 100 from the raw counts.
     // Try with oneClickLeads (Lead Gen Form submissions).
     // Falls back to externalWebsiteConversions if the field is access-denied.
     const withLeads =
       "dateRange,pivotValues,impressions,clicks,costInLocalCurrency," +
-      "approximateUniqueImpressions,externalWebsiteConversions,oneClickLeads,clickThroughRate";
+      "approximateUniqueImpressions,externalWebsiteConversions,oneClickLeads";
     const withoutLeads =
       "dateRange,pivotValues,impressions,clicks,costInLocalCurrency," +
-      "approximateUniqueImpressions,externalWebsiteConversions,clickThroughRate";
+      "approximateUniqueImpressions,externalWebsiteConversions";
 
     try {
       return await this.get(`${base}&fields=${withLeads}`);
@@ -131,7 +133,7 @@ export class LinkedInClient {
   async getCreatives(): Promise<unknown> {
     const a = encodeURIComponent(this.accountId);
     return this.get(
-      `/adCreativesV2?q=search&search.account.values[0]=${a}&fields=id,name,status,type,content`
+      `/adCreativesV2?q=search&search.account.values[0]=${a}&fields=id,status,type,content`
     );
   }
 }

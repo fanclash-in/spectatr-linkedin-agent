@@ -45,7 +45,7 @@ DATA PROCESSING RULES (strictly follow):
 - Impressions: SUM the impressions field across all daily rows for each campaign (granularity=DAILY returns one row per campaign per day — you must add them up)
 - Clicks: same — SUM across daily rows per campaign
 - Spend: SUM costInLocalCurrency across daily rows per campaign (currency is INR ₹)
-- CTR: total clicks / total impressions × 100 (recalculate from summed values, do not average the clickThroughRate field)
+- CTR: total clicks / total impressions × 100 (always compute from raw counts — clickThroughRate is not in the response)
 - Leads: use oneClickLeads if present and > 0; otherwise use externalWebsiteConversions. SUM across daily rows.
 - CPL: total spend / total leads per campaign
 - Frequency: total impressions / total approximateUniqueImpressions per campaign
