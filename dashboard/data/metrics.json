@@ -15,18 +15,17 @@
   "campaigns": [
     {
       "name": "Website visits - Image Ads",
-      "st": "w",
+      "st": "a",
       "spend": null,
       "ctr": null,
-      "ctrD": null,
-      "cpl": null,
       "cplD": null,
+      "cpl": null,
       "leads": null,
       "freq": null
     },
     {
       "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
-      "st": "w",
+      "st": "a",
       "spend": null,
       "ctr": null,
       "ctrD": null,
@@ -37,7 +36,7 @@
     },
     {
       "name": "leagues - US - pulse",
-      "st": "w",
+      "st": "a",
       "spend": null,
       "ctr": null,
       "ctrD": null,
@@ -48,7 +47,7 @@
     },
     {
       "name": "Leagues - pulse - EU",
-      "st": "w",
+      "st": "a",
       "spend": null,
       "ctr": null,
       "ctrD": null,
@@ -59,7 +58,7 @@
     },
     {
       "name": "broadcasters & OTT - US - ABM",
-      "st": "w",
+      "st": "a",
       "spend": null,
       "ctr": null,
       "ctrD": null,
@@ -70,7 +69,7 @@
     },
     {
       "name": "broadcasters & OTT - EU - ABM",
-      "st": "w",
+      "st": "a",
       "spend": null,
       "ctr": null,
       "ctrD": null,
@@ -83,40 +82,35 @@
   "alerts": [
     {
       "t": "r",
-      "title": "⚠️ LinkedIn Analytics API — 403 ACCESS_DENIED",
-      "meta": "Both current-week (2026-03-02→03-09) and prior-week (2026-02-23→03-02) analytics calls failed: 'Unpermitted fields present in PARAMETER: Data Processing Exception while processing fields [/granularity]'. Per-campaign spend, CTR, CPL, leads, and frequency cannot be computed today. Account-level KPIs sourced from read_history. LinkedIn API token scope may need re-authorisation — check Campaign Manager OAuth app permissions."
+      "title": "LinkedIn Analytics API Error — Both Windows Failed",
+      "meta": "LinkedIn 400: Missing facet (serviceErrorCode: 3). Current 7-day (2026-03-02 → 2026-03-09) and prior 7-day (2026-02-23 → 2026-03-02) analytics calls both returned errors. All per-campaign metrics are unavailable. KPIs sourced from most recent history snapshot (2026-03-09)."
     },
     {
-      "t": "a",
-      "title": "🔴 CTR Drop >15% vs 7-Day Average — Account Level",
-      "meta": "Account avgCTR fell -18.4% WoW (current: 0.58%). Exceeds HIGH alert threshold of >15%. Cannot isolate to individual campaign without API data — investigate all active campaigns in Campaign Manager."
+      "t": "r",
+      "title": "CTR Drop: -18.4% vs Prior Period (History)",
+      "meta": "avgCtr at 0.58% with a recorded -18.4% delta. Exceeds the >15% drop threshold. Per-campaign CTR breakdown unavailable until API is restored."
     },
     {
-      "t": "a",
-      "title": "🔴 CPL Spike >20% vs 7-Day Average — Account Level",
-      "meta": "Account avgCPL rose +24.7% WoW (current: ₹126.10). Exceeds HIGH alert threshold of >20%. Likely correlated with CTR decline. Per-campaign breakdown unavailable until API access is restored."
+      "t": "r",
+      "title": "CPL Spike: +24.7% vs Prior Period (History)",
+      "meta": "avgCpl at Rs 126.1 with a recorded +24.7% delta. Exceeds the >20% spike threshold. Per-campaign CPL breakdown unavailable until API is restored."
     },
     {
-      "t": "a",
-      "title": "🔴 Leads Down -11.8% WoW — Account Level",
-      "meta": "Total leads fell from ~38 to 34 week-over-week (-11.8%). Combined with CPL spike and CTR drop, this signals meaningful funnel degradation. Immediate creative refresh and audience review recommended."
+      "t": "r",
+      "title": "Lead Volume Down: -11.8% vs Prior Period (History)",
+      "meta": "totalLeads at 34 with a -11.8% delta. Conversion rate decline warrants monitoring once API data is restored."
     }
   ],
   "opportunities": [
     {
-      "t": "g",
-      "title": "Broadcaster ABM Campaigns — EU & US Expansion Angle",
-      "meta": "Both broadcaster & OTT ABM campaigns are active. With 10.6M video views and 264% Facebook reach increase validated by HockeyOne case study, a proof-point creative refresh could unlock lower CPL for this segment."
-    },
-    {
-      "t": "g",
-      "title": "Leagues Campaigns — Multi-Region Proof Point Push",
-      "meta": "Two active league campaigns (US + EU). NSL case study (51.8M video views, 2× Instagram follower growth) and Islamic Solidarity Games (50K+ clips, 7.5M views) provide strong social proof for a refreshed creative test."
-    },
-    {
       "t": "a",
-      "title": "Restore LinkedIn Analytics API Access Immediately",
-      "meta": "Per-campaign analytics are fully dark. Cannot compute CTR, CPL, frequency, or leads per campaign. Re-authorise OAuth scopes (r_ads_reporting) in LinkedIn Campaign Manager → Account Settings → Manage Access."
+      "title": "Restore Analytics Access — Unlock Full Optimisation",
+      "meta": "Both analytics API calls failed with a Missing Facet error (serviceErrorCode 3). Resolving this immediately will re-enable per-campaign CTR, CPL, frequency, and lead data, unblocking all bid, budget, and creative optimisations."
+    },
+    {
+      "t": "g",
+      "title": "History Shows 34 Leads at Rs 126.1 CPL — Strong Baseline to Build From",
+      "meta": "Despite the API outage, history confirms consistent lead volume. Once analytics are restored, focus budget on highest-converting campaigns to drive CPL back toward prior lows."
     }
   ],
   "spendByCampaign": {
@@ -139,30 +133,18 @@
   },
   "trendData": {
     "labels": [
-      "2026-03-03",
-      "2026-03-04",
-      "2026-03-05",
       "2026-03-06",
       "2026-03-07",
-      "2026-03-08",
       "2026-03-09"
     ],
     "ctrValues": [
       0,
-      0,
-      0,
-      0,
       0.58,
-      0,
       0.58
     ],
     "cplValues": [
       0,
-      0,
-      0,
-      0,
       126.1,
-      0,
       126.1
     ]
   }

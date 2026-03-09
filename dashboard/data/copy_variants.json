@@ -1,100 +1,100 @@
 [
   {
     "date": "2026-03-09",
-    "adName": "Account-Wide CTR Alert — Leagues US/EU Refresh",
-    "campaign": "leagues - US - pulse",
+    "adName": "Website visits - Image Ads — CTR Recovery Variant",
+    "campaign": "Website visits - Image Ads",
     "product": "PULSE",
-    "diagnosis": "Account CTR dropped -18.4% WoW to 0.58% — breaches HIGH alert threshold. Campaign has been live long enough to risk creative fatigue. Refreshing with outcome-led, proof-point-first hooks tied to NSL and Islamic Solidarity Games case studies.",
-    "format": "SPONSORED_STATUS_UPDATE",
+    "diagnosis": "CTR down -18.4% account-wide. Image Ads format historically under-indexes vs. video on LinkedIn. Static creative likely suffering audience fatigue. New copy leads with a specific quantified outcome, not product name.",
+    "format": "Single Image Ad",
+    "cta": "Learn More",
+    "headlines": [
+      {
+        "label": "Headline A — Pain-led",
+        "text": "Your highlights team can't cover every match. Ours can."
+      },
+      {
+        "label": "Headline B — Proof-led",
+        "text": "51.8M video views. One season. Zero editors."
+      },
+      {
+        "label": "Headline C — Scale-led",
+        "text": "37,000 match moments. Automated. Published in seconds."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "Body A — Outcome-led",
+        "text": "NSL generated 37,000+ AI-powered clips across 80 matches — every goal, every moment, live on social within seconds. No edit suite. No overnight turnaround. See what automated highlights coverage looks like at scale."
+      },
+      {
+        "label": "Body B — Problem/Solution",
+        "text": "Most leagues miss 80% of their own content. Spectatr's PULSE AI captures every match moment across 15+ sports and publishes highlights automatically. The NSL saw 2× Instagram follower growth in a single season. What would that mean for your league?"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "adName": "PULSE Lead Gen US — Anti-Fatigue Variant",
+    "campaign": "PULSE Lead generation - Jan 20, 2026 - US 2",
+    "product": "PULSE",
+    "diagnosis": "Account-level CTR -18.4% and leads -11.8%. This campaign is the oldest US lead gen campaign (Jan 2026 launch date in name — likely high frequency). Creative refresh needed urgently with fresh proof points to re-engage fatigued audience.",
+    "format": "Single Image Ad / Document Ad",
     "cta": "Download Now",
     "headlines": [
       {
-        "label": "Headline A — Volume Proof Point",
-        "text": "37,000 match moments. 51.8M video views. One season. Here's how NSL did it."
+        "label": "Headline A — Time-to-value",
+        "text": "9,500 AI clips in 7 weeks. Published in seconds."
       },
       {
-        "label": "Headline B — Speed Hook",
-        "text": "Real-time AI highlights — published in seconds, not hours. See the NSL results."
+        "label": "Headline B — Fan engagement proof",
+        "text": "Hockey One grew fan engagement 9× in one season."
       },
       {
-        "label": "Headline C — Scale Hook",
-        "text": "50,000 AI clips across 57 nations in 15 days. What could your league do?"
+        "label": "Headline C — Broadcaster ROI",
+        "text": "10.6M video views. Zero production staff added."
       }
     ],
     "bodies": [
       {
-        "label": "Body A — NSL Case Study Lead",
-        "text": "NSL automated coverage across 80 competitive matches — generating 37,000+ match moments and 51.8M video views in a single season. Instagram followers doubled. No extra production staff. PULSE runs in the background so your team can focus on what matters: the game. → Download the NSL case study and see the full numbers."
+        "label": "Body A — Case Study Hook",
+        "text": "Hockey One 2025: 9,500 AI-powered highlight clips. 10.6 million video views across Facebook, Instagram, TikTok, and YouTube. 9× growth in fan engagement — all in 7 weeks. If your broadcast or league team is still cutting clips manually, you're already behind. See the full breakdown."
       },
       {
-        "label": "Body B — Scale & Speed Lead",
-        "text": "The Islamic Solidarity Games published ~500 highlights daily across 57 NOC committees — 50,000+ clips over 15 days, 7.5M video views. That's AI working at a scale no production team can match. If your league is still cutting highlights manually, you're already behind. → See how PULSE handles it."
+        "label": "Body B — Stakes-led",
+        "text": "264% Facebook reach increase. 308% YouTube views surge. 500% jump in Facebook video views. These aren't projections — they're Hockey One's actual Season 5 numbers using Spectatr PULSE. Request a demo and see what your content pipeline could look like."
       }
     ]
   },
   {
     "date": "2026-03-09",
-    "adName": "Broadcaster ABM — HockeyOne Proof Point Refresh",
-    "campaign": "broadcasters & OTT - US - ABM",
+    "adName": "Leagues EU — Scale Proof Variant",
+    "campaign": "Leagues - pulse - EU",
     "product": "PULSE",
-    "diagnosis": "Account-wide CPL spiked +24.7% and CTR fell -18.4%. ABM campaigns targeting broadcasters are high-value but high-frequency-risk. Rotating in HockeyOne proof points (10.6M views, 264% Facebook reach, 500% video view surge) to combat creative fatigue with fresh, specific social proof.",
-    "format": "SPONSORED_STATUS_UPDATE",
-    "cta": "Get the Case Study",
+    "diagnosis": "Account-wide lead volume down -11.8% and CPL up +24.7%. EU leagues segment needs fresh creative anchored to multi-national, multi-sport scale proof — Islamic Solidarity Games is the most relevant case study for this audience.",
+    "format": "Single Image Ad",
+    "cta": "Request Demo",
     "headlines": [
       {
-        "label": "Headline A — Reach Spike Hook",
-        "text": "264% more reach. 500% more video views. 7 weeks. This is what AI does for broadcasters."
+        "label": "Headline A — Scale-first",
+        "text": "512 daily highlights. 57 nations. 15 days. Zero missed moments."
       },
       {
-        "label": "Headline B — Output Volume Hook",
-        "text": "9,500 AI clips. 10.6M video views. One hockey season. No extra edit suite."
+        "label": "Headline B — Operational proof",
+        "text": "50,000+ real-time clips for the Islamic Solidarity Games."
       },
       {
-        "label": "Headline C — Engagement Hook",
-        "text": "Fan engagement up 9×. Highlights published in seconds. HockeyOne's 2025 playbook — yours to steal."
+        "label": "Headline C — Speed-led",
+        "text": "Every match moment. Published before the whistle stops echoing."
       }
     ],
     "bodies": [
       {
-        "label": "Body A — Broadcaster Efficiency Lead",
-        "text": "HockeyOne generated 9,500+ AI-powered clips across a 7-week season — each published within seconds of the moment happening. Facebook reach jumped 264%. Instagram reach grew 111%. YouTube views surged 308%. Fan likes went from 18K to 170K. All without scaling the production team. If your broadcast operation is still doing this manually, PULSE is built for you. → Get the HockeyOne case study."
+        "label": "Body A — Event Scale",
+        "text": "At the Islamic Solidarity Games Riyadh 2025, Spectatr generated 512 daily highlights for all 57 NOC committees — 50,000+ clips over 15 days, delivering to the ANOC Digital Content Hub in real time. 7.5 million video views followed. If you run a league, federation, or multi-sport event, this is what automated coverage at scale looks like. Let's show you how it works for your calendar."
       },
       {
-        "label": "Body B — Speed & Scale Lead",
-        "text": "In 2025, HockeyOne's highlights were live before the crowd stopped cheering. 10.6M video views across Facebook, Instagram, TikTok, and YouTube — driven by AI that runs 24/7 across every match, every moment. For broadcasters and OTT platforms, that's the competitive edge that matters. → Download the full case study."
-      }
-    ]
-  },
-  {
-    "date": "2026-03-09",
-    "adName": "PULSE Lead Gen US 2 — Table Tennis England Efficiency Refresh",
-    "campaign": "PULSE Lead generation - Jan 20, 2026 - US 2",
-    "product": "PULSE",
-    "diagnosis": "Campaign launched January 20, 2026 — now ~48 days old and at high risk of creative fatigue, consistent with the account-wide CTR decline. Introducing a cost-efficiency and output-volume angle using Table Tennis England results to reach operations and content teams who respond to ROI/time-saving narratives.",
-    "format": "SPONSORED_STATUS_UPDATE",
-    "cta": "See How It Works",
-    "headlines": [
-      {
-        "label": "Headline A — Time Saving Hook",
-        "text": "250+ hours saved in post-production. 3× more videos published. +105% total views in 90 days."
-      },
-      {
-        "label": "Headline B — Output Growth Hook",
-        "text": "From 5 videos a week to 15 — without adding headcount. Table Tennis England's 90-day result."
-      },
-      {
-        "label": "Headline C — Views Growth Hook",
-        "text": "+105% total views. +65% views per video. 90 days. No new production staff."
-      }
-    ],
-    "bodies": [
-      {
-        "label": "Body A — Ops Efficiency Lead",
-        "text": "Table Tennis England was producing 5 videos a week. Three months after deploying PULSE, they were publishing 15 — while cutting 250+ hours of post-production time. Total views jumped from 4K to 45K (+105%). Reels and Shorts engagement significantly improved. If your content team is spending more time editing than creating, PULSE fixes that. → See exactly how it works."
-      },
-      {
-        "label": "Body B — ROI Lead",
-        "text": "What if your production team could do 3× the output in the same time? Table Tennis England went from 5 to 15 weekly videos, saved 250+ post-production hours, and grew total views by 105% — all within 90 days of going live with AI highlights. For leagues and sports organisations managing content at scale, this is what operational leverage looks like. → Book a 20-minute walkthrough."
+        "label": "Body B — Engagement outcome",
+        "text": "250,000+ likes. 2 million+ video views across NOC social channels. 50,000+ comments. The Islamic Solidarity Games ran on Spectatr PULSE — AI highlights published within seconds of every moment, across every competing nation's channels. Your fans expect the same. Request a demo today."
       }
     ]
   },
