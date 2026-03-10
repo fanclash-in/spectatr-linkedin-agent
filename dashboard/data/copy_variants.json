@@ -1,5 +1,71 @@
 [
   {
+    "date": "2026-03-10",
+    "adName": "broadcasters & OTT - US - ABM — Variant Set A",
+    "campaign": "broadcasters & OTT - US - ABM",
+    "product": "PULSE",
+    "diagnosis": "CTR dropped 31.34% WoW (0.48% → 0.33%) on 911 impressions. Creative likely fatigued despite low frequency (1.57). New hooks needed leading with specific, measurable outcomes for broadcaster/OTT audience.",
+    "format": "Single Image / Sponsored Content",
+    "cta": "Download Now",
+    "headlines": [
+      {
+        "label": "Headline 1 — Outcome-led proof point",
+        "text": "10.6M video views in 7 weeks. Zero editors."
+      },
+      {
+        "label": "Headline 2 — Pain-led",
+        "text": "Your highlights go live hours late. Ours go live in seconds."
+      },
+      {
+        "label": "Headline 3 — Scale proof",
+        "text": "500 clips published daily. 15 sports. One AI platform."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "Body A — Case study anchor",
+        "text": "HockeyOne used PULSE to generate 9,500+ AI clips over a 7-week season — published within seconds of each moment. Facebook reach up 264%. Instagram reach up 111%. YouTube views up 308%.\n\nIf you're still editing highlights by hand, you're leaving audience growth on the table.\n\n👉 Download the broadcaster playbook."
+      },
+      {
+        "label": "Body B — Pain/cost angle",
+        "text": "Every hour your highlights sit in post-production is an hour your competitors own the feed.\n\nBroadcasters using PULSE publish real-time clips across 15+ sports — automatically, at scale, with zero manual editing.\n\nNSL hit 51.8M video views in a single season. You're next.\n\n👉 See how it works — download the guide."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "adName": "broadcasters & OTT - EU - ABM — Variant Set A",
+    "campaign": "broadcasters & OTT - EU - ABM",
+    "product": "PULSE",
+    "diagnosis": "CTR dropped 100% WoW and spend collapsed 98% (Rs 1,377 → Rs 25.75). Campaign near-dead. New creatives ready to deploy once delivery issue is resolved. Messaging tailored to European rights-holders with ISG proof point.",
+    "format": "Single Image / Sponsored Content",
+    "cta": "Learn More",
+    "headlines": [
+      {
+        "label": "Headline 1 — Multi-sport scale",
+        "text": "57 national committees. 512 highlights per day. One platform."
+      },
+      {
+        "label": "Headline 2 — Speed hook",
+        "text": "From final whistle to published clip: under 60 seconds."
+      },
+      {
+        "label": "Headline 3 — Rights-holder ROI",
+        "text": "7.5M video views. 250K+ likes. No production team needed."
+      }
+    ],
+    "bodies": [
+      {
+        "label": "Body A — ISG case study",
+        "text": "At the Islamic Solidarity Games Riyadh 2025, PULSE delivered 50,000+ real-time clips across 57 NOC committees over 15 days — roughly 500 highlights published daily to the ANOC Digital Content Hub.\n\n7.5 million video views. 2 million+ views across NOC social channels.\n\nIf your rights distribution still runs on manual workflows, this is what you're competing against.\n\n👉 Learn how PULSE works for broadcasters."
+      },
+      {
+        "label": "Body B — Efficiency angle",
+        "text": "Post-production doesn't scale. AI does.\n\nEuropean broadcasters are under pressure to deliver more content across more platforms with the same — or smaller — teams.\n\nPULSE automates highlight generation across 15+ sports, publishing clips in seconds with 100% AI tagging accuracy.\n\nTable Tennis England cut 250+ hours of post-production time in 3 months.\n\n👉 See the platform in action."
+      }
+    ]
+  },
+  {
     "date": "2026-03-09",
     "adName": "US Broadcaster Creative Refresh — Outcome Hook",
     "campaign": "broadcasters & OTT - US - ABM",

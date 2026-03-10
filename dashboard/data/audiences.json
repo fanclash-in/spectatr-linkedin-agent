@@ -1,5 +1,84 @@
 [
   {
+    "date": "2026-03-10",
+    "name": "Head of Digital Content — Tier 1 Sports Leagues (US)",
+    "angle": "Content operations leader at a professional league frustrated by slow highlight turnaround and limited social reach",
+    "why": "Current US league campaigns (leagues - US - pulse) are generating near-zero delivery (2 impressions / Rs 3.67 in 7d). This tightly-scoped ABM segment targets the decision-maker most likely to own the PULSE buying decision at a league level, and has not been tested as a standalone audience.",
+    "product": "PULSE",
+    "titles": [
+      "Head of Digital",
+      "Director of Content",
+      "VP Digital Media",
+      "Head of Social Media",
+      "Director of Broadcasting",
+      "Chief Digital Officer"
+    ],
+    "industries": [
+      "Sports",
+      "Entertainment",
+      "Media & Entertainment"
+    ],
+    "size": "Est. 8,000–15,000 (US LinkedIn, Seniority: Director+, company size 51–5000)",
+    "geo": "United States",
+    "headline": "37,000 match moments. 51.8M views. One season.",
+    "body": "NSL automated real-time highlight delivery across 80 matches — 37K+ clips, 51.8M video views, 2× Instagram follower growth in a single season.\n\nIf your league is still clipping manually, PULSE eliminates the bottleneck. Clips live in seconds. Every sport. Every moment.\n\n👉 See the NSL case study.",
+    "cta": "Download Now",
+    "reason": "leagues - US - pulse is effectively dormant (2 impressions, 7d). A fresh ICP-matched audience with a specific case-study hook will generate signal to determine whether the problem is creative, audience, or budget."
+  },
+  {
+    "date": "2026-03-10",
+    "name": "Head of Sponsorship & Commercial — European Sports Properties",
+    "angle": "Sponsorship revenue leader who needs to prove media value to sponsors but lacks the measurement infrastructure",
+    "why": "BRAND GAUGE has no dedicated active campaign. The EU Leagues campaign (Leagues - pulse - EU) has 0 clicks and 0 leads in 7d despite Rs 961.51 spend — suggesting audience or message mismatch. A sponsorship-specific segment with a commercial ROI message tests a new product angle in the same EU geography.",
+    "product": "BRAND GAUGE",
+    "titles": [
+      "Head of Sponsorship",
+      "Sponsorship Manager",
+      "Commercial Director",
+      "Head of Partnerships",
+      "VP Commercial",
+      "Director of Revenue"
+    ],
+    "industries": [
+      "Sports",
+      "Entertainment",
+      "Events Services"
+    ],
+    "size": "Est. 10,000–20,000 (EU LinkedIn, UK/DE/FR/NL/ES, Seniority: Manager+)",
+    "geo": "United Kingdom, Germany, France, Netherlands, Spain",
+    "headline": "Prove sponsor ROI in real time — not in a post-season deck.",
+    "body": "Sponsors demand proof of media value faster than ever. BRAND GAUGE delivers real-time sponsor analytics — AI-powered media measurement that tracks every logo exposure, calculates equivalent media value, and gives you data you can put in front of a sponsor the same day.\n\nStop losing renewal conversations because your measurement arrives three months late.\n\n👉 Book a 20-minute demo.",
+    "cta": "Request Demo",
+    "reason": "Untested product angle (BRAND GAUGE) in a geography where we already have campaign infrastructure (EU). Low incremental cost to test; high strategic value if sponsorship leaders convert."
+  },
+  {
+    "date": "2026-03-10",
+    "name": "CTO and Head of Technology — OTT Platforms and Streaming Services",
+    "angle": "Technology decision-maker evaluating AI infrastructure for content automation and media asset management",
+    "why": "The broadcaster ABM campaigns focus on content/digital roles. The CTO/tech buyer controls the build-vs-buy decision for AI highlight generation and MAM. AXIS's 100% AI tagging accuracy is a strong technical proof point that has not been tested with a technology-focused message in the US or EU.",
+    "product": "AXIS",
+    "titles": [
+      "Chief Technology Officer",
+      "Head of Technology",
+      "VP Engineering",
+      "Head of Product",
+      "Director of Platform Engineering",
+      "Head of Media Technology"
+    ],
+    "industries": [
+      "Broadcast Media",
+      "Online Media",
+      "Internet",
+      "Entertainment"
+    ],
+    "size": "Est. 12,000–25,000 (US + EU LinkedIn, company size 51–10,000)",
+    "geo": "United States, United Kingdom, Germany",
+    "headline": "100% AI tagging accuracy. Every asset. Zero manual QA.",
+    "body": "Media teams waste thousands of hours annually on manual asset tagging and content retrieval.\n\nAXIS delivers AI-powered media asset management with 100% tagging accuracy — automatically organising every clip, highlight, and broadcast asset so your team can find, licence, and distribute content instantly.\n\nBuilding this in-house takes years. AXIS is live in weeks.\n\n👉 See a technical walkthrough.",
+    "cta": "Watch Demo",
+    "reason": "Untested audience persona (CTO/tech buyer) for AXIS. Differentiates from the content-leader message currently running. Technical proof points (100% accuracy, fast deployment) are highly credible to this segment."
+  },
+  {
     "date": "2026-03-09",
     "name": "Digital & Social Media Directors — European Football Federations",
     "angle": "Pain-led: league federations struggling with manual content production at scale across multi-country competitions",

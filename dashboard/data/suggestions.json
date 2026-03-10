@@ -1,5 +1,65 @@
 [
   {
+    "id": "sug_2026-03-10_0",
+    "date": "2026-03-10",
+    "status": "open",
+    "type": "c",
+    "priority": "HIGH",
+    "title": "Refresh creatives on broadcasters & OTT - US - ABM immediately — CTR down 31.34% WoW",
+    "detail": "CTR dropped from 0.48% to 0.33% week-over-week on the account's top-spending campaign (Rs 13,020 in 7d). Frequency is only 1.57 so audience fatigue is not the cause — the creative is the likely culprit. Swap in new social-proof led headlines citing HockeyOne or ISG results (e.g. '10.6M video views in 7 weeks'). Test 2 new variants against current control.",
+    "meta": "7d CTR: 0.3293% | Prior 7d CTR: 0.4796% | WoW delta: -31.34% | Spend: Rs 13,020.66"
+  },
+  {
+    "id": "sug_2026-03-10_1",
+    "date": "2026-03-10",
+    "status": "open",
+    "type": "cp",
+    "priority": "HIGH",
+    "title": "Audit and rebuild PULSE Lead gen US 2 — Rs 11,987 spent in 30d with 0 leads",
+    "detail": "This campaign has delivered 403 impressions and 1 click in 30 days with zero lead conversions. Immediate action: (1) Narrow job-title targeting to Head of Digital/Content/Broadcast at Leagues & Broadcasters. (2) Switch offer from generic demo to a specific outcome: 'See how NSL automated 37K clips in 7 months — book a 15-min walk-through'. (3) Verify the lead gen form is live and the thank-you redirect is firing.",
+    "meta": "30d spend: Rs 11,986.74 | Impressions: 403 | Clicks: 1 | Leads: 0 | CPL: null"
+  },
+  {
+    "id": "sug_2026-03-10_2",
+    "date": "2026-03-10",
+    "status": "open",
+    "type": "b",
+    "priority": "HIGH",
+    "title": "Investigate broadcasters & OTT - EU - ABM delivery collapse — spend down 98% WoW",
+    "detail": "EU ABM campaign dropped from Rs 1,377 to Rs 25.75 in spend this week with 0 clicks — a near-complete delivery failure. Check: (1) Is the campaign still within budget? (2) Were any creatives rejected by LinkedIn review? (3) Has the audience shrunk below minimum threshold? Restore delivery or pause and redirect budget to US ABM where there is click signal.",
+    "meta": "7d spend: Rs 25.75 | Prior 7d spend: Rs 1,376.98 | Delta: -98.13% | Clicks: 0"
+  },
+  {
+    "id": "sug_2026-03-10_3",
+    "date": "2026-03-10",
+    "status": "open",
+    "type": "t",
+    "priority": "HIGH",
+    "title": "Add lead-gen conversion tracking across all campaigns — currently 0 leads on Rs 45,531 in 30d",
+    "detail": "Zero leads across all campaigns over 30 days despite Rs 45,531 in spend is a systemic signal. Either: (a) LinkedIn Insight Tag / lead gen forms are misconfigured, or (b) landing pages are not converting. Audit Insight Tag firing in LinkedIn Campaign Manager, verify lead gen form submissions are syncing to CRM, and set up a test conversion from each active campaign.",
+    "meta": "30d total spend: Rs 45,531.23 | Total leads: 0 | All campaigns: 0 oneClickLeads, 0 externalWebsiteConversions"
+  },
+  {
+    "id": "sug_2026-03-10_4",
+    "date": "2026-03-10",
+    "status": "open",
+    "type": "cp",
+    "priority": "MEDIUM",
+    "title": "Leagues - pulse - EU: 0 clicks in 7d on Rs 961.51 — tighten targeting and refresh copy",
+    "detail": "EU Leagues campaign delivered 146 impressions with 0 clicks this week. Freq=1.62 indicates the same small audience (est. 90 unique users) is being served the same ads. Introduce job-title exclusions (e.g. exclude students/interns), add seniority filter (Director+), and rotate in a new creative leading with the ISG case study (512 daily highlights for 57 NOCs).",
+    "meta": "7d spend: Rs 961.51 | Impressions: 146 | Clicks: 0 | CTR: 0.00% | Freq: 1.62"
+  },
+  {
+    "id": "sug_2026-03-10_5",
+    "date": "2026-03-10",
+    "status": "open",
+    "type": "b",
+    "priority": "MEDIUM",
+    "title": "Consolidate leagues - US - pulse budget into the stronger US ABM campaign until conversion tracking is fixed",
+    "detail": "leagues - US - pulse spent only Rs 3.67 over 7 days (vs Rs 1.18 prior period) — the campaign is effectively dormant with 2 impressions. Budget consolidation into broadcasters & OTT - US - ABM (the only campaign generating clicks) will improve delivery efficiency while lead tracking is being corrected.",
+    "meta": "7d spend: Rs 3.67 | Impressions: 2 | Clicks: 0 | CTR: 0.00%"
+  },
+  {
     "id": "sug_2026-03-09_0",
     "date": "2026-03-09",
     "status": "open",

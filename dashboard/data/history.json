@@ -13,5 +13,20 @@
       "cplDelta": null,
       "imprDelta": -10.27
     }
+  },
+  {
+    "date": "2026-03-10",
+    "kpis": {
+      "totalSpend": 14011.59,
+      "avgCtr": 0.2796,
+      "totalLeads": 0,
+      "avgCpl": null,
+      "impressions": 1073,
+      "spendDelta": -13.58,
+      "ctrDelta": -32.75,
+      "leadsDelta": null,
+      "cplDelta": null,
+      "imprDelta": -10.81
+    }
   }
 ]
