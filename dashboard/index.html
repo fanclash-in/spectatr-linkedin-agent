@@ -323,8 +323,8 @@ tbody tr:hover td{background:rgba(255,255,255,.02)}
       <div class="ph">
         <div><h2>Overview</h2><p id="osub">Loading…</p></div>
         <div class="frow">
-          <button class="filt on" data-f="7d"    onclick="applyFilter('7d')">Last 7 Days</button>
-          <button class="filt"     data-f="30d"   onclick="applyFilter('30d')">Last 30 Days</button>
+          <button class="filt" data-f="7d"    onclick="applyFilter('7d')">Last 7 Days</button>
+          <button class="filt on"  data-f="30d"   onclick="applyFilter('30d')">Last 30 Days</button>
           <button class="filt"     data-f="month" onclick="applyFilter('month')">This Month</button>
         </div>
       </div>
@@ -447,7 +447,7 @@ tbody tr:hover td{background:rgba(255,255,255,.02)}
 let M=null,SUGG=[],COPY=[],AUD=[],CL=[],HIST=[],POSTS=[],GALL=[];
 let TC=null,SC=null,CC=null,CD=null;
 let GPOSTS=[];
-let FILTER='7d';
+let FILTER='30d';
 let POST_FILTER='all';
 const PAGES=['overview','campaigns','suggestions','copy','audiences','changelog','content','create'];
 
@@ -598,7 +598,7 @@ function renderSugg(){
       <span class="ss ss${i.status.charAt(0)}" onclick="cyc('${i.id}')" title="Click to update">${i.status}</span>
       <span class="${i.priority==='HIGH'?'ph_':'pm_'}">${i.priority||''}</span></div>
       <div class="sb"><h5>${i.title}</h5><p>${i.detail}</p></div>
-      <div class="sr_">${(i.meta||'').replace(/\n/g,'<br>')}</div>
+      <div class="sr_">${(typeof i.meta==='string'?i.meta:JSON.stringify(i.meta||'')).replace(/\n/g,'<br>')}</div>
     </div>`).join('')}</div></div>`;
   }).join('');
 }
