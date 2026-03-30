@@ -1,5 +1,71 @@
 [
   {
+    "date": "2026-03-30",
+    "product": "AXIS",
+    "cta": "Download Case Study",
+    "campaign": "Content Syndication - Leads",
+    "diagnosis": "Zero Leads on High Spend",
+    "adName": "Content Syndication - Leads",
+    "headlines": [
+      {
+        "text": "Content trapped? Your archive is a goldmine.",
+        "label": "Variant A"
+      },
+      {
+        "text": "Stop scrubbing. Start creating.",
+        "label": "Variant B"
+      },
+      {
+        "text": "Unlock every second of your archive.",
+        "label": "Variant C"
+      }
+    ],
+    "format": "THE PROVOCATION",
+    "bodies": [
+      {
+        "text": "Unstructured video archives cost time and money. Spectatr.ai AXIS uses AI to tag every player, sponsor, and emotion, making your entire library searchable in seconds. Turn hours of manual work into instant content creation.\n\n3X increase in uploads for Table Tennis England – without adding staff.",
+        "label": "Variant A"
+      },
+      {
+        "text": "Editors waste hours sifting through footage. What if every moment was instantly findable and ready for global distribution? AXIS makes it real. AI-powered metadata transforms your archive into an active asset. Get your content to fans faster, across every platform.\n\n250+ hours saved for Table Tennis England in post-production alone.",
+        "label": "Variant B"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "campaign": "Growth Hacking Series - Video Ads",
+    "diagnosis": "Zero Leads on High Spend",
+    "adName": "Growth Hacking Series - Video Ads",
+    "product": "PULSE",
+    "cta": "Watch Demo",
+    "headlines": [
+      {
+        "text": "Real-time highlights are table stakes.",
+        "label": "Variant A"
+      },
+      {
+        "text": "Don't just capture the moment. Own it.",
+        "label": "Variant B"
+      },
+      {
+        "text": "Manual highlights are costing you fans.",
+        "label": "Variant C"
+      }
+    ],
+    "format": "THE DATA REFRAME",
+    "bodies": [
+      {
+        "text": "Fans expect instant access to the biggest moments. Are you still relying on manual production? Automate your entire highlight workflow with Spectatr.ai PULSE. Capture, clip, and distribute in seconds, across 15+ sports.\n\nHockey One League saw 9x fan engagement growth during their 2025 season.",
+        "label": "Variant A"
+      },
+      {
+        "text": "Your social channels are hungry for content, but manual processes can't keep up. PULSE delivers 50,000+ real-time clips during major events like the Islamic Solidarity Games, published within seconds to 57 NOCs. Grow your audience and engagement effortlessly.\n\n51.8 million video views from real-time highlights across NSL's social channels.",
+        "label": "Variant B"
+      }
+    ]
+  },
+  {
     "date": "2026-03-23",
     "adName": "broadcasters & OTT - US - ABM — Reactivation Creative",
     "campaign": "broadcasters & OTT - US - ABM",

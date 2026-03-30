@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-03-30",
+    "product": "PULSE",
+    "cta": "See How PULSE Works",
+    "geo": "North America, EMEA",
+    "titles": [
+      "Digital Media Manager",
+      "Head of Content",
+      "VP Digital",
+      "Director of Digital Media"
+    ],
+    "reason": "Existing campaigns are not converting. This audience directly addresses content production pain points in leagues.",
+    "industries": [
+      "Sports",
+      "Media Production",
+      "Broadcast Media"
+    ],
+    "size": "500-1000 employees",
+    "body": "Deliver real-time highlights across every platform, for every match, without scaling your production team. Spectatr.ai PULSE helps leagues like NSL Canada achieve 51.8 million video views and 2x Instagram follower growth.",
+    "headline": "Scale Your Content: AI-Powered Highlights",
+    "name": "Digital Media Managers - Leagues & Associations",
+    "why": "Leagues and associations need to maximize reach and engagement but often lack the resources for extensive manual content production. PULSE solves this.",
+    "angle": "Struggling with content at scale"
+  },
+  {
+    "date": "2026-03-30",
+    "titles": [
+      "Head of Content Acquisitions",
+      "VP Operations",
+      "Director of Broadcast",
+      "Chief Digital Officer"
+    ],
+    "product": "AXIS",
+    "cta": "Explore AXIS",
+    "geo": "Global",
+    "name": "Broadcast & OTT Executives - Archival Monetization",
+    "why": "Broadcasters and OTT platforms have extensive video libraries that are underutilized due to manual indexing and search limitations. AXIS transforms these into searchable, monetizable assets.",
+    "angle": "Unlocking value from vast video archives",
+    "reason": "Targeting decision-makers responsible for content management and monetization who would directly benefit from AXIS's capabilities.",
+    "industries": [
+      "Broadcast Media",
+      "Motion Pictures and Film",
+      "Sports"
+    ],
+    "size": "1000+ employees",
+    "body": "Stop losing hours searching for footage. Spectatr.ai AXIS uses AI to tag every second of your video library by player, sponsor, and emotion. Instantly find, edit, and distribute content globally. Table Tennis England saved 250+ hours in post-production.",
+    "headline": "Your Archive: A Goldmine, Not a Graveyard"
+  },
+  {
     "date": "2026-03-27",
     "reason": "Targeting content decision-makers in leagues with a strong proof point (NSL).",
     "size": null,

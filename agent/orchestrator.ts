@@ -138,7 +138,11 @@ Pass the posts array directly — do NOT stringify it.`;
   while (iter < 30) {
     iter++;
     const candidate = response.response.candidates?.[0];
-    if (!candidate) break;
+    if (!candidate?.content?.parts) {
+      console.warn(`  ⚠️  Empty candidate on turn ${iter}, retrying...`);
+      response = await chat.sendMessage("Continue where you left off. Complete all remaining steps.");
+      continue;
+    }
 
     // Extract function calls from the response
     const functionCalls: FunctionCallPart[] = [];

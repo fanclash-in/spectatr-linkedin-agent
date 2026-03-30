@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-03-30",
+    "posts": [
+      {
+        "product": "PULSE",
+        "format_type": "THE INDUSTRY DIAGNOSIS",
+        "creative": {
+          "emoji": "🚀",
+          "subtext": "Manual workflows are obsolete. AI delivers.",
+          "headline": "Content at Scale: The AI Answer",
+          "stat": "51.8M views",
+          "background": "linear-gradient(135deg,#0A66C2,#004182)"
+        },
+        "newsSource": "Front Office Sports",
+        "type": "product",
+        "text": "The battle for media rights and streaming dominance isn't just about big deals; it's about delivering content at scale, efficiently. Fragmentation means more platforms, more formats, more demand. Traditional production workflows simply can't keep up.\n\nLeagues and federations need a better model. Spectatr.ai PULSE automates real-time highlights across 15+ sports, delivering moments in seconds, not hours. This isn't just about speed; it's about unlocking new revenue and engagement without ballooning costs.\n\nNSL Canada saw 51.8 million video views and doubled Instagram followers during their inaugural season with PULSE. It's time to diagnose the problem with manual content and adopt AI-first solutions. #SportsTech #AIinSports #ContentStrategy #MediaRights",
+        "newsUrl": "https://frontofficesports.com/nfl-faces-antitrust-threat-from-fcc-chair-over-streaming-push/",
+        "newsHeadline": "NFL Faces Antitrust Threat from FCC Chair Over Streaming Push"
+      },
+      {
+        "text": "The baseball world is buzzing about the ABS system, but beyond balls and strikes, it highlights a deeper truth: granular data is everywhere in sports. Yet, how much of that rich, moment-by-moment insight truly fuels fan engagement?\n\nOften, it's trapped. The real win isn't just better calls; it's transforming every data point into compelling content. Imagine AI instantly clipping pivotal plays, enriched with real-time stats, ready for every platform in seconds.\n\nHockey One League achieved a 9x growth in fan engagement and over 10.6 million video views in just 7 weeks by embracing AI-powered content. What if you reframed your data from static reports to dynamic, fan-ready stories? #SportsData #FanEngagement #AIinSports",
+        "newsUrl": "https://frontofficesports.com/mlbs-new-abs-system-hits-fast-while-exposing-umpire-calls/",
+        "newsHeadline": "MLB’s New ABS System Hits Fast—While Exposing Umpire Calls",
+        "creative": {
+          "headline": "Data Isn't Just for Officiating",
+          "stat": "9x Engagement Growth",
+          "background": "linear-gradient(135deg,#5A3EBE,#3F2C8C)",
+          "subtext": "Turn raw data into fan-ready stories.",
+          "emoji": "📈"
+        },
+        "newsSource": "Front Office Sports",
+        "type": "news",
+        "format_type": "THE DATA REFRAME",
+        "product": ""
+      },
+      {
+        "newsUrl": "https://frontofficesports.com/uconn-men-women-reach-final-four-despite-financial-pressures/",
+        "newsHeadline": "UConn Men, Women Reach Final Four Despite Financial Pressures",
+        "text": "Financial pressures are a constant reality for sports organizations, driving demands for efficiency without compromising output. Many still operate with vast, unstructured video archives. This isn't a challenge; it's an operational drain.\n\nImagine needing a specific player's reaction from a game three seasons ago. How many hours would your team spend scrubbing footage? The cost isn't just labor; it's missed opportunities.\n\nTable Tennis England saved 250+ hours in post-production and tripled their video uploads by implementing Spectatr.ai AXIS. Stop accepting inefficient archival as normal. Provoke change. #SportsContent #MediaManagement #OperationalEfficiency #AI",
+        "type": "news",
+        "creative": {
+          "subtext": "Untapped content, wasted time. There's a better way.",
+          "headline": "Your Archive is Costing You",
+          "stat": "250+ Hours Saved",
+          "background": "linear-gradient(135deg,#3A506B,#1C2F3F)",
+          "emoji": "⏱️"
+        },
+        "newsSource": "Front Office Sports",
+        "format_type": "THE PROVOCATION",
+        "product": "AXIS"
+      }
+    ]
+  },
+  {
     "date": "2026-03-27",
     "posts": [
       {

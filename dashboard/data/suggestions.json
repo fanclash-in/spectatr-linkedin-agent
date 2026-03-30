@@ -1,5 +1,35 @@
 [
   {
+    "id": "sug_2026-03-30_0",
+    "date": "2026-03-30",
+    "status": "open",
+    "priority": "HIGH",
+    "detail": "This campaign has spent significant budget (Rs 16,419.84 MTD) but generated 0 leads. Revise copy to strengthen the call to action and clearly articulate value proposition for lead generation.",
+    "meta": "Campaign: Content Syndication - Leads, MTD Spend: Rs 16,419.84, Leads: 0",
+    "type": "c",
+    "title": "Review Ad Copy for \"Content Syndication - Leads\""
+  },
+  {
+    "id": "sug_2026-03-30_1",
+    "date": "2026-03-30",
+    "status": "open",
+    "priority": "HIGH",
+    "detail": "Despite Rs 1,034.31 MTD spend, \"Growth Hacking Series - Video Ads\" has produced 0 leads. Focus on clearer benefits and a compelling offer in the ad copy.",
+    "meta": "Campaign: Growth Hacking Series - Video Ads, MTD Spend: Rs 1,034.31, Leads: 0",
+    "type": "c",
+    "title": "Review Ad Copy for \"Growth Hacking Series - Video Ads\""
+  },
+  {
+    "id": "sug_2026-03-30_2",
+    "date": "2026-03-30",
+    "status": "open",
+    "meta": "Overall Leads: 0",
+    "type": "b",
+    "title": "Expand Audience Targeting for Lead Generation Campaigns",
+    "priority": "MEDIUM",
+    "detail": "Current campaigns are not yielding conversions. Test new, granular LinkedIn audience segments to identify better-performing pools of prospects."
+  },
+  {
     "id": "sug_2026-03-27_0",
     "date": "2026-03-27",
     "status": "open",
