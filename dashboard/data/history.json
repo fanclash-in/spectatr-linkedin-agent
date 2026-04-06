@@ -148,5 +148,20 @@
       "leadsDelta": 0,
       "avgCtr": 0
     }
+  },
+  {
+    "date": "2026-04-06",
+    "kpis": {
+      "avgCpl": null,
+      "avgCtr": 0,
+      "ctrDelta": null,
+      "imprDelta": null,
+      "cplDelta": null,
+      "totalSpend": 0,
+      "totalLeads": 0,
+      "spendDelta": null,
+      "impressions": 0,
+      "leadsDelta": null
+    }
   }
 ]

@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-04-06",
+    "posts": [
+      {
+        "product": "PULSE",
+        "newsHeadline": "PWHL Breaks Women’s Hockey Attendance Record With MSG Game",
+        "text": "The PWHL just smashed women’s hockey attendance records at Madison Square Garden. A massive signal: fans are showing up, demanding more.\n<br><br>\nBut capturing those real-time moments and delivering them across every channel, instantly? That's the operational reality. Leagues need to meet that demand without breaking the bank or missing a beat.\n<br><br>\nPULSE powers that scale. NSL Canada saw 51.8 million video views and doubled Instagram followers by automating 37,000+ match moments. What’s your strategy to turn fan surge into content velocity?\n<br><br>\n#SportsTech #FanEngagement #ContentStrategy #AIHighlights",
+        "newsUrl": "https://frontofficesports.com/pwhl-breaks-womens-hockey-attendance-record-with-msg-game/",
+        "format_type": "THE DATA REFRAME",
+        "creative": {
+          "subtext": "Deliver every match moment, instantly.",
+          "background": "linear-gradient(135deg,#CCEEFF,#007ACC)",
+          "headline": "PWHL Record? Fans Want More.",
+          "stat": "51.8M+ Views",
+          "emoji": "🏒"
+        },
+        "type": "product",
+        "newsSource": "Front Office Sports"
+      },
+      {
+        "type": "news",
+        "newsSource": "Sportico",
+        "newsUrl": "https://www.sportico.com/leagues/college-sports/2026/ucla-ncaa-tournament-title-south-carolina-march-madness-1234889193/",
+        "format_type": "THE INDUSTRY DIAGNOSIS",
+        "creative": {
+          "emoji": "🏀",
+          "subtext": "Real-time content fuels fan growth.",
+          "background": "linear-gradient(135deg,#FFD700,#FFA500)",
+          "headline": "New Dynasties. Old Content Workflows?",
+          "stat": "500% FB Surge"
+        },
+        "newsHeadline": "UCLA Blowout Gives Womens Basketball a Rare NewPower",
+        "text": "UCLA’s dominant NCAA title run isn’t just a win; it’s proof that new powerhouses are emerging in women’s basketball. The industry often lags in adapting content strategies to these rapid shifts.\n<br><br>\nThe old playbook of delayed highlights and manual edits fails to capitalize on this real-time fan energy. Moments happen once. Miss them, and you miss the momentum.\n<br><br>\nWith 9,500+ AI-powered clips generated over 7 weeks and a 500% Facebook video surge for Hockey One, immediate content distribution isn't a luxury – it's essential for capturing burgeoning fanbases. How are rights holders re-thinking their content workflows for these dynamic shifts?\n<br><br>\n#WomensSports #ContentProduction #SportsMedia #DigitalStrategy",
+        "product": ""
+      },
+      {
+        "newsSource": "Sportico",
+        "type": "news",
+        "newsUrl": "https://www.sportico.com/leagues/college-sports/2026/womens-basketball-units-ncaa-tournament-big-ten-ucla-1234889205/",
+        "format_type": "THE NUMBERS POST",
+        "creative": {
+          "subtext": "Unlock media value from your video archive.",
+          "background": "linear-gradient(135deg,#C0C0C0,#808080)",
+          "headline": "$6.4M Payout. What's Your Archive Worth?",
+          "stat": "250+ Hours Saved",
+          "emoji": "💰"
+        },
+        "text": "March Madness women’s basketball payouts just hit a new high for the Big Ten: $6.4 million. This isn't just a number; it's a clear signal of escalating media value.\n<br><br>\nWhat’s the bottleneck in capitalizing on that value? Often, it’s the sheer volume of unstructured video assets. Finding the right moments, fast, across sprawling archives.\n<br><br>\nAXIS transforms this challenge. Table Tennis England saved 250+ hours in post-production and achieved a 3x increase in uploads, turning their archive into a searchable, distributable goldmine. Stop scrubbing, start publishing.\n<br><br>\n#SportsBusiness #MediaValue #AssetManagement #AIinSports",
+        "newsHeadline": "With UCLA Title, Big Ten Tops March Madness Women’s Payouts at$6.4M",
+        "product": "AXIS"
+      }
+    ]
+  },
+  {
     "date": "2026-03-30",
     "posts": [
       {

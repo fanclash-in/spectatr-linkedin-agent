@@ -1,80 +1,215 @@
 {
-  "date": "2026-03-30",
-  "campaigns": [
+  "date": "2026-04-06",
+  "alerts": [
     {
-      "cplD": null,
+      "title": "Zero conversions on >$50 spend",
+      "meta": "Campaign: broadcasters & OTT - US - ABM. Spend: $5183.62. Leads: 0.",
+      "t": "r"
+    }
+  ],
+  "camps30d": [
+    {
+      "st": "a",
+      "leads": 0,
       "spend": 0,
-      "name": "Growth Hacking Series - Video Ads",
-      "freq": null,
-      "ctrD": 0,
-      "cpl": null,
-      "st": "w",
-      "leads": 0,
-      "ctr": 0
-    },
-    {
-      "leads": 0,
-      "st": "w",
       "ctr": 0,
-      "freq": null,
-      "ctrD": 0,
-      "spend": 0,
-      "name": "Test Campaign 1",
-      "cplD": null,
-      "cpl": null
+      "cpl": null,
+      "name": "Website visits - Image Ads"
     },
     {
       "cpl": null,
-      "cplD": null,
-      "spend": 0,
-      "name": "Video Ad Campaign - Awareness",
-      "freq": null,
-      "ctrD": 0,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
       "ctr": 0,
-      "st": "w",
+      "spend": 0,
+      "st": "a",
       "leads": 0
     },
     {
       "ctr": 0,
-      "st": "w",
-      "leads": 0,
       "cpl": null,
-      "cplD": null,
-      "spend": 0,
-      "name": "Content Syndication - Leads",
-      "freq": null,
-      "ctrD": 0
+      "name": "leagues - US - pulse",
+      "st": "a",
+      "leads": 0,
+      "spend": 0
+    },
+    {
+      "cpl": null,
+      "name": "Leagues - pulse - EU",
+      "ctr": 0,
+      "spend": 233.3,
+      "st": "a",
+      "leads": 0
+    },
+    {
+      "ctr": 0.7751937984496124,
+      "cpl": null,
+      "name": "broadcasters & OTT - US - ABM",
+      "st": "a",
+      "leads": 0,
+      "spend": 5183.62
+    },
+    {
+      "st": "a",
+      "leads": 0,
+      "spend": 13.72,
+      "ctr": 0,
+      "cpl": null,
+      "name": "broadcasters & OTT - EU - ABM"
     }
   ],
-  "spendByCampaign": {
-    "values": [
-      1034.31,
-      3.67,
-      73.33,
-      16419.84
-    ],
-    "labels": [
-      "Growth Hacking Series - Video Ads",
-      "Test Campaign 1",
-      "Video Ad Campaign - Awareness",
-      "Content Syndication - Leads"
-    ]
+  "kpisMtd": {
+    "ctrDelta": null,
+    "avgCtr": 0,
+    "cplDelta": null,
+    "imprDelta": null,
+    "avgCpl": null,
+    "totalSpend": 0,
+    "totalLeads": 0,
+    "impressions": 0,
+    "leadsDelta": null,
+    "spendDelta": null
   },
-  "alerts": [
+  "opportunities": [],
+  "kpis": {
+    "avgCpl": null,
+    "avgCtr": 0,
+    "ctrDelta": null,
+    "imprDelta": null,
+    "cplDelta": null,
+    "totalSpend": 0,
+    "totalLeads": 0,
+    "spendDelta": null,
+    "impressions": 0,
+    "leadsDelta": null
+  },
+  "campaigns": [
     {
-      "title": "High Spend, Zero Leads: Growth Hacking Series - Video Ads",
-      "meta": "Campaign spent 1131.07 (30d) / 1034.31 (MTD) with 0 leads.",
-      "t": "r"
+      "cpl": null,
+      "name": "Website visits - Image Ads",
+      "ctrD": null,
+      "freq": null,
+      "spend": 0,
+      "st": "a",
+      "leads": 0,
+      "cplD": null,
+      "ctr": 0
     },
     {
-      "title": "High Spend, Zero Leads: Video Ad Campaign - Awareness",
-      "meta": "Campaign spent 230.44 (30d) / 73.33 (MTD) with 0 leads.",
-      "t": "r"
+      "cplD": null,
+      "ctr": 0,
+      "freq": null,
+      "spend": 0,
+      "st": "a",
+      "leads": 0,
+      "cpl": null,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "ctrD": null
     },
     {
-      "title": "High Spend, Zero Leads: Content Syndication - Leads",
-      "meta": "Campaign spent 18754.97 (30d) / 16419.84 (MTD) with 0 leads.",
-      "t": "r"
+      "ctr": 0,
+      "cplD": null,
+      "ctrD": null,
+      "cpl": null,
+      "name": "leagues - US - pulse",
+      "st": "a",
+      "leads": 0,
+      "freq": null,
+      "spend": 0
+    },
+    {
+      "ctrD": null,
+      "cpl": null,
+      "name": "Leagues - pulse - EU",
+      "st": "a",
+      "leads": 0,
+      "freq": null,
+      "spend": 0,
+      "ctr": 0,
+      "cplD": null
+    },
+    {
+      "freq": null,
+      "spend": 0,
+      "st": "a",
+      "leads": 0,
+      "cpl": null,
+      "name": "broadcasters & OTT - US - ABM",
+      "ctrD": null,
+      "cplD": null,
+      "ctr": 0
+    },
+    {
+      "cplD": null,
+      "ctr": 0,
+      "freq": null,
+      "spend": 0,
+      "st": "a",
+      "leads": 0,
+      "cpl": null,
+      "name": "broadcasters & OTT - EU - ABM",
+      "ctrD": null
+    }
+  ],
+  "kpis30d": {
+    "imprDelta": null,
+    "cplDelta": null,
+    "avgCtr": 0.6944444444444444,
+    "ctrDelta": null,
+    "avgCpl": null,
+    "spendDelta": null,
+    "impressions": 432,
+    "leadsDelta": null,
+    "totalSpend": 5430.64,
+    "totalLeads": 0
+  },
+  "campsMtd": [
+    {
+      "cpl": null,
+      "name": "Website visits - Image Ads",
+      "ctr": 0,
+      "spend": 0,
+      "st": "a",
+      "leads": 0
+    },
+    {
+      "st": "a",
+      "leads": 0,
+      "spend": 0,
+      "ctr": 0,
+      "cpl": null,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2"
+    },
+    {
+      "spend": 0,
+      "st": "a",
+      "leads": 0,
+      "cpl": null,
+      "name": "leagues - US - pulse",
+      "ctr": 0
+    },
+    {
+      "st": "a",
+      "leads": 0,
+      "spend": 0,
+      "ctr": 0,
+      "cpl": null,
+      "name": "Leagues - pulse - EU"
+    },
+    {
+      "cpl": null,
+      "name": "broadcasters & OTT - US - ABM",
+      "ctr": 0,
+      "spend": 0,
+      "st": "a",
+      "leads": 0
+    },
+    {
+      "st": "a",
+      "leads": 0,
+      "spend": 0,
+      "ctr": 0,
+      "cpl": null,
+      "name": "broadcasters & OTT - EU - ABM"
     }
   ],
   "trendData": {
@@ -87,18 +222,8 @@
       "2026-03-19",
       "2026-03-22",
       "2026-03-23",
-      "2026-03-27"
-    ],
-    "ctrValues": [
-      0.3725,
-      0.2796,
-      0.4902,
-      0,
-      null,
-      0,
-      0,
-      0,
-      0
+      "2026-03-27",
+      "2026-03-30"
     ],
     "cplValues": [
       null,
@@ -109,147 +234,38 @@
       null,
       null,
       null,
+      0,
       null
+    ],
+    "ctrValues": [
+      0.3725,
+      0.2796,
+      0.4902,
+      0,
+      null,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   },
-  "opportunities": [
-    {
-      "title": "Review Ad Copy and Creative for Zero Lead Campaigns",
-      "meta": "Campaigns with significant spend (Growth Hacking Series - Video Ads, Video Ad Campaign - Awareness, Content Syndication - Leads) are generating 0 leads. High priority to review messaging and visual assets.",
-      "t": "a"
-    },
-    {
-      "meta": "Consider testing new LinkedIn audience segments to improve lead volume, especially for campaigns currently generating no leads.",
-      "t": "g",
-      "title": "Expand Audience Targeting for Lead Generation"
-    }
-  ],
-  "camps30d": [
-    {
-      "ctr": 0,
-      "st": "w",
-      "leads": 0,
-      "cpl": null,
-      "cplD": null,
-      "spend": 1131.07,
-      "name": "Growth Hacking Series - Video Ads",
-      "freq": null,
-      "ctrD": null
-    },
-    {
-      "ctr": 0,
-      "leads": 0,
-      "st": "w",
-      "cpl": null,
-      "freq": null,
-      "ctrD": null,
-      "cplD": null,
-      "spend": 3.67,
-      "name": "Test Campaign 1"
-    },
-    {
-      "ctr": 0,
-      "leads": 0,
-      "st": "w",
-      "cpl": null,
-      "freq": null,
-      "ctrD": null,
-      "cplD": null,
-      "spend": 230.44,
-      "name": "Video Ad Campaign - Awareness"
-    },
-    {
-      "cpl": null,
-      "cplD": null,
-      "spend": 18754.97,
-      "name": "Content Syndication - Leads",
-      "freq": null,
-      "ctrD": null,
-      "ctr": 0.412,
-      "st": "w",
-      "leads": 0
-    }
-  ],
-  "campsMtd": [
-    {
-      "cpl": null,
-      "spend": 1034.31,
-      "name": "Growth Hacking Series - Video Ads",
-      "cplD": null,
-      "freq": null,
-      "ctrD": null,
-      "ctr": 0,
-      "st": "w",
-      "leads": 0
-    },
-    {
-      "cpl": null,
-      "freq": null,
-      "ctrD": null,
-      "spend": 3.67,
-      "name": "Test Campaign 1",
-      "cplD": null,
-      "ctr": 0,
-      "leads": 0,
-      "st": "w"
-    },
-    {
-      "cpl": null,
-      "spend": 73.33,
-      "name": "Video Ad Campaign - Awareness",
-      "cplD": null,
-      "freq": null,
-      "ctrD": null,
-      "ctr": 0,
-      "st": "w",
-      "leads": 0
-    },
-    {
-      "spend": 16419.84,
-      "name": "Content Syndication - Leads",
-      "cplD": null,
-      "freq": null,
-      "ctrD": null,
-      "cpl": null,
-      "st": "w",
-      "leads": 0,
-      "ctr": 0.36
-    }
-  ],
-  "kpisMtd": {
-    "avgCtr": 0.308,
-    "leadsDelta": null,
-    "avgCpl": null,
-    "imprDelta": null,
-    "totalSpend": 17531.15,
-    "cplDelta": null,
-    "spendDelta": null,
-    "ctrDelta": null,
-    "totalLeads": 0,
-    "impressions": 1298
-  },
-  "kpis30d": {
-    "leadsDelta": null,
-    "avgCpl": null,
-    "avgCtr": 0.351,
-    "cplDelta": null,
-    "spendDelta": null,
-    "imprDelta": null,
-    "totalSpend": 20120.15,
-    "impressions": 1425,
-    "ctrDelta": null,
-    "totalLeads": 0
-  },
-  "kpis": {
-    "impressions": 0,
-    "totalLeads": 0,
-    "ctrDelta": 0,
-    "spendDelta": 0,
-    "cplDelta": null,
-    "imprDelta": 0,
-    "totalSpend": 0,
-    "avgCpl": null,
-    "leadsDelta": 0,
-    "avgCtr": 0
+  "spendByCampaign": {
+    "values": [
+      0,
+      0,
+      0,
+      233.3,
+      5183.62,
+      13.72
+    ],
+    "labels": [
+      "Website visits - Image Ads",
+      "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "leagues - US - pulse",
+      "Leagues - pulse - EU",
+      "broadcasters & OTT - US - ABM",
+      "broadcasters & OTT - EU - ABM"
+    ]
   }
 }

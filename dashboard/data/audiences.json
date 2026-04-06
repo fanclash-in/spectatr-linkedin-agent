@@ -1,5 +1,47 @@
 [
   {
+    "date": "2026-04-06",
+    "name": "Leagues & Associations - AI Highlights",
+    "angle": "Automate match content at scale and drive fan engagement.",
+    "industries": [
+      "Sports",
+      "Media Production",
+      "Entertainment"
+    ],
+    "product": "PULSE",
+    "geo": "US, EU",
+    "headline": "Stop missing match moments. Automate highlights.",
+    "cta": "Learn More",
+    "reason": "Untested segment combining industry and product pain point, aligned with strong case study.",
+    "titles": [
+      "Head of Content",
+      "VP of Digital",
+      "Digital Media Manager"
+    ],
+    "body": "Leagues are struggling to keep up with fan demand for real-time content. PULSE automates 37,000+ match moments, driving 51.8M+ video views and 2x Instagram follower growth for NSL Canada. Deliver every highlight, instantly."
+  },
+  {
+    "date": "2026-04-06",
+    "body": "Manual tagging and searching are killing your content team's productivity. AXIS uses AI to tag every player, sponsor, and emotion, saving Table Tennis England 250+ hours in post-production and tripling uploads. Unlock your archive's full potential.",
+    "titles": [
+      "Director of Broadcast",
+      "Head of Content",
+      "Media Operations Manager"
+    ],
+    "reason": "Focus on operational efficiency, directly addressing a common pain point with a clear product solution.",
+    "cta": "Request a Demo",
+    "headline": "End the archive search. Find any moment, instantly.",
+    "geo": "US, EU",
+    "product": "AXIS",
+    "angle": "Eliminate post-production bottlenecks with AI-powered media management.",
+    "industries": [
+      "Broadcast Media",
+      "Motion Pictures and Film",
+      "Sports"
+    ],
+    "name": "Broadcasters & OTT - Smart MAM"
+  },
+  {
     "date": "2026-03-30",
     "product": "PULSE",
     "cta": "See How PULSE Works",
