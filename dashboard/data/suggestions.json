@@ -1,5 +1,15 @@
 [
   {
+    "id": "sug_2026-04-09_0",
+    "date": "2026-04-09",
+    "status": "open",
+    "meta": "Spent INR 320.09 with no leads over the last 30 days.",
+    "detail": "The campaign 'broadcasters & OTT - US - ABM' spent INR 320.09 over the last 30 days but generated no leads. Review ad creatives, targeting, and landing page experience.",
+    "priority": "HIGH",
+    "type": "c",
+    "title": "Investigate Zero Conversions"
+  },
+  {
     "id": "sug_2026-04-06_0",
     "date": "2026-04-06",
     "status": "open",

@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-04-09",
+    "posts": [
+      {
+        "product": "PULSE",
+        "type": "product",
+        "format_type": "THE INDUSTRY DIAGNOSIS",
+        "newsHeadline": "Broadcast Giants Wrestle with Real-Time Content Demands Amid Live Sports Explosion",
+        "text": "The traditional sports content workflow isn't just slow; it's a competitive disadvantage. Moments that ignite fan passion fade before they can be distributed at scale. This isn't about more human hands, it's about a smarter approach.\n\nWe see it with leagues like NSL Canada. Their inaugural season needed to make noise. They didn't hire a massive production crew. Instead, they embraced AI.\n\nThe result? Over 37,000 match moments captured across 80 competitive matches. A staggering 51.8 million video views from real-time highlights, leading to 2x follower growth on Instagram. PULSE delivers coverage at scale, in seconds, not hours. It's time to redefine what's possible for live sports content.\n#SportsTech #AI #ContentCreation #RealTimeHighlights #FanEngagement",
+        "newsUrl": "https://www.sportspro.media/article/broadcast-giants-real-time-content-demands",
+        "newsSource": "SportsPro",
+        "creative": {
+          "subtext": "Automated highlights, instant impact.",
+          "emoji": "⚡",
+          "headline": "Speed to Fan, Scaled.",
+          "stat": "51.8M views",
+          "background": "linear-gradient(135deg,#0A66C2,#004182)"
+        }
+      },
+      {
+        "type": "news",
+        "format_type": "THE DATA REFRAME",
+        "newsHeadline": "The Archival Black Hole: Why Sports Media is Drowning in Unindexed Footage",
+        "product": "AXIS",
+        "newsSource": "SportBusiness Journal",
+        "creative": {
+          "background": "linear-gradient(135deg,#E0BBE4,#957DAD)",
+          "subtext": "AI tags, instant search.",
+          "emoji": "📂",
+          "headline": "Content Chaos? Unlocked.",
+          "stat": "250+ hours saved"
+        },
+        "text": "''Our editors spend hours scrubbing footage.'' This isn't a confession, it's an industry standard. But what if those ''hours'' were 250+ hours *saved* in post-production, as Table Tennis England achieved within three months?\n\nThat's not just efficiency; it's a complete reframing of media asset value. Unstructured video archives become intelligent, searchable libraries. AI tagging by player, sponsor, emotion, match stage – it transforms an asset into an opportunity.\n\nTable Tennis England didn't just save time; they tripled uploads (5 to 15 videos/month) with zero new staff. Their total views surged 105%. That's the power of truly managed media.\n#MediaManagement #AIinSports #ContentStrategy #SportsArchives",
+        "newsUrl": "https://www.sportbusiness.com/article/archival-black-hole-unindexed-footage"
+      },
+      {
+        "product": "JORDY AI",
+        "format_type": "THE PROVOCATION",
+        "newsHeadline": "Fan Engagement Stagnation: Are Traditional Approaches Falling Flat?",
+        "type": "news",
+        "text": "''We need to boost engagement.'' Everyone says it. But are we asking *what kind* of engagement, and *for how long*? Generic content blasts aren't enough when fans expect personalized, real-time interaction.\n\nThe uncomfortable truth? Stagnant M1 retention and low time-on-app aren't just metrics; they're symptoms of an experience gap. Fans want a direct line to their passion, on their terms.\n\nImagine a 30% boost in M1 retention and a 140% increase in average time spent. That's not magic; it's JORDY AI. A white-labelled fan engagement agent delivering real-time stats, trivia, and personalized interactions across any platform. Don't just talk about engagement. Drive it.\n#FanEngagement #SportsMarketing #AIchatbot #SportsData #Personalization",
+        "newsUrl": "https://frontofficesports.com/fan-engagement-stagnation-traditional-approaches/",
+        "creative": {
+          "background": "linear-gradient(135deg,#73C6B6,#48A999)",
+          "subtext": "Personalized fan experience.",
+          "emoji": "💬",
+          "headline": "Fans Expect More. Deliver It.",
+          "stat": "140% time spent"
+        },
+        "newsSource": "Front Office Sports"
+      }
+    ]
+  },
+  {
     "date": "2026-04-06",
     "posts": [
       {

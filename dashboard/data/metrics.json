@@ -1,229 +1,165 @@
 {
-  "date": "2026-04-06",
-  "alerts": [
-    {
-      "title": "Zero conversions on >$50 spend",
-      "meta": "Campaign: broadcasters & OTT - US - ABM. Spend: $5183.62. Leads: 0.",
-      "t": "r"
-    }
-  ],
+  "date": "2026-04-09",
+  "kpis30d": {
+    "totalSpend": 320.09,
+    "spendDelta": null,
+    "totalLeads": 0,
+    "ctrDelta": null,
+    "imprDelta": null,
+    "impressions": 24,
+    "avgCpl": null,
+    "leadsDelta": null,
+    "avgCtr": 0
+  },
   "camps30d": [
     {
-      "st": "a",
+      "freq": null,
+      "cpl": null,
       "leads": 0,
-      "spend": 0,
-      "ctr": 0,
-      "cpl": null,
-      "name": "Website visits - Image Ads"
-    },
-    {
-      "cpl": null,
-      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
-      "ctr": 0,
-      "spend": 0,
-      "st": "a",
-      "leads": 0
-    },
-    {
-      "ctr": 0,
-      "cpl": null,
-      "name": "leagues - US - pulse",
-      "st": "a",
-      "leads": 0,
-      "spend": 0
-    },
-    {
-      "cpl": null,
-      "name": "Leagues - pulse - EU",
-      "ctr": 0,
-      "spend": 233.3,
-      "st": "a",
-      "leads": 0
-    },
-    {
-      "ctr": 0.7751937984496124,
-      "cpl": null,
-      "name": "broadcasters & OTT - US - ABM",
-      "st": "a",
-      "leads": 0,
-      "spend": 5183.62
-    },
-    {
-      "st": "a",
-      "leads": 0,
-      "spend": 13.72,
-      "ctr": 0,
-      "cpl": null,
-      "name": "broadcasters & OTT - EU - ABM"
-    }
-  ],
-  "kpisMtd": {
-    "ctrDelta": null,
-    "avgCtr": 0,
-    "cplDelta": null,
-    "imprDelta": null,
-    "avgCpl": null,
-    "totalSpend": 0,
-    "totalLeads": 0,
-    "impressions": 0,
-    "leadsDelta": null,
-    "spendDelta": null
-  },
-  "opportunities": [],
-  "kpis": {
-    "avgCpl": null,
-    "avgCtr": 0,
-    "ctrDelta": null,
-    "imprDelta": null,
-    "cplDelta": null,
-    "totalSpend": 0,
-    "totalLeads": 0,
-    "spendDelta": null,
-    "impressions": 0,
-    "leadsDelta": null
-  },
-  "campaigns": [
-    {
-      "cpl": null,
       "name": "Website visits - Image Ads",
-      "ctrD": null,
-      "freq": null,
+      "ctr": null,
       "spend": 0,
-      "st": "a",
-      "leads": 0,
-      "cplD": null,
-      "ctr": 0
-    },
-    {
-      "cplD": null,
-      "ctr": 0,
-      "freq": null,
-      "spend": 0,
-      "st": "a",
-      "leads": 0,
-      "cpl": null,
-      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
-      "ctrD": null
-    },
-    {
-      "ctr": 0,
-      "cplD": null,
-      "ctrD": null,
-      "cpl": null,
-      "name": "leagues - US - pulse",
-      "st": "a",
-      "leads": 0,
-      "freq": null,
-      "spend": 0
-    },
-    {
-      "ctrD": null,
-      "cpl": null,
-      "name": "Leagues - pulse - EU",
-      "st": "a",
-      "leads": 0,
-      "freq": null,
-      "spend": 0,
-      "ctr": 0,
-      "cplD": null
-    },
-    {
-      "freq": null,
-      "spend": 0,
-      "st": "a",
-      "leads": 0,
-      "cpl": null,
-      "name": "broadcasters & OTT - US - ABM",
       "ctrD": null,
       "cplD": null,
-      "ctr": 0
+      "st": "a"
     },
     {
-      "cplD": null,
-      "ctr": 0,
+      "st": "a",
+      "cpl": null,
+      "leads": 0,
       "freq": null,
+      "ctr": null,
       "spend": 0,
-      "st": "a",
-      "leads": 0,
-      "cpl": null,
-      "name": "broadcasters & OTT - EU - ABM",
-      "ctrD": null
-    }
-  ],
-  "kpis30d": {
-    "imprDelta": null,
-    "cplDelta": null,
-    "avgCtr": 0.6944444444444444,
-    "ctrDelta": null,
-    "avgCpl": null,
-    "spendDelta": null,
-    "impressions": 432,
-    "leadsDelta": null,
-    "totalSpend": 5430.64,
-    "totalLeads": 0
-  },
-  "campsMtd": [
-    {
-      "cpl": null,
-      "name": "Website visits - Image Ads",
-      "ctr": 0,
-      "spend": 0,
-      "st": "a",
-      "leads": 0
-    },
-    {
-      "st": "a",
-      "leads": 0,
-      "spend": 0,
-      "ctr": 0,
-      "cpl": null,
+      "ctrD": null,
+      "cplD": null,
       "name": "PULSE Lead generation - Jan 20, 2026 - US 2"
     },
     {
-      "spend": 0,
       "st": "a",
       "leads": 0,
       "cpl": null,
-      "name": "leagues - US - pulse",
-      "ctr": 0
-    },
-    {
-      "st": "a",
-      "leads": 0,
+      "freq": null,
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
       "spend": 0,
-      "ctr": 0,
-      "cpl": null,
-      "name": "Leagues - pulse - EU"
+      "name": "leagues - US - pulse"
     },
     {
+      "leads": 0,
       "cpl": null,
+      "freq": null,
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
+      "spend": 0,
+      "name": "Leagues - pulse - EU",
+      "st": "a"
+    },
+    {
+      "freq": null,
+      "cpl": null,
+      "leads": 0,
       "name": "broadcasters & OTT - US - ABM",
       "ctr": 0,
-      "spend": 0,
+      "spend": 320.09,
+      "ctrD": null,
+      "cplD": null,
+      "st": "a"
+    },
+    {
       "st": "a",
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
+      "spend": 0,
+      "name": "broadcasters & OTT - EU - ABM",
+      "leads": 0,
+      "cpl": null,
+      "freq": null
+    }
+  ],
+  "campaigns": [
+    {
+      "st": "a",
+      "name": "Website visits - Image Ads",
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
+      "spend": 0,
+      "freq": null,
+      "leads": 0,
+      "cpl": null
+    },
+    {
+      "st": "a",
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
+      "spend": 0,
+      "freq": null,
+      "leads": 0,
+      "cpl": null
+    },
+    {
+      "st": "a",
+      "name": "leagues - US - pulse",
+      "ctr": null,
+      "spend": 0,
+      "ctrD": null,
+      "cplD": null,
+      "freq": null,
+      "cpl": null,
       "leads": 0
     },
     {
       "st": "a",
       "leads": 0,
-      "spend": 0,
-      "ctr": 0,
       "cpl": null,
-      "name": "broadcasters & OTT - EU - ABM"
+      "freq": null,
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
+      "spend": 0,
+      "name": "Leagues - pulse - EU"
+    },
+    {
+      "freq": null,
+      "cpl": null,
+      "leads": 0,
+      "name": "broadcasters & OTT - US - ABM",
+      "ctr": null,
+      "spend": 0,
+      "ctrD": null,
+      "cplD": null,
+      "st": "a"
+    },
+    {
+      "ctr": null,
+      "spend": 0,
+      "ctrD": null,
+      "cplD": null,
+      "name": "broadcasters & OTT - EU - ABM",
+      "cpl": null,
+      "leads": 0,
+      "freq": null,
+      "st": "a"
     }
   ],
   "trendData": {
-    "labels": [
-      "2026-03-09",
-      "2026-03-10",
-      "2026-03-13",
-      "2026-03-17",
-      "2026-03-18",
-      "2026-03-19",
-      "2026-03-22",
-      "2026-03-23",
-      "2026-03-27",
-      "2026-03-30"
+    "ctrValues": [
+      0.3725,
+      0.2796,
+      0.4902,
+      0,
+      null,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "cplValues": [
       null,
@@ -235,37 +171,119 @@
       null,
       null,
       0,
+      null,
       null
     ],
-    "ctrValues": [
-      0.3725,
-      0.2796,
-      0.4902,
-      0,
-      null,
-      0,
-      0,
-      0,
-      0,
-      0
+    "labels": [
+      "2026-03-09",
+      "2026-03-10",
+      "2026-03-13",
+      "2026-03-17",
+      "2026-03-18",
+      "2026-03-19",
+      "2026-03-22",
+      "2026-03-23",
+      "2026-03-27",
+      "2026-03-30",
+      "2026-04-06"
     ]
   },
-  "spendByCampaign": {
-    "values": [
-      0,
-      0,
-      0,
-      233.3,
-      5183.62,
-      13.72
-    ],
-    "labels": [
-      "Website visits - Image Ads",
-      "PULSE Lead generation - Jan 20, 2026 - US 2",
-      "leagues - US - pulse",
-      "Leagues - pulse - EU",
-      "broadcasters & OTT - US - ABM",
-      "broadcasters & OTT - EU - ABM"
-    ]
-  }
+  "kpisMtd": {
+    "spendDelta": null,
+    "imprDelta": null,
+    "totalLeads": 0,
+    "ctrDelta": null,
+    "totalSpend": 0,
+    "leadsDelta": null,
+    "avgCpl": null,
+    "avgCtr": null,
+    "impressions": 0
+  },
+  "kpis": {
+    "totalSpend": 0,
+    "spendDelta": null,
+    "imprDelta": null,
+    "totalLeads": 0,
+    "ctrDelta": null,
+    "impressions": 0,
+    "leadsDelta": null,
+    "avgCpl": null,
+    "avgCtr": null
+  },
+  "campsMtd": [
+    {
+      "st": "a",
+      "freq": null,
+      "leads": 0,
+      "cpl": null,
+      "name": "Website visits - Image Ads",
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
+      "spend": 0
+    },
+    {
+      "leads": 0,
+      "cpl": null,
+      "freq": null,
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
+      "spend": 0,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "st": "a"
+    },
+    {
+      "freq": null,
+      "cpl": null,
+      "leads": 0,
+      "name": "leagues - US - pulse",
+      "ctr": null,
+      "spend": 0,
+      "ctrD": null,
+      "cplD": null,
+      "st": "a"
+    },
+    {
+      "st": "a",
+      "leads": 0,
+      "cpl": null,
+      "freq": null,
+      "ctrD": null,
+      "cplD": null,
+      "ctr": null,
+      "spend": 0,
+      "name": "Leagues - pulse - EU"
+    },
+    {
+      "name": "broadcasters & OTT - US - ABM",
+      "ctr": null,
+      "spend": 0,
+      "ctrD": null,
+      "cplD": null,
+      "freq": null,
+      "cpl": null,
+      "leads": 0,
+      "st": "a"
+    },
+    {
+      "st": "a",
+      "name": "broadcasters & OTT - EU - ABM",
+      "ctr": null,
+      "spend": 0,
+      "ctrD": null,
+      "cplD": null,
+      "freq": null,
+      "cpl": null,
+      "leads": 0
+    }
+  ],
+  "opportunities": [],
+  "alerts": [
+    {
+      "t": "r",
+      "title": "Zero conversions for 'broadcasters & OTT - US - ABM'",
+      "meta": "Spent INR 320.09 with no leads over the last 30 days."
+    }
+  ]
 }
