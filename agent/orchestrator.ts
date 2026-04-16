@@ -24,7 +24,7 @@ async function run(): Promise<void> {
   );
 
   const model = genAI.getGenerativeModel({
-    model: "gemini-2.5-flash",
+    model: "gemini-2.5-flash-lite",
     systemInstruction,
     tools: [{ functionDeclarations: TOOLS }],
   });

@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-04-16",
+    "posts": [
+      {
+        "format_type": "THE DATA REFRAME",
+        "creative": {
+          "background": "linear-gradient(135deg, #6A11CB, #2575FC)",
+          "emoji": "🚀",
+          "stat": "170,000+ Likes",
+          "subtext": "Hockey One League's digital impact through real-time highlights.",
+          "headline": "9x Fan Engagement Growth"
+        },
+        "text": "The Hockey One League saw a 9x surge in fan engagement during Season 5, reaching over 170,000 likes – up from 18,589. This wasn't just about more content; it was about content delivered instantly. In the fast-paced world of sports, capturing and distributing key moments within seconds is no longer a luxury, it's a necessity for driving real engagement.\n\n#SportsTech #FanEngagement #AIinSports #PULSE",
+        "product": "PULSE",
+        "type": "product",
+        "newsUrl": null,
+        "newsHeadline": null,
+        "newsSource": null
+      },
+      {
+        "format_type": "THE INDUSTRY DIAGNOSIS",
+        "creative": {
+          "subtext": "Identifying and distributing key moments efficiently is a major challenge.",
+          "headline": "Content Distribution Bottleneck",
+          "stat": "Millions Lost",
+          "emoji": "🎬",
+          "background": "linear-gradient(135deg, #004182, #000000)"
+        },
+        "text": "The sheer volume of sports content generated daily presents a massive operational challenge. Leagues and broadcasters are drowning in footage, struggling to identify and distribute key moments efficiently. This isn't just a production issue; it's a revenue leakage point, with valuable content sitting in archives instead of engaging fans and driving value. AI-powered media management is the solution to this widespread bottleneck.\n\nWhat's the biggest hurdle you face in getting your content to market?\n\n#SportsBroadcasting #MediaManagement #SportsTech #ContentCreation",
+        "product": "AXIS",
+        "type": "news",
+        "newsUrl": null,
+        "newsHeadline": null,
+        "newsSource": null
+      },
+      {
+        "text": "Many fan engagement tools offer superficial interactions. But what if an AI agent could genuinely deepen a fan's connection with a league or team? JORDY AI is proving its worth with a 30% boost in retention and a 140% increase in average time spent on platform. This isn't about automated replies; it's about providing real-time stats, trivia, and personalized updates that keep fans coming back for more, before, during, and after the game.\n\nAre you seeing the ROI you expect from your fan engagement initiatives?\n\n#FanEngagement #JordyAI #SportsChatbot #DigitalTransformation",
+        "product": "JORDY AI",
+        "format_type": "THE PROVOCATION",
+        "creative": {
+          "stat": "140% Increased Time Spent",
+          "subtext": "Jordy AI drives deeper fan connections and retention.",
+          "headline": "Beyond Basic Chatbots",
+          "background": "linear-gradient(135deg, #FF7E5F, #FEB47B)",
+          "emoji": "🤖"
+        },
+        "newsHeadline": null,
+        "newsSource": null,
+        "type": "product",
+        "newsUrl": null
+      }
+    ]
+  },
+  {
     "date": "2026-04-09",
     "posts": [
       {
