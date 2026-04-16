@@ -3,6 +3,8 @@ import * as path from "path";
 import { LinkedInClient } from "../tools/linkedin";
 import { Storage } from "../tools/storage";
 import { RSSFetcher } from "../tools/rss";
+import { scrapeArticles } from "../tools/scraper";
+import { analyzePostHistory } from "../tools/posthistory";
 
 const linkedin = new LinkedInClient();
 const storage = new Storage();
@@ -107,6 +109,12 @@ export async function executeTool(
 
       case "fetch_sports_news":
         return JSON.stringify(await rss.fetchNews());
+
+      case "scrape_article":
+        return JSON.stringify(await scrapeArticles((input.urls as string[]) || []));
+
+      case "read_post_history":
+        return JSON.stringify(analyzePostHistory(14));
 
       case "save_generated_posts": {
         let posts: unknown = input.posts;

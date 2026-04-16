@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-04-16",
+    "headline": "No performance data available",
+    "c ta": "NoCTA",
+    "why": "No performance data available",
+    "product": "NoProduct",
+    "size": "NoSize",
+    "reason": "No performance data available",
+    "industries": [
+      "NoIndustry"
+    ],
+    "name": "Placeholder Audience",
+    "body": "No performance data available to generate new audiences.",
+    "campaign": "NoCampaign",
+    "geo": "NoGeo",
+    "titles": [
+      "NoTitle"
+    ]
+  },
+  {
     "date": "2026-04-09",
     "reason": "Leverage the power of real-time AI highlights to address a core challenge for sports content professionals.",
     "name": "Sports Content Directors - AI Highlights",

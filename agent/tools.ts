@@ -155,18 +155,34 @@ const TOOL_DEFS = [
   },
   {
     name: "fetch_sports_news",
-    description: "Fetch top recent sports industry news from RSS feeds (SportsPro, Front Office Sports, Sportico, Insider Sport, SVG Europe). Returns up to 12 articles sorted by most recent.",
+    description: "Fetch top recent sports industry news from 11 RSS feeds covering sports business, broadcast tech, OTT, and streaming. Returns up to 25 articles sorted by most recent.",
+    parameters: { type: "object", properties: {}, required: [] },
+  },
+  {
+    name: "scrape_article",
+    description: "Fetch and extract main text content from article URLs. Returns up to 2000 chars of body text per article. Use this to get full article substance for post generation.",
+    parameters: {
+      type: "object",
+      properties: {
+        urls: { type: "array", items: { type: "string" }, description: "Array of up to 5 article URLs to scrape for full text" },
+      },
+      required: ["urls"],
+    },
+  },
+  {
+    name: "read_post_history",
+    description: "Analyze the last 14 days of generated LinkedIn posts. Returns which proof points, products, format types, and opening patterns were used recently. Use this to avoid repetition.",
     parameters: { type: "object", properties: {}, required: [] },
   },
   {
     name: "save_generated_posts",
-    description: "Save 3 AI-generated LinkedIn post drafts for today to generated_posts.json. Each post includes full copy, creative brief, and news source.",
+    description: "Save 5 AI-generated LinkedIn post drafts for today to generated_posts.json. Each post includes full copy, creative brief, and news source.",
     parameters: {
       type: "object",
       properties: {
         posts: {
           type: "array",
-          description: "Array of exactly 3 post objects",
+          description: "Array of exactly 5 post objects",
           items: {
             type: "object",
             properties: {

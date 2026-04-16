@@ -1,5 +1,23 @@
 [
   {
+    "id": "sug_2026-04-16_0",
+    "date": "2026-04-16",
+    "status": "open",
+    "detail": "No performance data available to generate suggestions.",
+    "title": "No actionable insights from analytics",
+    "t": "c",
+    "priority": "HIGH"
+  },
+  {
+    "id": "sug_2026-04-16_1",
+    "date": "2026-04-16",
+    "status": "open",
+    "title": "No actionable insights from analytics",
+    "detail": "No performance data available to generate suggestions.",
+    "t": "cp",
+    "priority": "MEDIUM"
+  },
+  {
     "id": "sug_2026-04-09_0",
     "date": "2026-04-09",
     "status": "open",

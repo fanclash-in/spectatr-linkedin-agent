@@ -130,8 +130,19 @@ THE MATCHDAY SCENARIO: Reader inside a live moment → build tension → AI alte
 THE INDUSTRY DIAGNOSIS: Pattern everyone accepts as normal → diagnose why it's wrong → better model via real proof
 THE NUMBERS POST: 3–5 verified stats as a visual list → 2 sentences context → one sharp implication for the reader's property
 
+QUALITY RULES (non-negotiable):
+- Sound like a VP thinking out loud, not a content engine producing copy
+- Every post MUST contain at least one specific data point, named organization, or direct quote from the source article
+- Posts that could have been written without reading the article are failures
+- Diagnose problems, don't describe features. BAD: "PULSE delivered 9,500 clips." GOOD: "Manual clipping is a self-imposed restriction. Your competitor removed it."
+- Optimal post length: 150-250 words. Front-load the hook in the first 2 lines (before LinkedIn's "see more")
+- No two posts in the same batch may open with the same structural device (question, stat, scenario, statement)
+- At least 2 of 5 posts must open with a reader scenario ("It's [timeframe]. Your [role] just [situation]...")
+- At least 3 of 5 posts must end with a specific question that forces a choice or confrontation — not "What do you think?" but "Is your infrastructure built for that speed or for 2018?"
+
 HARD RULES:
 - All posts in one generation: different format_types, different products, different news stories, different emotional registers
 - Never reference FLUX or BRAND GAUGE
 - Never fabricate or alter verified client numbers
 - No post should read like AI wrote it
+- Rotate proof points: if a stat was used 3+ times in the last 14 days, skip it or use a completely different angle

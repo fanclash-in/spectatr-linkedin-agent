@@ -1,44 +1,257 @@
 {
   "date": "2026-04-16",
-  "opportunities": [],
-  "campsMtd": [],
-  "kpisMtd": {
-    "imprDelta": null,
-    "impressions": 0,
-    "leadsDelta": null,
-    "spendDelta": null,
-    "ctrDelta": null,
-    "avgCtr": null,
-    "totalSpend": 0,
-    "cplDelta": null,
-    "avgCpl": null,
-    "totalLeads": 0
-  },
+  "opportunities": [
+    {
+      "title": "No performance data available to generate opportunities.",
+      "meta": "LinkedIn API returned no analytics data.",
+      "t": "g"
+    }
+  ],
+  "alerts": [
+    {
+      "meta": "No data returned from LinkedIn API.",
+      "t": "r",
+      "title": "Analytics data not available for the specified date range."
+    }
+  ],
+  "campaigns": [
+    {
+      "ctr": 0,
+      "spend": 0,
+      "leads": 0,
+      "ctrD": 0,
+      "freq": 0,
+      "st": "a",
+      "cpl": 0,
+      "cplD": 0,
+      "name": "Website visits - Image Ads"
+    },
+    {
+      "freq": 0,
+      "st": "a",
+      "cpl": 0,
+      "cplD": 0,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "ctr": 0,
+      "spend": 0,
+      "leads": 0,
+      "ctrD": 0
+    },
+    {
+      "leads": 0,
+      "ctrD": 0,
+      "spend": 0,
+      "ctr": 0,
+      "name": "leagues - US - pulse",
+      "cplD": 0,
+      "cpl": 0,
+      "freq": 0,
+      "st": "a"
+    },
+    {
+      "cplD": 0,
+      "name": "Leagues - pulse - EU",
+      "freq": 0,
+      "st": "a",
+      "cpl": 0,
+      "leads": 0,
+      "ctrD": 0,
+      "ctr": 0,
+      "spend": 0
+    },
+    {
+      "ctrD": 0,
+      "leads": 0,
+      "spend": 0,
+      "ctr": 0,
+      "name": "broadcasters & OTT - US - ABM",
+      "cplD": 0,
+      "cpl": 0,
+      "freq": 0,
+      "st": "a"
+    },
+    {
+      "cpl": 0,
+      "freq": 0,
+      "st": "a",
+      "name": "broadcasters & OTT - EU - ABM",
+      "cplD": 0,
+      "spend": 0,
+      "ctr": 0,
+      "ctrD": 0,
+      "leads": 0
+    }
+  ],
+  "campsMtd": [
+    {
+      "ctrD": null,
+      "leads": 0,
+      "spend": 0,
+      "ctr": 0,
+      "name": "Website visits - Image Ads",
+      "cplD": null,
+      "cpl": 0,
+      "freq": 0,
+      "st": "a"
+    },
+    {
+      "ctrD": null,
+      "leads": 0,
+      "spend": 0,
+      "ctr": 0,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "cplD": null,
+      "cpl": 0,
+      "freq": 0,
+      "st": "a"
+    },
+    {
+      "ctr": 0,
+      "spend": 0,
+      "leads": 0,
+      "ctrD": null,
+      "freq": 0,
+      "st": "a",
+      "cpl": 0,
+      "cplD": null,
+      "name": "leagues - US - pulse"
+    },
+    {
+      "ctrD": null,
+      "leads": 0,
+      "ctr": 0,
+      "spend": 0,
+      "cplD": null,
+      "name": "Leagues - pulse - EU",
+      "freq": 0,
+      "st": "a",
+      "cpl": 0
+    },
+    {
+      "spend": 0,
+      "ctr": 0,
+      "ctrD": null,
+      "leads": 0,
+      "cpl": 0,
+      "freq": 0,
+      "st": "a",
+      "name": "broadcasters & OTT - US - ABM",
+      "cplD": null
+    },
+    {
+      "ctrD": null,
+      "leads": 0,
+      "spend": 0,
+      "ctr": 0,
+      "name": "broadcasters & OTT - EU - ABM",
+      "cplD": null,
+      "cpl": 0,
+      "freq": 0,
+      "st": "a"
+    }
+  ],
+  "camps30d": [
+    {
+      "leads": 0,
+      "ctrD": null,
+      "spend": 0,
+      "ctr": 0,
+      "name": "Website visits - Image Ads",
+      "cplD": null,
+      "cpl": 0,
+      "freq": 0,
+      "st": "a"
+    },
+    {
+      "cplD": null,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "freq": 0,
+      "st": "a",
+      "cpl": 0,
+      "ctrD": null,
+      "leads": 0,
+      "ctr": 0,
+      "spend": 0
+    },
+    {
+      "cplD": null,
+      "name": "leagues - US - pulse",
+      "freq": 0,
+      "st": "a",
+      "cpl": 0,
+      "leads": 0,
+      "ctrD": null,
+      "ctr": 0,
+      "spend": 0
+    },
+    {
+      "spend": 0,
+      "ctr": 0,
+      "ctrD": null,
+      "leads": 0,
+      "cpl": 0,
+      "freq": 0,
+      "st": "a",
+      "name": "Leagues - pulse - EU",
+      "cplD": null
+    },
+    {
+      "cplD": null,
+      "name": "broadcasters & OTT - US - ABM",
+      "freq": 0,
+      "st": "a",
+      "cpl": 0,
+      "leads": 0,
+      "ctrD": null,
+      "ctr": 0,
+      "spend": 0
+    },
+    {
+      "cpl": 0,
+      "freq": 0,
+      "st": "a",
+      "name": "broadcasters & OTT - EU - ABM",
+      "cplD": null,
+      "spend": 0,
+      "ctr": 0,
+      "leads": 0,
+      "ctrD": null
+    }
+  ],
   "kpis": {
-    "ctrDelta": null,
-    "avgCtr": null,
-    "totalSpend": 0,
-    "cplDelta": null,
-    "avgCpl": null,
     "totalLeads": 0,
-    "imprDelta": null,
+    "avgCtr": 0,
+    "spendDelta": 0,
+    "leadsDelta": 0,
     "impressions": 0,
-    "leadsDelta": null,
-    "spendDelta": null
+    "cplDelta": 0,
+    "imprDelta": 0,
+    "avgCpl": 0,
+    "totalSpend": 0,
+    "ctrDelta": 0
   },
-  "camps30d": [],
-  "alerts": [],
-  "campaigns": [],
-  "kpis30d": {
+  "kpisMtd": {
+    "cplDelta": null,
+    "impressions": 0,
+    "totalLeads": 0,
+    "avgCtr": 0,
     "spendDelta": null,
     "leadsDelta": null,
-    "imprDelta": null,
-    "impressions": 0,
     "totalSpend": 0,
-    "cplDelta": null,
-    "avgCpl": null,
-    "totalLeads": 0,
     "ctrDelta": null,
-    "avgCtr": null
+    "avgCpl": 0,
+    "imprDelta": null
+  },
+  "kpis30d": {
+    "cplDelta": null,
+    "impressions": 0,
+    "totalLeads": 0,
+    "avgCtr": 0,
+    "spendDelta": null,
+    "leadsDelta": null,
+    "totalSpend": 0,
+    "ctrDelta": null,
+    "avgCpl": 0,
+    "imprDelta": null
   }
 }

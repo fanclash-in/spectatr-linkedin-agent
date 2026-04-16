@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-04-16",
+    "product": "NoProduct",
+    "adName": "PlaceholderAd",
+    "campaign": "NoCampaign",
+    "headlines": [
+      {
+        "text": "No performance data available",
+        "label": "headline1"
+      }
+    ],
+    "bodies": [
+      {
+        "text": "No performance data available to generate copy variants.",
+        "label": "body1"
+      }
+    ],
+    "format": "NoFormat"
+  },
+  {
     "date": "2026-03-30",
     "product": "AXIS",
     "cta": "Download Case Study",

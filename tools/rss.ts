@@ -2,11 +2,19 @@ import * as https from "https";
 import * as http from "http";
 
 const FEEDS: { url: string; source: string }[] = [
-  { url: "https://www.sportspromedia.com/feed/",  source: "SportsPro" },
-  { url: "https://frontofficesports.com/feed/",   source: "Front Office Sports" },
-  { url: "https://sportico.com/feed/",            source: "Sportico" },
-  { url: "https://insidersport.com/feed/",        source: "Insider Sport" },
-  { url: "https://www.svgeurope.org/feed/",       source: "SVG Europe" },
+  // Core sports business
+  { url: "https://www.sportspromedia.com/feed/",       source: "SportsPro" },
+  { url: "https://frontofficesports.com/feed/",        source: "Front Office Sports" },
+  { url: "https://sportico.com/feed/",                 source: "Sportico" },
+  { url: "https://insidersport.com/feed/",             source: "Insider Sport" },
+  { url: "https://www.sportbusiness.com/feed/",        source: "SportBusiness" },
+  { url: "https://www.sportcal.com/feed/",             source: "Sportcal" },
+  // Sports production & broadcast tech
+  { url: "https://www.svgeurope.org/feed/",            source: "SVG Europe" },
+  { url: "https://www.sportsvideo.org/feed/",          source: "Sports Video Group" },
+  { url: "https://advanced-television.com/feed",       source: "Advanced Television" },
+  { url: "https://www.tvbeurope.com/feed",             source: "TVB Europe" },
+  { url: "https://www.cablefax.com/feed",              source: "Cablefax" },
 ];
 
 export interface RSSArticle {
@@ -67,7 +75,7 @@ function parseFeed(xml: string, source: string): RSSArticle[] {
     const pubDate = getText(block, "pubDate") || getText(block, "published") || getText(block, "updated") || "";
     if (!title) continue;
     const pubTs = pubDate ? new Date(pubDate).getTime() : 0;
-    articles.push({ title, description: description.slice(0, 300), link, source, pubDate, pubTs });
+    articles.push({ title, description: description.slice(0, 800), link, source, pubDate, pubTs });
   }
   return articles;
 }
@@ -85,8 +93,8 @@ export class RSSFetcher {
       if (r.status === "fulfilled") all.push(...r.value);
     }
 
-    // Sort by pubDate descending, return top 12
+    // Sort by pubDate descending, return top 25
     all.sort((a, b) => b.pubTs - a.pubTs);
-    return all.slice(0, 12);
+    return all.slice(0, 25);
   }
 }

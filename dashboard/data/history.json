@@ -181,16 +181,16 @@
   {
     "date": "2026-04-16",
     "kpis": {
-      "ctrDelta": null,
-      "avgCtr": null,
-      "totalSpend": 0,
-      "cplDelta": null,
-      "avgCpl": null,
       "totalLeads": 0,
-      "imprDelta": null,
+      "avgCtr": 0,
+      "spendDelta": 0,
+      "leadsDelta": 0,
       "impressions": 0,
-      "leadsDelta": null,
-      "spendDelta": null
+      "cplDelta": 0,
+      "imprDelta": 0,
+      "avgCpl": 0,
+      "totalSpend": 0,
+      "ctrDelta": 0
     }
   }
 ]
