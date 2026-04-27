@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-04-27",
+    "posts": [
+      {
+        "text": "It's no secret that viral moments can catapult niche sports into the mainstream spotlight. The World Fencing League's AI-powered tip-tracking technology recently achieved just that, garnering hundreds of millions of views across platforms.\n\nBut viral attention is fleeting. The real challenge? Converting that initial buzz into sustained fan engagement and growth.\n\nThis is where Spectatr.ai's PULSE comes in. We don't just capture moments; we ensure they reach your audience at scale and in seconds, formatted for any platform. For sports seeking to punch above their weight, PULSE automates the creation and distribution of compelling highlights, turning fleeting views into lasting connections.\n\nIs your content strategy built to capitalize on viral potential, or is it still bound by manual production bottlenecks?",
+        "format_type": "THE DATA REFRAME",
+        "type": "product",
+        "newsHeadline": "World Fencing League’s Tech Went Viral Before Its First Event",
+        "product": "PULSE",
+        "creative": {
+          "emoji": "⚡",
+          "stat": "100s of millions of views",
+          "subtext": "Transforming niche sports content into viral moments.",
+          "headline": "AI Highlights Go Viral",
+          "background": "linear-gradient(135deg, #0A66C2, #004182)"
+        },
+        "newsUrl": "https://www.sportico.com/business/tech/2026/world-fencing-league-viral-ai-tip-tracking-technology-1234891234/",
+        "newsSource": "Sportico"
+      },
+      {
+        "text": "It's 2026. Your star athlete just shattered a world record, powered by cutting-edge technology. The world is watching, demanding instant access to every angle, every detail, every piece of historical data.\n\nBut is your media archive ready? Is it a treasure trove of actionable insights, or a disorganized jumble of footage?\n\nWhile innovation in performance is key, innovation in media management is critical. Spectatr.ai's AXIS transforms your vast video libraries into meticulously tagged, instantly searchable assets. We empower your teams to find and leverage content at the speed of sport, ensuring you can capitalize on every record-breaking moment – from the track to the trading floor.\n\nAre you equipped to manage the media of tomorrow, or are you still operating with yesterday's workflows?",
+        "format_type": "THE MATCHDAY SCENARIO",
+        "type": "product",
+        "newsHeadline": "Adidas Runners Break 2-Hour Barrier, Earn Nod From Nike",
+        "product": "AXIS",
+        "creative": {
+          "subtext": "Breaking barriers with advanced sports technology.",
+          "headline": "Innovation in Every Stride",
+          "emoji": "👟",
+          "stat": "1:59:30",
+          "background": "linear-gradient(135deg, #4A90E2, #002E5F)"
+        },
+        "newsUrl": "https://www.sportico.com/leagues/other-sports/2026/mens-marathon-world-record-sabastian-sawe-adidas-nike-1234891251/",
+        "newsSource": "Sportico"
+      },
+      {
+        "newsUrl": "https://www.sportico.com/business/media/2026/tnt-sports-college-football-playoff-1234891201/",
+        "newsSource": "Sportico",
+        "product": "",
+        "creative": {
+          "background": "linear-gradient(135deg, #E67E22, #A0410D)",
+          "emoji": "📺",
+          "stat": "~$60 million",
+          "subtext": "Maximizing broadcast revenue in the digital age.",
+          "headline": "The Evolving Media Rights Landscape"
+        },
+        "text": "The sports media landscape is shifting. As broadcasters like TNT Sports gain more control over advertising inventory for major events like the College Football Playoff, the pressure is on to maximize revenue and deliver measurable value to sponsors.\n\nThis evolution demands more than just broadcasting rights; it requires sophisticated content distribution and monetization strategies. The ability to quickly package and deliver compelling content, alongside performance data, is becoming paramount.\n\nWhile we focus on the game on the field, the business behind it is rapidly innovating. Are your content operations keeping pace with the commercial realities of modern sports broadcasting?",
+        "format_type": "THE INDUSTRY DIAGNOSIS",
+        "type": "news",
+        "newsHeadline": "TNT Sports Gains Right to Sell CFP Ads for Games It Sublicenses"
+      },
+      {
+        "type": "news",
+        "newsHeadline": "Agnelli, Benetton align to form Gamma Waves investment fund",
+        "text": "The sports business continues its dynamic evolution, marked by strategic investments and new ventures.\n\n*   Andrea Agnelli and Giorgio Chiellini launch Gamma Waves Partners, focusing on intellectual property and sports technology.\n*   The firm targets IP in high-growth sports like basketball, hockey, and cricket, alongside scalable sports tech.\n*   Recent transactions show a consistent flow of capital into innovative sports companies.\n\nThis influx of investment underscores a clear trend: the future of sports lies in leveraging technology to enhance fan engagement, optimize operations, and create new revenue streams.\n\nIs your organization positioned to benefit from this wave of innovation, or are you at risk of being left behind?",
+        "format_type": "THE NUMBERS POST",
+        "newsUrl": "https://www.sportcal.com/news/agnelli-benetton-align-to-form-gamma-waves-investment-fund/",
+        "newsSource": "Sportcal",
+        "product": "",
+        "creative": {
+          "background": "linear-gradient(135deg, #2ECC71, #1A6F3A)",
+          "subtext": "Strategic capital for innovation in sports.",
+          "headline": "Investment Fuels Sports Tech Growth",
+          "emoji": "💰",
+          "stat": "New Investment Firm Launched"
+        }
+      },
+      {
+        "text": "It's 2026. A viral video about a niche sport captures the public's imagination, generating hundreds of millions of views. Everyone is talking about it for a week.\n\nBut what happens next? The uncomfortable truth is that viral moments alone rarely build lasting fanbases. Without deeper engagement, that attention evaporates.\n\nSpectatr.ai's JORDY AI tackles this head-on. We transform passive viewers into active participants by providing intelligent, interactive fan experiences that go beyond highlight reels. From real-time stats and trivia to personalized updates, JORDY AI keeps fans connected and invested long after the initial buzz fades.\n\nIs your fan engagement strategy designed for fleeting viral trends, or for sustainable, long-term loyalty?",
+        "format_type": "THE PROVOCATION",
+        "type": "product",
+        "newsHeadline": "World Fencing League’s Tech Went Viral Before Its First Event",
+        "product": "JORDY AI",
+        "creative": {
+          "subtext": "Turning fleeting attention into lasting connections.",
+          "headline": "Beyond Viral: Deeper Fan Engagement",
+          "emoji": "🤖",
+          "stat": "Hundreds of Millions of Views",
+          "background": "linear-gradient(135deg, #F39C12, #9B5900)"
+        },
+        "newsUrl": "https://www.sportico.com/business/tech/2026/world-fencing-league-viral-ai-tip-tracking-technology-1234891234/",
+        "newsSource": "Sportico"
+      }
+    ]
+  },
+  {
     "date": "2026-04-16",
     "posts": [
       {
