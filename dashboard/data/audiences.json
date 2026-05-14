@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-05-14",
+    "body": "Your league generates immense value, but is your content strategy keeping pace with fan demand? Learn how Spectatr.ai helps leagues automate content creation and maximize reach, driving 2x Instagram follower growth and 51.8M+ video views for NSL Canada. Stop manual bottlenecks. Start delivering real-time moments.",
+    "reason": "Proactive growth segment for key decision-makers.",
+    "why": "Targeting senior decision-makers in leagues and associations directly addressing their challenges with content production, rights, and digital strategy. Spectatr.ai's PULSE and AXIS offer proven solutions for automating content and managing assets efficiently.",
+    "name": "Leagues & Associations - Content & Digital VPs",
+    "geo": "US, UK, CA, AU",
+    "cta": "Download Case Study",
+    "headline": "Unlock Fan Engagement & Content Efficiency",
+    "angle": "Optimize content workflows and drive fan engagement at scale.",
+    "product": "PULSE, AXIS",
+    "industries": [
+      "Sports",
+      "Sports Marketing",
+      "Entertainment Providers"
+    ],
+    "size": "500K-1M+",
+    "titles": [
+      "VP Digital",
+      "Head of Content",
+      "Director of Digital Media",
+      "Chief Digital Officer"
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "AI-Powered Live Sports Content: Seconds, Not Hours",
+    "angle": "Streamline live content production and distribution with AI.",
+    "product": "PULSE, AXIS",
+    "industries": [
+      "Broadcast Media",
+      "Media Production",
+      "Internet Publishing"
+    ],
+    "size": "500K-1M+",
+    "titles": [
+      "Director of Broadcast Operations",
+      "Digital Media Manager",
+      "Head of Production",
+      "Content Acquisition Manager"
+    ],
+    "reason": "Untapped segment focusing on operational efficiency and digital growth.",
+    "why": "Addressing the core pain points for broadcasters and OTT platforms: the cost and time involved in producing content at scale, especially for digital. Spectatr.ai's PULSE and AXIS offer automation for real-time highlights and asset management.",
+    "name": "Broadcasters & OTT - Production & Media Managers",
+    "geo": "US, EU5, ANZ",
+    "cta": "Watch Demo",
+    "body": "The race for real-time engagement in live sports demands speed traditional workflows can't match. Hockey One League saw 9,500+ AI-powered clips generated in 7 weeks, delivering 10.6M+ video views. Are you still leaving millions of views on the table? Automate your highlights, enrich your archive, and engage fans instantly."
+  },
+  {
     "date": "2026-04-16",
     "headline": "No performance data available",
     "c ta": "NoCTA",
@@ -974,31 +1022,5 @@
     "body": "OTT audiences expect match highlights within seconds of the moment — not minutes, not hours.\n\nPULSE delivers: AI-generated clips, published automatically, across 15+ sports.\n\nAt the Islamic Solidarity Games: 512 highlights/day. 50,000+ clips. 15 days. Zero manual intervention.\n\nBuilt for the volume your platform demands.\n\n👉 Book a 20-minute technical demo.",
     "cta": "Book a Demo",
     "reason": "OTT rights cycles are accelerating in Europe and APAC. AI highlights infrastructure decisions are being made now for 2026–2027. 'Book a Demo' CTA suits a technical evaluator buyer (CTO/VP) better than a content download. Segment isolation from general 'Broadcasters' allows CPL benchmarking by buyer type."
-  },
-  {
-    "date": "2026-03-06",
-    "name": "Sports Club CMOs & Heads of Digital — Professional Teams (UK, Australia, MENA)",
-    "angle": "Fan retention + content ROI — JORDY AI + PULSE bundle",
-    "why": "Professional sports clubs (football, rugby, basketball, cricket) have a clear digital KPI stack: M1 retention, time-in-app, content engagement. JORDY AI’s 30% M1 retention and 140% time-spent metrics map directly to this KPI stack. Simultaneously, PULSE’s real-time clips solve the content volume problem that drives poor retention. A bundled JORDY+PULSE message for club CMOs is currently untested and addresses two pain points in one narrative.",
-    "product": "JORDY AI",
-    "titles": [
-      "Chief Marketing Officer",
-      "Head of Digital",
-      "Head of Fan Experience",
-      "Digital Director",
-      "VP Marketing",
-      "Head of Content"
-    ],
-    "industries": [
-      "Sports",
-      "Entertainment",
-      "Leisure, Travel & Tourism"
-    ],
-    "size": "15,000 – 35,000",
-    "geo": "United Kingdom, Australia, UAE, Saudi Arabia",
-    "headline": "30% more fans stayed after Month 1. Here’s what changed.",
-    "body": "Most sports clubs publish great content.\n\nMost fans still churn within 30 days.\n\nThe problem isn’t the content — it’s the distribution. Fans aren’t seeing the moments that matter to them.\n\nJordy AI fixes that: serving the right content to the right fan, automatically.\n\nResult: 30% M1 retention boost. 140% increase in time spent. +60% new content discovered.\n\nSame content. Smarter delivery.\n\n👉 See how Jordy works for clubs like yours.",
-    "cta": "See How Jordy Works",
-    "reason": "UK, Australia, and MENA are Spectatr’s strongest existing case study markets (HockeyOne = Australia, NSL = Australia, ISG = MENA). Geographic relevance increases ad resonance and CTR. Club CMOs in these markets are actively investing in fan engagement tech for 2026 season. Bundle angle (JORDY + PULSE) creates cross-sell opportunity from a single lead."
   }
 ]

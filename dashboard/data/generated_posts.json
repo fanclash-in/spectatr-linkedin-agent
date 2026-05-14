@@ -1,5 +1,175 @@
 [
   {
+    "date": "2026-05-14",
+    "posts": [
+      {
+        "product": "JORDY AI",
+        "creative": {
+          "subtext": "AI engagement that keeps them coming back.",
+          "background": "linear-gradient(135deg,#0A66C2,#004182)",
+          "emoji": "🤖",
+          "headline": "Fans Expect More. Deliver.",
+          "stat": "30% M1 Retention"
+        },
+        "text": "It's halftime. Your digital team is scrambling, trying to push out content that will keep fans engaged through the break and into the second half. The game's narrative is shifting rapidly, and standard social posts just aren't cutting it. Meanwhile, Netflix is doubling down on NFL rights, understanding that deeply embedded fan experiences are the new battleground for attention.\n\nThis isn't about more content; it's about smarter content. Your audience expects real-time interaction, personalized insights, and a connection that goes beyond the broadcast. They want to be part of the story, not just observe it.\n\nJORDY AI transforms this challenge into an opportunity. Our white-labelled AI fan engagement agent provides instant stats, trivia, and custom modes across any platform. We've seen properties achieve a **30% boost in M1 retention** by making every fan feel seen and heard.\n\nAre you still relying on static content when every moment could be an interactive experience?\n#FanEngagement #SportsTech #JordyAI #NFL #DigitalTransformation #SpectatrAI",
+        "newsHeadline": "Netflix Deepens Its NFL Ties With Expanded Five-Game Package",
+        "newsSource": "Front Office Sports",
+        "format_type": "THE MATCHDAY SCENARIO",
+        "type": "product",
+        "newsUrl": "https://frontofficesports.com/netflix-deepens-its-nfl-ties-with-expanded-five-game-package/"
+      },
+      {
+        "type": "product",
+        "newsUrl": "https://www.sportsvideo.org/2026/05/13/hbcugo-forum-returns-to-svg-college-summit-with-focus-on-production-storytelling-brand-building-nil/",
+        "text": "250+ hours saved in post-production. That's not just a metric from Table Tennis England; it's a testament to the hidden costs of outdated media workflows. While discussions at forums like the HBCUGo Sports Workshop highlight the importance of improving on-campus video operations and storytelling, the underlying problem for many organizations remains: inefficient asset management.\n\nYour editors are still scrubbing through footage, searching for the perfect shot, the key player, the sponsor logo. This isn't creative work; it's a resource drain. Every minute spent searching is a minute not spent creating new content or driving revenue.\n\nAXIS redefines media asset management for sports. Our AI tags every player, sponsor, logo, and emotion, turning unstructured video archives into indexed, searchable libraries. This isn't just about storage; it's about unlocking the full potential of your content, leading to a **3x increase in uploads** and a **+105% surge in total views** for clients like Table Tennis England.\n\nIs your media library an asset or an operational bottleneck?\n#MediaManagement #AIinSports #AXIS #ContentWorkflow #SportsProduction #SpectatrAI",
+        "newsHeadline": "HBCUGo Forum Returns to SVG College Summit With Focus on Production, Storytelling, Brand Building, NIL",
+        "newsSource": "Sports Video Group",
+        "format_type": "THE DATA REFRAME",
+        "product": "AXIS",
+        "creative": {
+          "emoji": "🗄️",
+          "subtext": "AI media management transforms workflows.",
+          "background": "linear-gradient(135deg,#5A2870,#3E1F4D)",
+          "headline": "Find Any Clip, Instantly.",
+          "stat": "250+ Hours Saved"
+        }
+      },
+      {
+        "product": "",
+        "creative": {
+          "emoji": "📈",
+          "subtext": "Meta's growth shows the way forward.",
+          "background": "linear-gradient(135deg,#0056B3,#003F8C)",
+          "headline": "Digital Scale Demands AI.",
+          "stat": "$240B Ad Revenue"
+        },
+        "type": "news",
+        "newsUrl": "https://www.advanced-television.com/2026/05/14/forecast-meta-ad-revenues-to-hit-240bn-in-2026/",
+        "text": "Meta’s advertising business is projected to hit $240 billion in 2026, fueled by AI-driven automation and a relentless focus on monetisation efficiency. This isn't just a win for Meta; it's a clear signal for every sports property on how content must be produced and distributed to capture attention at scale. The 'family of apps' approach demonstrates that fragmented, high-volume content delivery is now table stakes.\n\nThe industry often talks about 'digital transformation,' but few truly grasp the scale and speed required. If you're still relying on manual workflows to cut, tag, and distribute moments, you're not just falling behind; you're operating in a different decade. AI isn't an option; it's the engine powering this new era of content velocity and reach.\n\nWe’ve seen properties like NSL Canada generate **51.8 million video views** from real-time highlights across social channels in their inaugural season. That level of impact isn't achievable without intelligent automation.\n\nIs your content strategy built for the digital scale of 2026, or the manual limitations of 2018?\n#DigitalStrategy #SportsMarketing #AIAutomation #ContentDistribution #Monetization #SpectatrAI",
+        "newsHeadline": "Forecast: Meta ad revenues to hit $240bn in 2026",
+        "newsSource": "Advanced Television",
+        "format_type": "THE INDUSTRY DIAGNOSIS"
+      },
+      {
+        "type": "news",
+        "newsUrl": "https://frontofficesports.com/wbd-leans-further-into-sports-with-paramount-deal-looming/",
+        "format_type": "THE PROVOCATION",
+        "text": "It's another week in the streaming wars, and Warner Bros. Discovery is leaning further into sports as a potential Paramount deal looms. For every league, federation, and club, this escalating battle for media rights and audience attention presents a stark question: Is your content operation equipped for this future, or are you hoping traditional models will hold?\n\nThe uncomfortable truth is that holding onto rights isn't enough if you can't activate them effectively across every platform, in every language, within seconds. Major media players are consolidating because content is king, and live sports is the crown jewel. But only if it's delivered with unparalleled speed and personalization.\n\nPULSE ensures you're not just competing, but dominating the digital landscape. For the Islamic Solidarity Games Riyadh 2025, we generated **50,000+ real-time clips** over 15 days, publishing ~500 highlights daily to ANOC's Digital Content Hub. That's global coverage at a scale and speed previously unimaginable.\n\nAre you building content for the media landscape of yesterday, or the hyper-competitive future?\n#SportsRights #BroadcastTech #PULSE #StreamingWars #ContentStrategy #SpectatrAI",
+        "newsHeadline": "WBD Leans Further Into Sports With Paramount Deal Looming",
+        "newsSource": "Front Office Sports",
+        "product": "PULSE",
+        "creative": {
+          "stat": "50,000+ Clips",
+          "headline": "Rights Wars? Win With Content.",
+          "subtext": "AI delivers global content at scale.",
+          "background": "linear-gradient(135deg,#CC0000,#990000)",
+          "emoji": " mergers"
+        }
+      },
+      {
+        "product": "PULSE",
+        "creative": {
+          "headline": "What Defines Impact?",
+          "stat": "9x Fan Engagement",
+          "emoji": "📊",
+          "subtext": "New leadership needs new tools.",
+          "background": "linear-gradient(135deg,#F7931A,#D46F00)"
+        },
+        "text": "What does true impact look like in sports content today? Is it simply eyeballs, or is it sustained, measurable fan engagement that drives loyalty and growth? As ESPN appoints Mike Foss as Executive Vice President, Executive Editor, Sports News and Entertainment, new leadership faces the critical challenge of defining and delivering digital success beyond traditional metrics.\n\nHere’s what modern impact delivers:\n*   **9x fan engagement growth** (18,589 → 170,154 likes)\n*   **10.6 million+ video views** across platforms\n*   **500% Facebook video surge**\n*   **9,500+ AI-powered clips** generated over 7 weeks, published within seconds\n*   **Zero extra staff** required for this scale\n\nThis isn't theory; it's the verifiable impact achieved by Hockey One League Season 5 with Spectatr.ai's PULSE. This is the new benchmark for content delivery and fan connection.\n\nIs your executive team empowered with the tools to deliver this level of digital impact, or are they still fighting last decade's battles?\n#SportsBusiness #ContentImpact #DigitalGrowth #Leadership #PULSE #SpectatrAI",
+        "newsHeadline": "ESPN Ups Mike Foss to EVP and Executive Editor, Sports News and Entertainment",
+        "newsSource": "Sports Video Group",
+        "format_type": "THE NUMBERS POST",
+        "type": "news",
+        "newsUrl": "https://www.sportsvideo.org/2026/05/13/espn-ups-mike-foss-to-evp-and-executive-editor-sports-news-and-entertainment/"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "posts": [
+      {
+        "newsSource": "Sports Video Group",
+        "text": "It's Friday night. Your content team is drowning in match footage, trying to manually clip every goal, save, and big moment from a dozen games. The global attention marketplace is fierce, and your fans are already scrolling past.\n\nThe old model—relying solely on live broadcasts and third-party production—is no longer competitive. Leagues like the K League recognized this, making a bold shift in 2019 to take full ownership of their media business. This transition, driven by a focus on continuous storytelling and fan-centric content, is the new imperative.\n\nThe operational reality? Manual clipping is a self-imposed restriction. The real challenge isn't capturing moments; it's doing it *instantly* and *at scale*, across every platform, without a post-production crew.\n\nHow do you move from reactive replays to proactive, real-time content that fuels fan engagement 24/7?\n\nSpectatr.ai’s PULSE monitors live streams continuously, auto-clipping and formatting key moments in seconds. It’s not just highlights; it’s a narrative engine built for the modern sports landscape.\n\nIs your content workflow built for the speed of today's fan, or still stuck in yesterday's production cycle?",
+        "product": "PULSE",
+        "type": "product",
+        "newsUrl": "https://www.sportsvideo.org/2026/05/04/beyond-90-minutes-how-k-leagues-soccer-blueprint-for-growth-has-lessons-for-everyone/",
+        "format_type": "THE INDUSTRY DIAGNOSIS",
+        "creative": {
+          "subtext": "K League's content strategy shift is a blueprint for modern sports.",
+          "background": "linear-gradient(135deg, #1E3A8A, #0A2540)",
+          "emoji": "⚽️",
+          "headline": "Stop Replaying the Past. Start Creating the Future.",
+          "stat": "3-pronged plan"
+        },
+        "newsHeadline": "Beyond 90 Minutes: How K League’s Soccer Blueprint for Growth Has Lessons for Everyone"
+      },
+      {
+        "creative": {
+          "background": "linear-gradient(135deg, #60A5FA, #2563EB)",
+          "subtext": "Superficial AI misses the mark. True impact requires deep integration.",
+          "emoji": "🤖",
+          "headline": "AI in Sports: Not All Tools Are Created Equal.",
+          "stat": "1.2 million views"
+        },
+        "newsHeadline": "Indiana Fever Accused of Using AI Again After Caitlin Clark Remark",
+        "type": "product",
+        "newsUrl": "https://frontofficesports.com/indiana-fever-accused-of-using-ai-again-after-caitlin-clark-remark/",
+        "format_type": "THE PROVOCATION",
+        "newsSource": "Front Office Sports",
+        "text": "The Indiana Fever's recent social media post, generating over 1.2 million views, sparked accusations of AI usage. While the intent might have been efficient content generation, the backlash highlights a growing fan skepticism towards superficial AI applications in sports.\n\nThis isn't just about automated text. It’s about understanding the operational reality: leagues and teams are drowning in media assets, struggling with discoverability, and missing crucial storytelling opportunities. Relying on AI for quick fixes can alienate fans and overlook the deeper value locked within your archive.\n\nThe uncomfortable truth? Many AI solutions offer a veneer of innovation without addressing the core media management challenges that cost valuable time and resources.\n\nWhat if you could unlock your entire media library with AI-powered tagging that’s accurate to the molecule, allowing your team to find and create stories in minutes, not days?\n\nSpectatr.ai’s AXIS transforms unstructured video into an indexed, searchable library. We move beyond basic AI to provide granular metadata, enabling content teams to craft compelling narratives effortlessly.\n\nAre you using AI to generate buzz, or to build a truly intelligent media operation?",
+        "product": "AXIS"
+      },
+      {
+        "type": "news",
+        "newsUrl": "https://frontofficesports.com/nba-playoffs-delivering-early-with-game-7-drama-strong-ratings/",
+        "format_type": "THE DATA REFRAME",
+        "newsSource": "Front Office Sports",
+        "text": "3 Game 7s in the first round alone. The NBA playoffs are delivering the kind of drama that fans crave, translating directly into strong viewership numbers. This isn't just about exciting matchups; it's a testament to the power of narrative and high-stakes competition in capturing audience attention.\n\nThe operational reality for broadcasters and leagues? Delivering content that matches this intensity requires unparalleled speed and efficiency. When every second of playoff action counts, the ability to capture, package, and distribute key moments in real-time becomes a critical competitive advantage.\n\nThe data is clear: fans are tuning in for the moments that define a season. The question is, are your production workflows equipped to meet this demand, ensuring every clutch shot, every incredible save, and every emotional reaction is shared instantly across all platforms?\n\nThe inflection point is now. The demand for instant, high-quality sports content is at an all-time high.\n\nHow are you ensuring your content pipeline can keep pace with the game's escalating drama, turning every pivotal moment into a viral sensation?",
+        "product": "",
+        "creative": {
+          "emoji": "🏀",
+          "headline": "Game 7s Are Back: NBA Playoffs Ignite Ratings.",
+          "stat": "3 Game 7s",
+          "background": "linear-gradient(135deg, #FBBF24, #EAB308)",
+          "subtext": "High-stakes drama drives unprecedented viewership and engagement."
+        },
+        "newsHeadline": "NBA Playoffs Deliver Early With Game 7 Drama, Strong Ratings"
+      },
+      {
+        "creative": {
+          "subtext": "Unlocking massive audiences requires scalable broadcast infrastructure.",
+          "background": "linear-gradient(135deg, #22D3EE, #0891B2)",
+          "emoji": "🐎",
+          "headline": "Record Derby Viewership: A New Benchmark.",
+          "stat": "19.6 million viewers"
+        },
+        "newsHeadline": "Kentucky Derby Breaks Viewership Record with 19.6M",
+        "type": "news",
+        "newsUrl": "https://frontofficesports.com/kentucky-derby-breaks-viewership-record-with-19-6m/",
+        "format_type": "THE NUMBERS POST",
+        "text": "It's Derby Day. The excitement builds, and NBC and Peacock capture a record-shattering 19.6 million viewers for the Kentucky Derby – the most-watched edition on record. This isn't just a single event's success; it's a powerful indicator of audience appetite for major sporting moments.\n\nThe operational reality for broadcasters and rights holders is clear: scaling to meet such demand is paramount. Delivering comprehensive coverage across multiple platforms, from live streams to broadcast feeds, requires a robust infrastructure that can handle massive concurrent viewership without a hitch.\n\nThe numbers speak for themselves: Spectator events continue to draw enormous audiences. The challenge for every league and broadcaster is how to leverage that reach effectively.\n\nIs your distribution strategy prepared to capture and serve millions of concurrent viewers, ensuring a seamless experience from the first call to the finish line?\n\nThe infrastructure that powers your broadcast must be as dynamic and expansive as the audience it serves.",
+        "product": "",
+        "newsSource": "Front Office Sports"
+      },
+      {
+        "type": "product",
+        "newsUrl": "https://frontofficesports.com/indiana-fever-accused-of-using-ai-again-after-caitlin-clark-remark/",
+        "format_type": "THE MATCHDAY SCENARIO",
+        "newsSource": "Front Office Sports",
+        "text": "It’s halftime during a critical match. Your fans are buzzing, stats are flying, and they’re hungry for real-time updates, trivia, and personalized insights. They’re not just watching; they’re *experiencing* the game and want to interact.\n\nThe Indiana Fever's recent social media activity, while generating views, touches on a critical point: how can AI truly enhance fan engagement? Relying on automated text for basic communication misses the opportunity for deeper connection. True fan engagement is interactive, informative, and personal.\n\nThe operational challenge is creating a dynamic, always-on communication channel that anticipates fan needs, provides instant value, and builds community—before, during, and after the game.\n\nWhat if you could offer fans a personal concierge, answering their questions, providing live stats, and sparking conversation, all through an intelligent, white-labeled chatbot?\n\nSpectatr.ai’s JORDY AI transforms fan engagement. As a white-labeled chatbot for leagues and clubs, JORDY AI delivers real-time stats, trivia, and personalized updates across any platform, fostering a richer fan experience.\n\nAre your fan engagement tools built for broadcast-level interaction, or just for broadcasting content?",
+        "product": "JORDY AI",
+        "creative": {
+          "subtext": "Engage fans intelligently, not just with automated text.",
+          "background": "linear-gradient(135deg, #A855F7, #7E22CE)",
+          "stat": "1.2 million views",
+          "emoji": "🗣️",
+          "headline": "AI for Deeper Fan Connections."
+        },
+        "newsHeadline": "Indiana Fever Accused of Using AI Again After Caitlin Clark Remark"
+      }
+    ]
+  },
+  {
     "date": "2026-04-27",
     "posts": [
       {

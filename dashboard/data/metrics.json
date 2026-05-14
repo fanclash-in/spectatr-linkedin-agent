@@ -1,49 +1,215 @@
 {
-  "date": "2026-04-27",
-  "campsMtd": [],
-  "alerts": [],
-  "kpisMtd": {
-    "avgCpl": null,
-    "impressions": null,
-    "imprDelta": null,
-    "spendDelta": null,
-    "ctrDelta": null,
-    "cplDelta": null,
-    "leadsDelta": null,
-    "totalSpend": null,
-    "totalLeads": null,
-    "avgCtr": null
-  },
-  "campaigns": [],
-  "trendData": {
-    "cplValues": [],
-    "labels": [],
-    "ctrValues": []
-  },
-  "camps30d": [],
-  "kpis30d": {
-    "avgCpl": null,
-    "imprDelta": null,
-    "impressions": null,
-    "cplDelta": null,
-    "leadsDelta": null,
-    "spendDelta": null,
-    "ctrDelta": null,
-    "totalLeads": null,
-    "avgCtr": null,
-    "totalSpend": null
-  },
+  "date": "2026-05-14",
+  "camps30d": [
+    {
+      "cpl": null,
+      "leads": 0,
+      "name": "Website visits - Image Ads",
+      "spend": 0,
+      "st": "a",
+      "ctr": 0
+    },
+    {
+      "leads": 0,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "cpl": null,
+      "spend": 0,
+      "st": "a",
+      "ctr": 0
+    },
+    {
+      "st": "a",
+      "ctr": 0,
+      "leads": 0,
+      "name": "leagues - US - pulse",
+      "cpl": null,
+      "spend": 0
+    },
+    {
+      "st": "a",
+      "ctr": 0,
+      "leads": 0,
+      "name": "Leagues - pulse - EU",
+      "cpl": null,
+      "spend": 0
+    },
+    {
+      "cpl": null,
+      "leads": 0,
+      "name": "broadcasters & OTT - US - ABM",
+      "spend": 0,
+      "st": "a",
+      "ctr": 0
+    },
+    {
+      "st": "a",
+      "ctr": 0,
+      "leads": 0,
+      "name": "broadcasters & OTT - EU - ABM",
+      "cpl": null,
+      "spend": 0
+    }
+  ],
+  "alerts": [
+    {
+      "meta": "All LinkedIn analytics API calls returned empty results. Campaign performance cannot be accurately assessed. This is a critical issue affecting daily analysis.",
+      "title": "No LinkedIn Analytics Data Retrieved",
+      "t": "r"
+    }
+  ],
+  "opportunities": [
+    {
+      "meta": "The LinkedIn analytics API returned no data for any date range. Confirm API credentials, scopes, and data availability within LinkedIn Campaign Manager. Immediate investigation is required to restore performance visibility.",
+      "title": "Investigate LinkedIn Analytics Connection",
+      "t": "a"
+    }
+  ],
   "kpis": {
+    "totalLeads": 0,
+    "imprDelta": 0,
+    "ctrDelta": 0,
     "avgCpl": null,
-    "imprDelta": null,
-    "impressions": null,
-    "cplDelta": null,
-    "leadsDelta": null,
-    "spendDelta": null,
-    "ctrDelta": null,
-    "totalLeads": null,
-    "avgCtr": null,
-    "totalSpend": null
+    "leadsDelta": 0,
+    "totalSpend": 0,
+    "impressions": 0,
+    "avgCtr": 0,
+    "cplDelta": 0,
+    "spendDelta": 0
   },
-  "opportunities": []
+  "kpis30d": {
+    "avgCtr": 0,
+    "spendDelta": null,
+    "cplDelta": null,
+    "impressions": 0,
+    "totalSpend": 0,
+    "imprDelta": null,
+    "ctrDelta": null,
+    "totalLeads": 0,
+    "leadsDelta": null,
+    "avgCpl": null
+  },
+  "campsMtd": [
+    {
+      "st": "a",
+      "ctr": 0,
+      "leads": 0,
+      "name": "Website visits - Image Ads",
+      "cpl": null,
+      "spend": 0
+    },
+    {
+      "spend": 0,
+      "leads": 0,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "cpl": null,
+      "ctr": 0,
+      "st": "a"
+    },
+    {
+      "spend": 0,
+      "cpl": null,
+      "leads": 0,
+      "name": "leagues - US - pulse",
+      "ctr": 0,
+      "st": "a"
+    },
+    {
+      "cpl": null,
+      "leads": 0,
+      "name": "Leagues - pulse - EU",
+      "spend": 0,
+      "st": "a",
+      "ctr": 0
+    },
+    {
+      "leads": 0,
+      "name": "broadcasters & OTT - US - ABM",
+      "cpl": null,
+      "spend": 0,
+      "st": "a",
+      "ctr": 0
+    },
+    {
+      "ctr": 0,
+      "st": "a",
+      "spend": 0,
+      "cpl": null,
+      "leads": 0,
+      "name": "broadcasters & OTT - EU - ABM"
+    }
+  ],
+  "campaigns": [
+    {
+      "freq": 0,
+      "spend": 0,
+      "cpl": null,
+      "leads": 0,
+      "name": "Website visits - Image Ads",
+      "ctr": 0,
+      "ctrD": 0,
+      "st": "a"
+    },
+    {
+      "leads": 0,
+      "name": "PULSE Lead generation - Jan 20, 2026 - US 2",
+      "cpl": null,
+      "freq": 0,
+      "spend": 0,
+      "ctrD": 0,
+      "st": "a",
+      "ctr": 0
+    },
+    {
+      "freq": 0,
+      "spend": 0,
+      "leads": 0,
+      "name": "leagues - US - pulse",
+      "cpl": null,
+      "ctr": 0,
+      "ctrD": 0,
+      "st": "a"
+    },
+    {
+      "ctrD": 0,
+      "st": "a",
+      "ctr": 0,
+      "cpl": null,
+      "leads": 0,
+      "name": "Leagues - pulse - EU",
+      "freq": 0,
+      "spend": 0
+    },
+    {
+      "freq": 0,
+      "spend": 0,
+      "leads": 0,
+      "name": "broadcasters & OTT - US - ABM",
+      "cpl": null,
+      "ctr": 0,
+      "ctrD": 0,
+      "st": "a"
+    },
+    {
+      "cpl": null,
+      "leads": 0,
+      "name": "broadcasters & OTT - EU - ABM",
+      "freq": 0,
+      "spend": 0,
+      "ctrD": 0,
+      "st": "a",
+      "ctr": 0
+    }
+  ],
+  "kpisMtd": {
+    "impressions": 0,
+    "avgCtr": 0,
+    "spendDelta": null,
+    "cplDelta": null,
+    "imprDelta": null,
+    "ctrDelta": null,
+    "totalLeads": 0,
+    "leadsDelta": null,
+    "avgCpl": null,
+    "totalSpend": 0
+  }
 }

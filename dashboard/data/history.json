@@ -207,5 +207,35 @@
       "avgCtr": null,
       "totalSpend": null
     }
+  },
+  {
+    "date": "2026-05-04",
+    "kpis": {
+      "imprDelta": null,
+      "totalLeads": 0,
+      "avgCtr": null,
+      "cplDelta": null,
+      "avgCpl": null,
+      "spendDelta": null,
+      "impressions": 0,
+      "leadsDelta": null,
+      "totalSpend": 0,
+      "ctrDelta": null
+    }
+  },
+  {
+    "date": "2026-05-14",
+    "kpis": {
+      "totalLeads": 0,
+      "imprDelta": 0,
+      "ctrDelta": 0,
+      "avgCpl": null,
+      "leadsDelta": 0,
+      "totalSpend": 0,
+      "impressions": 0,
+      "avgCtr": 0,
+      "cplDelta": 0,
+      "spendDelta": 0
+    }
   }
 ]

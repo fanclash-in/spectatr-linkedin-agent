@@ -1,5 +1,15 @@
 [
   {
+    "id": "sug_2026-05-14_0",
+    "date": "2026-05-14",
+    "status": "open",
+    "detail": "The LinkedIn analytics API returned no data for any active campaigns. This means we have zero visibility into performance, spend, or lead generation. Immediate investigation is required to diagnose the API connection, permissions, or campaign status within LinkedIn Campaign Manager.",
+    "priority": "HIGH",
+    "type": "t",
+    "meta": "No data available across all campaigns.",
+    "title": "Critical: No LinkedIn Analytics Data"
+  },
+  {
     "id": "sug_2026-04-16_0",
     "date": "2026-04-16",
     "status": "open",
